@@ -1,0 +1,55 @@
+site_name: "Super Individuals CIC"
+site_url: "https://sicic.org"
+site_description: "A public-interest community for helping domain experts build domain-specific AI agents"
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/si-logo.png
+  favicon: assets/si-logo.png
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+  palette:
+    primary: black
+    accent: amber
+  features:
+    - navigation.top
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
+not_in_nav: |
+  partners.md
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Community: community.md
+  - Workshops: workshops.md
+  - Cohort:
+      - Overview: cohort/index.md
+      - Intro-1: cohort/intro-1.md
+  - Contact: contact.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Super-Individual-CIC
+    - icon: material/email
+      link: mailto:publication@sicic.org
+    - icon: fontawesome/brands/stripe
+      link: https://buy.stripe.com/replace-with-live-link
