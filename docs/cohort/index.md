@@ -14,4 +14,4 @@ The focus is on execution, not perfection.
 
 ## Current Cohort Pages
 
-- Intro-1 Cohort
+Current cohort pages will be published here when they are ready to be shared.

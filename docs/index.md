@@ -14,7 +14,7 @@ hide:
     Super Individuals CIC is a community for people who do not just learn AI. They apply it, build with it, and turn it into real outcomes.
   </p>
   <div class="landing-actions">
-    <a class="md-button md-button--primary" href="workshops/#apply">Apply for Next Workshop</a>
+    <a class="md-button md-button--primary" href="https://airtable.com/app9RzNJpk3wVMaDw/pag3e2mUV89mRFPlq/form">Apply for Next Workshop</a>
     <a class="md-button" href="community/">Join the Community</a>
   </div>
 </section>
@@ -43,7 +43,7 @@ hide:
 
 <div class="grid-2">
   <div class="feature-card">
-    <p class="proof-label">Cohort 1</p>
+    <p class="proof-label">Intro Batch-1</p>
     <h3>In progress</h3>
     <p>The first cohort is underway, focused on building real AI applications and learning through execution.</p>
     <a href="cohort/">View cohort page</a>
@@ -51,7 +51,7 @@ hide:
   <div class="feature-card">
     <p class="proof-label">Founding Cohort</p>
     <h3>Being formed</h3>
-    <p>The founding cohort is being formed now and is limited to 30 members.</p>
+    <p>The founding cohort is being formed now and is limited to 31 members.</p>
     <a href="community/">See membership</a>
   </div>
   <div class="feature-card">
@@ -63,8 +63,8 @@ hide:
   <div class="feature-card">
     <p class="proof-label">Get involved</p>
     <h3>Earn your place</h3>
-    <p>Apply for the next workshop, build something real, and earn your place in the founding community.</p>
-    <a href="workshops/#apply">Apply now</a>
+    <p>Apply for the next workshop, go through selection, and receive a private payment link if invited.</p>
+    <a href="https://airtable.com/app9RzNJpk3wVMaDw/pag3e2mUV89mRFPlq/form">Apply now</a>
   </div>
 </div>
 
@@ -76,10 +76,10 @@ When 3 to 5 cohort projects are live, they will be featured here on the landing 
   <div>
     <p class="landing-kicker">Next Step</p>
     <h2>Join the next workshop. Earn your place in the founding cohort.</h2>
-    <p>Build with AI, ship real things, and move from understanding to execution.</p>
+    <p>Apply first. Selected applicants receive a private payment link by email.</p>
   </div>
   <div class="cta-panel__actions">
-    <a class="md-button md-button--primary" href="workshops/#apply">Apply Now</a>
+    <a class="md-button md-button--primary" href="https://airtable.com/app9RzNJpk3wVMaDw/pag3e2mUV89mRFPlq/form">Apply Now</a>
     <a class="md-button" href="community/">Join the Community</a>
   </div>
 </section>

@@ -12,6 +12,7 @@ We bring together professionals, builders, and curious minds to explore and appl
 - cohort-based learning
 - project building
 
+
 ## Our Goal
 
 To help individuals become **AI-native builders**, not just consumers of knowledge.

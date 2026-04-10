@@ -34,6 +34,7 @@ extra_css:
 
 not_in_nav: |
   partners.md
+  cohort/intro-batch-1.md
 
 nav:
   - Home: index.md
@@ -42,7 +43,6 @@ nav:
   - Workshops: workshops.md
   - Cohort:
       - Overview: cohort/index.md
-      - Intro-1: cohort/intro-1.md
   - Contact: contact.md
 
 extra:
@@ -51,5 +51,3 @@ extra:
       link: https://github.com/Super-Individual-CIC
     - icon: material/email
       link: mailto:publication@sicic.org
-    - icon: fontawesome/brands/stripe
-      link: https://buy.stripe.com/replace-with-live-link

@@ -1,4 +1,4 @@
-# Intro-1 Cohort
+# Intro Batch-1 Cohort
 
 ## Overview
 
