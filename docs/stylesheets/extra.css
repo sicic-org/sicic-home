@@ -393,8 +393,11 @@
 }
 
 .md-typeset .pricing-button {
+  display: inline-flex;
   width: 100%;
+  align-items: center;
   justify-content: center;
+  text-align: center;
   font-weight: 700;
 }
 
