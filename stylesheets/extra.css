@@ -297,6 +297,13 @@
   margin: 0;
 }
 
+.md-typeset .pricing-meta {
+  margin: 0.3rem 0 1rem;
+  color: rgba(21, 21, 21, 0.62);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
 .md-typeset .pricing-price {
   margin: 0.55rem 0 1rem;
   font-size: 1.9rem;
@@ -323,7 +330,7 @@
 .md-typeset .pricing-subtiers {
   display: grid;
   gap: 0.65rem;
-  margin: 0 0 1rem;
+  margin: 0.4rem 0 1rem;
 }
 
 .md-typeset .pricing-subtier {
