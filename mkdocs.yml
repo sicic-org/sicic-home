@@ -47,7 +47,9 @@ nav:
 
 extra:
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/Super-Individual-CIC
+    # - icon: fontawesome/brands/github
+    #   link: https://github.com/sicic-org
+    - icon: material/linkedin
+      link: https://www.linkedin.com/company/super-individual-cic
     - icon: material/email
       link: mailto:publication@sicic.org

@@ -21,6 +21,7 @@ The workshop is the gateway. Membership is the longer-term community layer that 
   <div class="pricing-card pricing-card--featured">
     <p class="pricing-kicker">Intro Track</p>
     <h3>Batch-2</h3>
+    <p class="pricing-meta">2 May - 30 May</p>
     <div class="pricing-subtiers">
       <div class="pricing-subtier pricing-subtier--active">
         <strong>Founding Cohort Refer</strong>
@@ -50,11 +51,12 @@ The workshop is the gateway. Membership is the longer-term community layer that 
       <li>Leave with a working agent, repo, workflow, and live demo</li>
     </ul>
     <p><strong>Output:</strong> ship a functional agent, structure it clearly, and document it properly.</p>
-    <a class="md-button md-button--primary pricing-button" href="https://airtable.com/app9RzNJpk3wVMaDw/pag3e2mUV89mRFPlq/form">Apply Here</a>
+    <a class="md-button md-button--primary pricing-button" href="https://airtable.com/app9RzNJpk3wVMaDw/pag3e2mUV89mRFPlq/form">Apply Now</a>
   </div>
   <div class="pricing-card">
     <p class="pricing-kicker">Builder Track</p>
     <h3>Batch-1</h3>
+    <p class="pricing-meta">Starting Early June</p>
     <div class="pricing-subtiers">
       <div class="pricing-subtier pricing-subtier--disabled">
         <strong>Price and Slots</strong>
