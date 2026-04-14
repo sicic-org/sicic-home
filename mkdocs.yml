@@ -35,6 +35,9 @@ extra_css:
 not_in_nav: |
   partners.md
   cohort/intro-batch-1.md
+  privacy-policy.md
+  refund-policy.md
+  terms-of-service.md
 
 nav:
   - Home: index.md

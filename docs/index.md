@@ -9,9 +9,9 @@ hide:
 
 <section class="landing-hero">
   <p class="landing-kicker">Public-Interest AI Community</p>
-  <h1>Build with AI. Ship real things.</h1>
+  <h1>Build Your Personal AI System.</h1>
   <p class="landing-subhead">
-    Super Individuals CIC is a community for people who do not just learn AI. They apply it, build with it, and turn it into real outcomes.
+    Super Individuals CIC is a community for people who do not just learn AI. They build personal AI systems with control, memory, workflows, and execution. 
   </p>
   <div class="landing-actions">
     <a class="md-button md-button--primary" href="https://airtable.com/app9RzNJpk3wVMaDw/pag3e2mUV89mRFPlq/form">Apply for Next Workshop</a>
