@@ -41,7 +41,7 @@ Projects are built within a limited timeframe. The focus is on execution, not pe
     <p class="pricing-meta">My Digital Lab</p>
     <p>A ZeroClaw-based lab for designing agent workflows and turning raw thinking into structured output.</p>
     <div class="cohort-card-actions">
-      <a class="md-button md-button--primary" href="gjoldfield-zeroclaw/">Member Page</a>
+      <a class="md-button md-button--primary" href="goldfield-zeroclaw/">Member Page</a>
       <a class="md-button" href="https://gjoldfield-01.github.io/my-zeroclaw-agents/">Demo</a>
     </div>
   </div>

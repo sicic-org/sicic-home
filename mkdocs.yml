@@ -46,7 +46,7 @@ nav:
   - Workshops: workshops.md
   - Cohort:
       - Overview: cohort/index.md
-      - ZeroClaw Agents: cohort/gjoldfield-zeroclaw.md
+      - ZeroClaw Agents: cohort/goldfield-zeroclaw.md
   - Contact: contact.md
 
 extra:
