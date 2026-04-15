@@ -2,46 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://sicic.org/</loc>
-         <lastmod>2026-04-14</lastmod>
+         <lastmod>2026-04-15</lastmod>
     </url>
     <url>
          <loc>https://sicic.org/about/</loc>
-         <lastmod>2026-04-14</lastmod>
+         <lastmod>2026-04-15</lastmod>
     </url>
     <url>
          <loc>https://sicic.org/community/</loc>
-         <lastmod>2026-04-14</lastmod>
+         <lastmod>2026-04-15</lastmod>
     </url>
     <url>
          <loc>https://sicic.org/contact/</loc>
-         <lastmod>2026-04-14</lastmod>
+         <lastmod>2026-04-15</lastmod>
     </url>
     <url>
          <loc>https://sicic.org/partners/</loc>
-         <lastmod>2026-04-14</lastmod>
+         <lastmod>2026-04-15</lastmod>
     </url>
     <url>
          <loc>https://sicic.org/privacy-policy/</loc>
-         <lastmod>2026-04-14</lastmod>
+         <lastmod>2026-04-15</lastmod>
     </url>
     <url>
          <loc>https://sicic.org/refund-policy/</loc>
-         <lastmod>2026-04-14</lastmod>
+         <lastmod>2026-04-15</lastmod>
     </url>
     <url>
          <loc>https://sicic.org/terms-of-service/</loc>
-         <lastmod>2026-04-14</lastmod>
+         <lastmod>2026-04-15</lastmod>
     </url>
     <url>
          <loc>https://sicic.org/workshops/</loc>
-         <lastmod>2026-04-14</lastmod>
+         <lastmod>2026-04-15</lastmod>
     </url>
     <url>
          <loc>https://sicic.org/cohort/</loc>
-         <lastmod>2026-04-14</lastmod>
+         <lastmod>2026-04-15</lastmod>
+    </url>
+    <url>
+         <loc>https://sicic.org/cohort/gjoldfield-zeroclaw/</loc>
+         <lastmod>2026-04-15</lastmod>
     </url>
     <url>
          <loc>https://sicic.org/cohort/intro-batch-1/</loc>
-         <lastmod>2026-04-14</lastmod>
+         <lastmod>2026-04-15</lastmod>
     </url>
 </urlset>

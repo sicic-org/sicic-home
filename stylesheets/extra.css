@@ -436,6 +436,102 @@
   box-shadow: var(--sicic-soft-shadow);
 }
 
+.md-typeset .cohort-demo-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) auto;
+  gap: 1rem;
+  align-items: center;
+  padding: 1.4rem;
+  margin: 1rem 0 1.5rem;
+  border: 1px solid rgba(184, 134, 11, 0.28);
+  border-radius: 1.35rem;
+  background:
+    radial-gradient(circle at top right, rgba(184, 134, 11, 0.14), transparent 28%),
+    linear-gradient(135deg, rgba(255, 252, 244, 0.98), rgba(247, 243, 235, 0.94));
+  box-shadow: 0 1rem 2.2rem rgba(21, 21, 21, 0.05);
+}
+
+.md-typeset .cohort-demo-hero h2 {
+  margin: 0 0 0.45rem;
+}
+
+.md-typeset .cohort-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0 0 0.8rem;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(184, 134, 11, 0.14);
+  color: #7b5a08;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.md-typeset .cohort-feature {
+  position: relative;
+  overflow: hidden;
+}
+
+.md-typeset .cohort-feature::before {
+  content: "Founding";
+  position: absolute;
+  top: 1rem;
+  right: -2.25rem;
+  width: 9rem;
+  padding: 0.35rem 0;
+  background: rgba(184, 134, 11, 0.92);
+  color: #17130a;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-align: center;
+  text-transform: uppercase;
+  transform: rotate(35deg);
+}
+
+.md-typeset .cohort-demo-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.md-typeset .cohort-member-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.md-typeset .cohort-member-card {
+  padding: 1rem;
+  border: 1px solid rgba(21, 21, 21, 0.1);
+  border-radius: 1rem;
+  background: linear-gradient(180deg, rgba(255, 253, 248, 0.98), rgba(247, 243, 235, 0.94));
+  box-shadow: 0 0.8rem 2rem rgba(21, 21, 21, 0.05);
+}
+
+.md-typeset .cohort-member-card h3 {
+  margin: 0 0 0.2rem;
+  font-size: 1.05rem;
+}
+
+.md-typeset .cohort-member-card .pricing-meta {
+  margin-bottom: 0.85rem;
+}
+
+.md-typeset .cohort-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.md-typeset .cohort-card-actions .md-button {
+  min-width: 0;
+  padding-inline: 0.95rem;
+}
+
 .md-typeset .cta-panel h2,
 .md-typeset .cta-panel p {
   color: inherit;
@@ -529,6 +625,19 @@
 
   .md-typeset .landing-hero h1 {
     font-size: clamp(1.9rem, 9vw, 2.8rem);
+  }
+
+  .md-typeset .cohort-demo-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .md-typeset .cohort-demo-actions {
+    justify-content: flex-start;
+  }
+
+  .md-typeset .cohort-card-actions {
+    flex-direction: column;
+    align-items: stretch;
   }
 
   .sicic-footer__shell,
