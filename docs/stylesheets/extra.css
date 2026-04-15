@@ -499,37 +499,54 @@
 
 .md-typeset .cohort-member-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
   margin: 1rem 0 2rem;
 }
 
 .md-typeset .cohort-member-card {
-  padding: 1rem;
-  border: 1px solid rgba(21, 21, 21, 0.1);
-  border-radius: 1rem;
-  background: linear-gradient(180deg, rgba(255, 253, 248, 0.98), rgba(247, 243, 235, 0.94));
-  box-shadow: 0 0.8rem 2rem rgba(21, 21, 21, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  min-height: 100%;
 }
 
 .md-typeset .cohort-member-card h3 {
-  margin: 0 0 0.2rem;
+  margin: 0;
   font-size: 1.05rem;
 }
 
+.md-typeset .cohort-member-card p {
+  margin: 0;
+}
+
 .md-typeset .cohort-member-card .pricing-meta {
-  margin-bottom: 0.85rem;
+  margin-bottom: 0.1rem;
 }
 
 .md-typeset .cohort-card-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
+  margin-top: auto;
+  padding-top: 0.45rem;
 }
 
 .md-typeset .cohort-card-actions .md-button {
   min-width: 0;
   padding-inline: 0.95rem;
+}
+
+.md-typeset .cta-panel .md-button:not(.md-button--primary) {
+  border-color: rgba(248, 244, 234, 0.42);
+  background: rgba(255, 255, 255, 0.04);
+  color: #f8f4ea;
+}
+
+.md-typeset .cta-panel .md-button:not(.md-button--primary):hover {
+  border-color: rgba(248, 244, 234, 0.72);
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
 }
 
 .md-typeset .cta-panel h2,
@@ -638,6 +655,10 @@
   .md-typeset .cohort-card-actions {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .md-typeset .cohort-member-grid {
+    grid-template-columns: 1fr;
   }
 
   .sicic-footer__shell,
