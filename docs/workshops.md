@@ -17,6 +17,8 @@ The workshop is the gateway. Membership is the longer-term community layer that 
 
 For the first invited members, that longer-term layer is the **Founding Cohort**: the first **31** lifetime members, with founding-only status, a special Discord badge, and a private founding channel.
 
+See what the first **founding cohort members** are already building on the [Cohort page](cohort/index.md).
+
 ## Tracks
 
 <div class="pricing-grid pricing-grid--stacked">

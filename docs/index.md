@@ -70,7 +70,26 @@ hide:
 
 ## Featured Projects
 
-When 3 to 5 cohort projects are live, they will be featured here on the landing page.
+<div class="grid-3">
+  <div class="proof-card">
+    <p class="proof-label">Founding Cohort</p>
+    <h3>First 31 builders</h3>
+    <p>The first members are not just joining a community. They are leaving a public record of what they build.</p>
+    <a href="cohort/">See cohort page</a>
+  </div>
+  <div class="proof-card">
+    <p class="proof-label">Member Demo</p>
+    <h3>Gemma Oldfield</h3>
+    <p>ZeroClaw Agents is one of the first founding cohort demos now live.</p>
+    <a href="cohort/gjoldfield-zeroclaw/">View member page</a>
+  </div>
+  <div class="proof-card">
+    <p class="proof-label">Live Output</p>
+    <h3>Public demos</h3>
+    <p>As more members ship, the cohort page will fill with compact demo cards for up to 31 founding members.</p>
+    <a href="cohort/">Browse demos</a>
+  </div>
+</div>
 
 <section class="cta-panel">
   <div>
