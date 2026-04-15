@@ -50,8 +50,8 @@ hide:
   </div>
   <div class="feature-card">
     <p class="proof-label">Founding Cohort</p>
-    <h3>Being formed</h3>
-    <p>The founding cohort is being formed now and is limited to 31 members.</p>
+    <h3>First membership tier</h3>
+    <p>The founding cohort is the first and most limited membership tier: 31 members, lifetime access, and founding-only Discord status and channels.</p>
     <a href="community/">See membership</a>
   </div>
   <div class="feature-card">
@@ -76,7 +76,7 @@ When 3 to 5 cohort projects are live, they will be featured here on the landing 
   <div>
     <p class="landing-kicker">Next Step</p>
     <h2>Join the next workshop. Earn your place in the founding cohort.</h2>
-    <p>Apply first. Selected applicants receive a private payment link by email.</p>
+    <p>Selected participants may be invited into the membership community, including the first 31 founding cohort places.</p>
   </div>
   <div class="cta-panel__actions">
     <a class="md-button md-button--primary" href="https://airtable.com/app9RzNJpk3wVMaDw/pag3e2mUV89mRFPlq/form">Apply Now</a>

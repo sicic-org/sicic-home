@@ -15,6 +15,8 @@ Applicants register first through a form, we review for fit, referrals, and prof
 Completing and passing an **intro-level workshop** is the requirement for acquiring Super Individuals CIC membership.
 The workshop is the gateway. Membership is the longer-term community layer that follows.
 
+For the first invited members, that longer-term layer is the **Founding Cohort**: the first **31** lifetime members, with founding-only status, a special Discord badge, and a private founding channel.
+
 ## Tracks
 
 <div class="pricing-grid pricing-grid--stacked">
