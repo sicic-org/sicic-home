@@ -509,6 +509,11 @@
   flex-direction: column;
   gap: 0.55rem;
   min-height: 100%;
+  padding: 1.1rem;
+  border: 1px solid var(--sicic-line);
+  border-radius: 1rem;
+  background: var(--sicic-panel);
+  box-shadow: 0 0.75rem 2rem rgba(21, 21, 21, 0.04);
 }
 
 .md-typeset .cohort-member-card h3 {
