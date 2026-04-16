@@ -233,6 +233,29 @@
   background: rgba(255, 253, 248, 0.9);
 }
 
+.md-typeset .proof-card--founding {
+  position: relative;
+  overflow: hidden;
+}
+
+.md-typeset .proof-card--founding::after {
+  content: "Founding";
+  position: absolute;
+  top: 1.15rem;
+  right: -2.8rem;
+  width: 10rem;
+  padding: 0.34rem 0;
+  background: linear-gradient(135deg, #d2a23a, #f0d18d);
+  color: #5f4308;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 0 0.55rem 1.4rem rgba(95, 67, 8, 0.16);
+  transform: rotate(35deg);
+}
+
 .md-typeset .signal-card {
   background:
     linear-gradient(180deg, rgba(255, 253, 248, 0.96), rgba(247, 243, 235, 0.9));

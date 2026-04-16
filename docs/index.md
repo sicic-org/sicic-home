@@ -77,13 +77,13 @@ hide:
     <p>The first members are not just joining a community. They are leaving a public record of what they build.</p>
     <a href="cohort/">See cohort page</a>
   </div>
-  <div class="proof-card">
+  <div class="proof-card proof-card--founding">
     <p class="proof-label">Member Demo</p>
     <h3>Gemma Oldfield</h3>
     <p>ZeroClaw Agents is one of the first founding cohort demos now live.</p>
     <a href="cohort/goldfield-zeroclaw/">View member page</a>
   </div>
-  <div class="proof-card">
+  <div class="proof-card proof-card--founding">
     <p class="proof-label">Member Demo</p>
     <h3>Mafalda Patricio</h3>
     <p>Mafalda's Digital Lab and Nova show how founding members are building owned AI systems with clear operational roles.</p>
