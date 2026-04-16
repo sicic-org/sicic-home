@@ -47,6 +47,7 @@ nav:
   - Cohort:
       - Overview: cohort/index.md
       - ZeroClaw Agents: cohort/goldfield-zeroclaw.md
+      - Mafalda's Digital Lab: cohort/patricio-zeroclaw.md
   - Contact: contact.md
 
 extra:

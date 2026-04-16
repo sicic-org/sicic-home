@@ -84,10 +84,10 @@ hide:
     <a href="cohort/goldfield-zeroclaw/">View member page</a>
   </div>
   <div class="proof-card">
-    <p class="proof-label">Live Output</p>
-    <h3>Public demos</h3>
-    <p>As more members ship, the cohort page will fill with compact demo cards for up to 31 founding members.</p>
-    <a href="cohort/">Browse demos</a>
+    <p class="proof-label">Member Demo</p>
+    <h3>Mafalda Patricio</h3>
+    <p>Mafalda's Digital Lab and Nova show how founding members are building owned AI systems with clear operational roles.</p>
+    <a href="cohort/patricio-zeroclaw/">View member page</a>
   </div>
 </div>
 

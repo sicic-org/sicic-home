@@ -45,6 +45,16 @@ Projects are built within a limited timeframe. The focus is on execution, not pe
       <a class="md-button" href="https://gjoldfield-01.github.io/my-zeroclaw-agents/">Demo</a>
     </div>
   </div>
+  <div class="proof-card cohort-member-card">
+    <p class="cohort-badge">Founding Cohort</p>
+    <h3>Mafalda Patricio</h3>
+    <p class="pricing-meta">Mafalda's Digital Lab</p>
+    <p>A ZeroClaw-based lab documenting agent architecture, methodology, and content intelligence workflows.</p>
+    <div class="cohort-card-actions">
+      <a class="md-button md-button--primary" href="patricio-zeroclaw/">Member Page</a>
+      <a class="md-button" href="https://mafaldapatricio.github.io/my-zeroclaw-agents/">Demo</a>
+    </div>
+  </div>
 </div>
 
 ## What These Pages Show
