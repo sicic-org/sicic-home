@@ -16,7 +16,7 @@ We collect and process the following categories of personal data:
 
 - **Membership and application data:** name, email address, professional background, LinkedIn profile URL, and responses submitted via our membership application form.
 - **Payment data:** name and email address associated with payment. Payment card details are processed directly by Stripe Payments UK Ltd and are not stored by SICIC.
-- **Community participation data:** messages and interactions within our Telegram community channels, responses to workshop exercises, and workshop attendance records.
+- **Community participation data:** messages and interactions within our Telegram and Discord community channels, responses to workshop exercises, and workshop attendance records.
 - **Technical data:** IP addresses and usage logs generated through interaction with our technical infrastructure, including our Telegram bot (Beacon).
 - **Research data:** with your separate and explicit consent only, anonymised or identified content from community interactions may be used for academic research into human-AI collaboration. See Section 7.
 
@@ -48,6 +48,7 @@ We do not sell your personal data. We share data only with the following categor
 | --- | --- | --- |
 | Stripe Payments UK Ltd | Payment processing | UK / EU |
 | Telegram Messenger | Community platform | EU (servers vary) |
+| Discord Inc. | Community platform | USA* |
 | Hetzner Online GmbH | Cloud infrastructure hosting | Germany (EU) |
 | OpenRouter Inc. | AI model API (bot functionality) | USA* |
 
@@ -57,12 +58,12 @@ We do not sell your personal data. We share data only with the following categor
 
 - **Membership records:** for the duration of your membership, plus 6 years thereafter (UK legal requirement for financial records).
 - **Application data for unsuccessful applicants:** deleted within 12 months of the application decision.
-- **Community interaction data (Telegram):** retained while the community is active; members may request deletion of their contributions, subject to technical limitations of the Telegram platform.
+- **Community interaction data (Telegram and Discord):** retained while the community is active; members may request deletion of their contributions, subject to technical limitations of the relevant platform.
 - **Payment records:** 6 years from transaction date, as required by HMRC.
 
 ## 7. Research use of community data
 
-SICIC conducts and supports academic research into human-AI interaction and organisational behaviour. Community interaction data, including Telegram messages and workshop participation records, represents a longitudinal dataset of value to this research.
+SICIC conducts and supports academic research into human-AI interaction and organisational behaviour. Community interaction data, including Telegram and Discord messages and workshop participation records, represents a longitudinal dataset of value to this research.
 
 We will only use your data for research purposes if you provide separate, explicit, and informed consent. This consent will be sought through a dedicated consent form prior to any research project commencing, and will clearly describe what data will be used, how it will be anonymised where applicable, who will have access, and the intended publication venue.
 
@@ -84,7 +85,7 @@ To exercise any of these rights, contact us at [publication@sicic.org](mailto:pu
 
 ## 9. Cookies and tracking
 
-Our primary community platform (Telegram) and payment provider (Stripe) may set cookies or use tracking technologies on their own platforms. Please refer to their respective privacy policies. SICIC does not operate its own website cookies at this time.
+Our community platforms, including Telegram and Discord, and our payment provider (Stripe) may set cookies or use tracking technologies on their own platforms. Please refer to their respective privacy policies. SICIC does not operate its own website cookies at this time.
 
 ## 10. Changes to this policy
 

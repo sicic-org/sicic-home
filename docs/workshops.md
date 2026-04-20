@@ -41,7 +41,7 @@ See what the first **founding cohort members** are already building on the [Coho
       </div>
       <div class="pricing-subtier">
         <strong>Standard</strong>
-        <span>20 slots</span>
+        <span>25 slots</span>
         <span>GBP 199</span>
         <em class="pricing-status">Next Tier</em>
       </div>
