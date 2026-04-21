@@ -55,6 +55,16 @@ Projects are built within a limited timeframe. The focus is on execution, not pe
       <a class="md-button" href="https://mafaldapatricio.github.io/my-zeroclaw-agents/">Demo</a>
     </div>
   </div>
+  <div class="proof-card cohort-member-card">
+    <p class="cohort-badge">Founding Cohort</p>
+    <h3>Aijie Shu</h3>
+    <p class="pricing-meta">HackStudio Pro</p>
+    <p>An AI video production studio for turning research into bilingual, broadcast-ready YouTube documentaries from a single codebase.</p>
+    <div class="cohort-card-actions">
+      <a class="md-button md-button--primary" href="shu-hackstudio-pro/">Member Page</a>
+      <a class="md-button" href="https://losdwind.github.io/hackstudio-lite/">Demo</a>
+    </div>
+  </div>
 </div>
 
 ## What These Pages Show

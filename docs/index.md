@@ -116,6 +116,12 @@ hide:
     <p>Mafalda's Digital Lab and Nova show how founding members are building owned AI systems with clear operational roles.</p>
     <a href="cohort/patricio-zeroclaw/">View member page</a>
   </div>
+  <div class="proof-card proof-card--founding">
+    <p class="proof-label">Member Demo</p>
+    <h3>Aijie Shu</h3>
+    <p>HackStudio Pro turns research, scripting, and rendering into a code-driven bilingual video production system.</p>
+    <a href="cohort/shu-hackstudio-pro/">View member page</a>
+  </div>
 </div>
 
 <section class="cta-panel">
