@@ -65,6 +65,16 @@ Projects are built within a limited timeframe. The focus is on execution, not pe
       <a class="md-button" href="https://losdwind.github.io/hackstudio-lite/">Demo</a>
     </div>
   </div>
+  <div class="proof-card cohort-member-card">
+    <p class="cohort-badge">Founding Cohort</p>
+    <h3>Yiwen Tuo</h3>
+    <p class="pricing-meta">Paper Party</p>
+    <p>A research conversation tool that turns uploaded papers into mapped literature context and dialogue.</p>
+    <div class="cohort-card-actions">
+      <a class="md-button md-button--primary" href="tuo-paper-party/">Member Page</a>
+      <a class="md-button" href="https://paper-party.vercel.app/">Demo</a>
+    </div>
+  </div>
 </div>
 
 ## What These Pages Show

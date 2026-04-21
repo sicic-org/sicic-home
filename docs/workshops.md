@@ -283,7 +283,7 @@
 
 <section class="programme-final-cta" id="apply">
   <p class="programme-kicker">Ready to Build?</p>
-  <h2>Cohort 2 starts Saturday, 2 May 2026.</h2>
+  <h2>Batch 2 starts Saturday, 2 May 2026.</h2>
   <p>60 seats. 16 Co-Founding Member slots available.</p>
   <div class="programme-actions">
     <a class="md-button md-button--primary" href="https://airtable.com/app9RzNJpk3wVMaDw/pag3e2mUV89mRFPlq/form">Apply Now</a>

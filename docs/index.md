@@ -122,6 +122,12 @@ hide:
     <p>HackStudio Pro turns research, scripting, and rendering into a code-driven bilingual video production system.</p>
     <a href="cohort/shu-hackstudio-pro/">View member page</a>
   </div>
+  <div class="proof-card proof-card--founding">
+    <p class="proof-label">Member Demo</p>
+    <h3>Yiwen Tuo</h3>
+    <p>Paper Party turns paper upload into discovery, mapped literature context, and academic dialogue.</p>
+    <a href="cohort/tuo-paper-party/">View member page</a>
+  </div>
 </div>
 
 <section class="cta-panel">
