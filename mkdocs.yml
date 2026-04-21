@@ -8,7 +8,7 @@ theme:
   logo: assets/si-logo.png
   favicon: assets/si-logo.png
   font:
-    text: IBM Plex Sans
+    text: DM Sans
     code: IBM Plex Mono
   palette:
     primary: black

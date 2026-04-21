@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+
 :root {
   --sicic-ink: #151515;
   --sicic-paper: #f7f3eb;
   --sicic-panel: #fffdf8;
   --sicic-line: rgba(21, 21, 21, 0.12);
   --sicic-gold: #b8860b;
+  --sicic-navy: #1a2b4a;
+  --sicic-navy-deep: #223657;
   --sicic-warm: #e7dcc3;
   --sicic-soft-shadow: 0 1.25rem 3rem rgba(21, 21, 21, 0.06);
 }
@@ -18,7 +22,12 @@
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3 {
+  font-family: "DM Serif Display", Georgia, serif;
   letter-spacing: -0.02em;
+}
+
+.sicic-header__title {
+  font-family: "DM Serif Display", Georgia, serif;
 }
 
 .md-typeset .landing-kicker,
@@ -73,10 +82,10 @@
   z-index: 12;
   color: #f7f4ec;
   background:
-    linear-gradient(180deg, rgba(20, 21, 27, 0.98), rgba(20, 21, 27, 0.95)),
-    radial-gradient(circle at top left, rgba(184, 134, 11, 0.16), transparent 24%);
+    linear-gradient(180deg, rgba(26, 43, 74, 0.98), rgba(34, 54, 87, 0.96)),
+    radial-gradient(circle at top left, rgba(232, 176, 90, 0.16), transparent 24%);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 0 1rem 2.5rem rgba(12, 12, 15, 0.18);
+  box-shadow: 0 1rem 2.5rem rgba(26, 43, 74, 0.22);
   backdrop-filter: blur(18px);
 }
 
@@ -305,6 +314,365 @@
 .md-typeset .pricing-card--featured {
   border-color: rgba(184, 134, 11, 0.35);
   box-shadow: 0 1.1rem 2.8rem rgba(184, 134, 11, 0.12);
+}
+
+.md-typeset .programme-hero,
+.md-typeset .programme-stats,
+.md-typeset .programme-final-cta {
+  padding: 2.6rem;
+  margin: 0 0 1.6rem;
+  border-radius: 1.7rem;
+}
+
+.md-typeset .programme-hero,
+.md-typeset .programme-final-cta {
+  color: #f8f4ea;
+  background: linear-gradient(135deg, #1a2b4a 0%, #2a3f5f 100%);
+  box-shadow: 0 1.15rem 2.8rem rgba(26, 43, 74, 0.16);
+}
+
+.md-typeset .programme-kicker {
+  margin: 0 0 0.85rem;
+  color: #e8b05a;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.md-typeset .programme-hero h1,
+.md-typeset .programme-final-cta h2 {
+  margin: 0 0 0.8rem;
+  color: inherit;
+  font-size: clamp(2.2rem, 4vw, 3.9rem);
+  line-height: 0.98;
+}
+
+.md-typeset .programme-subhead {
+  max-width: 44rem;
+  margin: 0 0 1.4rem;
+  color: rgba(248, 244, 234, 0.92);
+  font-size: 1.2rem;
+  line-height: 1.55;
+}
+
+.md-typeset .programme-meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.9rem;
+  margin: 1.5rem 0 1.2rem;
+}
+
+.md-typeset .programme-meta__item {
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.md-typeset .programme-meta__item strong {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: #e8b05a;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.md-typeset .programme-meta__item span {
+  color: #fffaf0;
+}
+
+.md-typeset .programme-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.3rem;
+}
+
+.md-typeset .programme-hero .md-button,
+.md-typeset .programme-final-cta .md-button {
+  min-width: 11rem;
+  justify-content: center;
+}
+
+.md-typeset .programme-hero .md-button:not(.md-button--primary),
+.md-typeset .programme-final-cta .md-button:not(.md-button--primary) {
+  border-color: rgba(248, 244, 234, 0.42);
+  background: rgba(255, 255, 255, 0.04);
+  color: #f8f4ea;
+}
+
+.md-typeset .programme-hero .md-button:not(.md-button--primary):hover,
+.md-typeset .programme-final-cta .md-button:not(.md-button--primary):hover {
+  border-color: rgba(248, 244, 234, 0.72);
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.md-typeset .programme-panel {
+  padding: 1.6rem;
+  margin: 1rem 0 2rem;
+  border: 1px solid var(--sicic-line);
+  border-radius: 1.25rem;
+  background: linear-gradient(180deg, rgba(255, 253, 248, 0.98), rgba(247, 243, 235, 0.92));
+  box-shadow: 0 1rem 2.3rem rgba(21, 21, 21, 0.05);
+}
+
+.md-typeset .programme-panel--soft {
+  background: linear-gradient(180deg, rgba(255, 249, 236, 0.98), rgba(247, 243, 235, 0.94));
+}
+
+.md-typeset .programme-panel--narrow {
+  max-width: 52rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.md-typeset .programme-lead {
+  margin: 0 0 1rem;
+  font-size: 1.05rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.md-typeset .programme-center {
+  text-align: center;
+}
+
+.md-typeset .programme-note {
+  margin: 1.2rem auto 0;
+  max-width: 42rem;
+  color: rgba(21, 21, 21, 0.62);
+  font-style: italic;
+  text-align: center;
+}
+
+.md-typeset .programme-checklist {
+  max-width: 42rem;
+  margin: 1.3rem auto;
+  padding: 0;
+  list-style: none;
+}
+
+.md-typeset .programme-checklist li {
+  position: relative;
+  padding-left: 1.9rem;
+  margin-bottom: 0.9rem;
+}
+
+.md-typeset .programme-checklist li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #d4821b;
+  font-weight: 700;
+}
+
+.md-typeset .programme-card-grid,
+.md-typeset .programme-tool-grid,
+.md-typeset .programme-directors,
+.md-typeset .programme-week-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.md-typeset .programme-card-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.md-typeset .programme-tool-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.md-typeset .programme-directors {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.md-typeset .programme-week-grid {
+  grid-template-columns: 1fr;
+}
+
+.md-typeset .programme-card,
+.md-typeset .programme-tool,
+.md-typeset .programme-director,
+.md-typeset .programme-week-card,
+.md-typeset .programme-faq {
+  padding: 1.3rem;
+  border: 1px solid var(--sicic-line);
+  border-radius: 1.15rem;
+  background: var(--sicic-panel);
+  box-shadow: 0 1rem 2.4rem rgba(21, 21, 21, 0.05);
+}
+
+.md-typeset .programme-card h3,
+.md-typeset .programme-director h3,
+.md-typeset .programme-week-card h3 {
+  margin: 0 0 0.6rem;
+}
+
+.md-typeset .programme-week-card {
+  display: grid;
+  grid-template-columns: minmax(9rem, 11rem) minmax(0, 1fr);
+  column-gap: 1.35rem;
+  row-gap: 0.2rem;
+  border-left: 4px solid #d4821b;
+}
+
+.md-typeset .programme-week-card .programme-week-number,
+.md-typeset .programme-week-card h3 {
+  grid-column: 1;
+}
+
+.md-typeset .programme-week-card > p:not(.programme-week-number),
+.md-typeset .programme-week-card .programme-deliverables {
+  grid-column: 2;
+}
+
+.md-typeset .programme-week-number {
+  margin: 0 0 0.45rem;
+  color: #d4821b;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.md-typeset .programme-deliverables {
+  margin-top: 1rem;
+}
+
+.md-typeset .programme-deliverables strong {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.md-typeset .programme-deliverables ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.md-typeset .programme-deliverables li {
+  position: relative;
+  padding-left: 1.3rem;
+  margin-bottom: 0.45rem;
+  color: rgba(21, 21, 21, 0.74);
+  font-size: 0.95rem;
+}
+
+.md-typeset .programme-deliverables li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #d4821b;
+}
+
+.md-typeset .programme-stats {
+  color: #fff;
+  background: linear-gradient(135deg, #1a2b4a 0%, #2a3f5f 100%);
+}
+
+.md-typeset .programme-stats__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.md-typeset .programme-stat {
+  padding: 1rem;
+  text-align: center;
+}
+
+.md-typeset .programme-stat strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: #e8b05a;
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.md-typeset .programme-stat span {
+  color: rgba(248, 244, 234, 0.82);
+}
+
+.md-typeset .programme-director__title {
+  margin: 0 0 0.75rem;
+  color: #d4821b;
+  font-size: 0.84rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.md-typeset .programme-table-wrap {
+  margin: 1rem 0 2rem;
+  overflow-x: auto;
+}
+
+.md-typeset .programme-pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 1rem;
+  background: var(--sicic-panel);
+  box-shadow: 0 1rem 2.3rem rgba(21, 21, 21, 0.05);
+}
+
+.md-typeset .programme-pricing-table thead {
+  background: #1a2b4a;
+  color: #fff;
+}
+
+.md-typeset .programme-pricing-table th,
+.md-typeset .programme-pricing-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.08);
+}
+
+.md-typeset .programme-pricing-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.md-typeset .programme-price {
+  color: #d4821b;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.md-typeset .programme-tool {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.md-typeset .programme-tool strong {
+  color: #d4821b;
+}
+
+.md-typeset .programme-tool span {
+  color: rgba(21, 21, 21, 0.68);
+  font-size: 0.95rem;
+}
+
+.md-typeset .programme-faq-list {
+  display: grid;
+  gap: 0.9rem;
+  margin: 1rem 0 2rem;
+}
+
+.md-typeset .programme-faq strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #1a2b4a;
+}
+
+.md-typeset .programme-final-cta p {
+  max-width: 36rem;
+  color: rgba(248, 244, 234, 0.9);
+  font-size: 1.08rem;
 }
 
 .md-typeset .pricing-kicker {
@@ -674,6 +1042,15 @@
 
   .md-typeset .cohort-demo-hero {
     grid-template-columns: 1fr;
+  }
+
+  .md-typeset .programme-week-card {
+    grid-template-columns: 1fr;
+  }
+
+  .md-typeset .programme-week-card > p:not(.programme-week-number),
+  .md-typeset .programme-week-card .programme-deliverables {
+    grid-column: 1;
   }
 
   .md-typeset .cohort-demo-actions {
