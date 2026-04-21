@@ -128,6 +128,12 @@ hide:
     <p>Paper Party turns paper upload into discovery, mapped literature context, and academic dialogue.</p>
     <a href="cohort/tuo-paper-party/">View member page</a>
   </div>
+  <div class="proof-card proof-card--founding">
+    <p class="proof-label">Member Demo</p>
+    <h3>Jaidev Venkatesan</h3>
+    <p>My ZeroClaw Lab shows how Nova can turn YouTube search, MCP tools, and Telegram delivery into a focused content intelligence workflow.</p>
+    <a href="cohort/venkatesan-zeroclaw/">View member page</a>
+  </div>
 </div>
 
 <section class="cta-panel">

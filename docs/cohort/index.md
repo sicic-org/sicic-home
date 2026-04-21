@@ -75,6 +75,16 @@ Projects are built within a limited timeframe. The focus is on execution, not pe
       <a class="md-button" href="https://paper-party.vercel.app/">Demo</a>
     </div>
   </div>
+  <div class="proof-card cohort-member-card">
+    <p class="cohort-badge">Founding Cohort</p>
+    <h3>Jaidev Venkatesan</h3>
+    <p class="pricing-meta">My ZeroClaw Lab</p>
+    <p>A ZeroClaw lab where Nova handles YouTube content intelligence through Telegram, MCP tooling, and a custom fetch pipeline.</p>
+    <div class="cohort-card-actions">
+      <a class="md-button md-button--primary" href="venkatesan-zeroclaw/">Member Page</a>
+      <a class="md-button" href="https://j-ai-dev.github.io/my-zeroclaw-agents/">Demo</a>
+    </div>
+  </div>
 </div>
 
 ## What These Pages Show
