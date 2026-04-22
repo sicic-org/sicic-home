@@ -32,6 +32,10 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - https://www.googletagmanager.com/gtag/js?id=G-TXWEDLJP1D
+  - javascripts/gtag.js
+
 not_in_nav: |
   partners.md
   cohort/intro-batch-1.md

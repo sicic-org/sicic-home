@@ -18,6 +18,7 @@ We collect and process the following categories of personal data:
 - **Payment data:** name and email address associated with payment. Payment card details are processed directly by Stripe Payments UK Ltd and are not stored by SICIC.
 - **Community participation data:** messages and interactions within our Telegram and Discord community channels, responses to workshop exercises, and workshop attendance records.
 - **Technical data:** IP addresses and usage logs generated through interaction with our technical infrastructure, including our Telegram bot (Beacon).
+- **Website analytics data:** page views, usage events, device/browser information, and related identifiers collected through Google Analytics on our website.
 - **Research data:** with your separate and explicit consent only, anonymised or identified content from community interactions may be used for academic research into human-AI collaboration. See Section 7.
 
 ## 3. Legal basis for processing
@@ -47,6 +48,7 @@ We do not sell your personal data. We share data only with the following categor
 | Processor | Purpose | Location |
 | --- | --- | --- |
 | Stripe Payments UK Ltd | Payment processing | UK / EU |
+| Google LLC | Website analytics | USA* |
 | Telegram Messenger | Community platform | EU (servers vary) |
 | Discord Inc. | Community platform | USA* |
 | Hetzner Online GmbH | Cloud infrastructure hosting | Germany (EU) |
@@ -85,7 +87,7 @@ To exercise any of these rights, contact us at [publication@sicic.org](mailto:pu
 
 ## 9. Cookies and tracking
 
-Our community platforms, including Telegram and Discord, and our payment provider (Stripe) may set cookies or use tracking technologies on their own platforms. Please refer to their respective privacy policies. SICIC does not operate its own website cookies at this time.
+Our website uses Google Analytics, which may set cookies or similar tracking technologies to help us understand traffic and improve the site. Our community platforms, including Telegram and Discord, and our payment provider (Stripe) may also set cookies or use tracking technologies on their own platforms. Please refer to their respective privacy policies.
 
 ## 10. Changes to this policy
 
