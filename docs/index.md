@@ -26,9 +26,13 @@ hide:
       <strong>Outcome</strong>
       <span>Live agent, documentation, and GitHub Pages portfolio</span>
     </div>
+    <div class="programme-meta__item">
+      <strong>Price</strong>
+      <span>From GBP 86 · Standard GBP 199</span>
+    </div>
   </div>
   <div class="programme-actions">
-    <a class="md-button md-button--primary" href="https://airtable.com/app9RzNJpk3wVMaDw/pag3e2mUV89mRFPlq/form">Apply for Batch-2</a>
+    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply for Batch-2</a>
     <a class="md-button" href="workshops/">View Programme</a>
   </div>
 </section>
@@ -72,7 +76,7 @@ hide:
   <div class="feature-card">
     <p class="proof-label">Intro-track Batch-2</p>
     <h3>Starts 2 May 2026</h3>
-    <p>The next intro-track cohort begins on 2 May and is built around deploying, securing, documenting, and presenting a working agent system.</p>
+    <p>The next intro-track cohort begins on 2 May and is built around deploying, securing, documenting, and presenting a working agent system. Pricing starts at GBP 86, with standard admission at GBP 199.</p>
     <a href="workshops/">Explore the programme</a>
   </div>
   <div class="feature-card">
@@ -90,8 +94,8 @@ hide:
   <div class="feature-card">
     <p class="proof-label">Get involved</p>
     <h3>Apply now</h3>
-    <p>Complete the workshop, publish your work, and earn your path into the community and founding cohort consideration.</p>
-    <a href="https://airtable.com/app9RzNJpk3wVMaDw/pag3e2mUV89mRFPlq/form">Apply now</a>
+    <p>Complete the workshop, publish your work, and earn your path into the community and founding cohort consideration. Intro-track Batch-2 starts from GBP 86.</p>
+    <a href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply now</a>
   </div>
 </div>
 
@@ -180,10 +184,10 @@ hide:
   <div>
     <p class="landing-kicker">Next Step</p>
     <h2>Join Batch-2 on 2 May. Build your agent, document it, and earn your path into the founding cohort.</h2>
-    <p>Selected participants may be invited into the membership community, including the first 31 founding cohort places.</p>
+    <p>Selected participants may be invited into the membership community, including the first 31 founding cohort places. Pricing starts at GBP 86.</p>
   </div>
   <div class="cta-panel__actions">
-    <a class="md-button md-button--primary" href="https://airtable.com/app9RzNJpk3wVMaDw/pag3e2mUV89mRFPlq/form">Apply for Batch-2</a>
+    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply for Batch-2</a>
     <a class="md-button" href="workshops/">View Programme</a>
   </div>
 </section>
