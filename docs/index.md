@@ -106,31 +106,71 @@ hide:
   </div>
   <div class="proof-card proof-card--founding">
     <p class="proof-label">Member Demo</p>
-    <h3>Gemma Oldfield</h3>
+    <div class="cohort-member-head">
+      <h3>Gemma Oldfield</h3>
+      <a class="cohort-linkedin" href="https://www.linkedin.com/in/gemma-oldfield-680b342b/" aria-label="Gemma Oldfield LinkedIn profile">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
+        </svg>
+      </a>
+    </div>
+    <p class="cohort-member-role">Masters AI for Business Oxford | Software Delivery </p>
     <p>ZeroClaw Agents is one of the first founding cohort demos now live.</p>
     <a href="cohort/goldfield-zeroclaw/">View member page</a>
   </div>
   <div class="proof-card proof-card--founding">
     <p class="proof-label">Member Demo</p>
-    <h3>Mafalda Patricio</h3>
+    <div class="cohort-member-head">
+      <h3>Mafalda Patricio</h3>
+      <a class="cohort-linkedin" href="https://www.linkedin.com/in/mafaldaiapatricio/" aria-label="Mafalda Patricio LinkedIn profile">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
+        </svg>
+      </a>
+    </div>
+    <p class="cohort-member-role">Transforming the UK Comms, Media & High Tech @ Salesforce</p>
     <p>Mafalda's Digital Lab and Nova show how founding members are building owned AI systems with clear operational roles.</p>
     <a href="cohort/patricio-zeroclaw/">View member page</a>
   </div>
   <div class="proof-card proof-card--founding">
     <p class="proof-label">Member Demo</p>
-    <h3>Aijie Shu</h3>
+    <div class="cohort-member-head">
+      <h3>Aijie Shu</h3>
+      <a class="cohort-linkedin" href="https://www.linkedin.com/in/aijie-shu-5420047a/" aria-label="Aijie Shu LinkedIn profile">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
+        </svg>
+      </a>
+    </div>
+    <p class="cohort-member-role">AI, Blockchain, Full-Stack Developer</p>
     <p>HackStudio Pro turns research, scripting, and rendering into a code-driven bilingual video production system.</p>
     <a href="cohort/shu-hackstudio-pro/">View member page</a>
   </div>
   <div class="proof-card proof-card--founding">
     <p class="proof-label">Member Demo</p>
-    <h3>Yiwen Tuo</h3>
+    <div class="cohort-member-head">
+      <h3>Yiwen Tuo</h3>
+      <a class="cohort-linkedin" href="https://www.linkedin.com/in/yiwen-tuo-646243342/" aria-label="Yiwen Tuo LinkedIn profile">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
+        </svg>
+      </a>
+    </div>
+    <p class="cohort-member-role">PhD Candidate | Visiting Researcher @ Trinity College Dublin</p>
     <p>Paper Party turns paper upload into discovery, mapped literature context, and academic dialogue.</p>
     <a href="cohort/tuo-paper-party/">View member page</a>
   </div>
   <div class="proof-card proof-card--founding">
     <p class="proof-label">Member Demo</p>
-    <h3>Jaidev Venkatesan</h3>
+    <div class="cohort-member-head">
+      <h3>Jaidev Venkatesan</h3>
+      <a class="cohort-linkedin" href="https://www.linkedin.com/in/jaidev-venkatesan-11190012" aria-label="Jaidev Venkatesan LinkedIn profile">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
+        </svg>
+      </a>
+    </div>
+    <p class="cohort-member-role">Senior Manager | Enabling Data & AI Governance</p>
     <p>My ZeroClaw Lab shows how Nova can turn YouTube search, MCP tools, and Telegram delivery into a focused content intelligence workflow.</p>
     <a href="cohort/venkatesan-zeroclaw/">View member page</a>
   </div>
