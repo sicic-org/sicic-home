@@ -17,6 +17,10 @@
       <strong>Duration</strong>
       <span>4 weeks, around 5 hours per week</span>
     </div>
+    <div class="programme-meta__item">
+      <strong>Price</strong>
+      <span>From GBP 86 · Standard GBP 199</span>
+    </div>
   </div>
   <div class="programme-actions">
     <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply Now</a>
