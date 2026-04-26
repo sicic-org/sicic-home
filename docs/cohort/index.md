@@ -161,6 +161,24 @@ Projects are built within a limited timeframe. The focus is on execution, not pe
       <a class="md-button" href="https://chikeka.github.io/bricolage-portfolio/">Demo</a>
     </div>
   </div>
+  <div class="proof-card cohort-member-card">
+    <p class="cohort-badge">Founding Cohort</p>
+    <div class="cohort-member-head">
+      <h3>Luis Loio</h3>
+      <a class="cohort-linkedin" href="https://www.linkedin.com/in/luis-loio/" aria-label="Luis Loio LinkedIn profile">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
+        </svg>
+      </a>
+    </div>
+    <p class="cohort-member-role">Consulting | Treasury &amp; Investments | Oxford Executive MBA</p>
+    <p class="pricing-meta">Luis'ZeroClaw Lab</p>
+    <p>An early ZeroClaw lab scaffold with architecture, troubleshooting, and showcase sections ready to be developed.</p>
+    <div class="cohort-card-actions">
+      <a class="md-button md-button--primary" href="loio-zeroclaw/">Member Page</a>
+      <a class="md-button" href="https://aiagencycs.github.io/My-ZeroClaw-Agent/">Demo</a>
+    </div>
+  </div>
 </div>
 
 ## What These Pages Show

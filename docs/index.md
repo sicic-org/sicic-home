@@ -206,6 +206,20 @@ hide:
     <p>Bruno's Bricolage Lab turns free-tier discovery, resource verification, and agent coordination into a reusable build protocol.</p>
     <a href="cohort/chikeka-bricolage/">View member page</a>
   </div>
+  <div class="proof-card proof-card--founding">
+    <p class="proof-label">Member Demo</p>
+    <div class="cohort-member-head">
+      <h3>Luis Loio</h3>
+      <a class="cohort-linkedin" href="https://www.linkedin.com/in/luis-loio/" aria-label="Luis Loio LinkedIn profile">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
+        </svg>
+      </a>
+    </div>
+    <p class="cohort-member-role">Consulting | Treasury &amp; Investments | Oxford EMBA</p>
+    <p>Luis'ZeroClaw Lab is live as an early scaffold, with the architecture, troubleshooting, and showcase structure already in place.</p>
+    <a href="cohort/loio-zeroclaw/">View member page</a>
+  </div>
 </div>
 
 <section class="cta-panel">
