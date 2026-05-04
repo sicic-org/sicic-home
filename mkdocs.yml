@@ -29,6 +29,9 @@ markdown_extensions:
   - toc:
       permalink: true
 
+extra_templates:
+  - robots.txt
+
 extra_css:
   - stylesheets/extra.css
 
