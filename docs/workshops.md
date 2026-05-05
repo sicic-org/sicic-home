@@ -1,13 +1,13 @@
 # Workshops
 
 <section class="programme-hero">
-  <p class="programme-kicker">Batch 2</p>
+  <p class="programme-kicker">Rolling enrolment</p>
   <h1>SICIC Agent Building Intro-Track</h1>
   <p class="programme-subhead">Build your 24/7 AI agent infrastructure in four weeks.</p>
   <div class="programme-meta">
     <div class="programme-meta__item">
-      <strong>Programme Start</strong>
-      <span>Saturday, 2 May 2026</span>
+      <strong>Enrolment</strong>
+      <span>Rolling · join any week</span>
     </div>
     <div class="programme-meta__item">
       <strong>Format</strong>
@@ -132,7 +132,7 @@
 <div class="programme-panel programme-panel--narrow programme-panel--soft">
   <p class="programme-lead"><strong>Every Saturday, 14:00 London Time</strong> <br>  60-minute live Q&amp;A with programme directors Yiju Jia and Dr. Bijun Li.</p>
   <p class="programme-center">Ask questions, troubleshoot blockers, and discuss industry use cases.</p>
-  <p class="programme-center"><strong>Orientation:</strong> Saturday, 2 May 2026, 14:00 London Time — programme overview, tool stack walkthrough, and community guidelines.</p>
+  <p class="programme-center"><strong>Rolling onboarding:</strong> join the next Saturday session for programme overview, tool stack walkthrough, and community guidelines.</p>
   <p class="programme-note">All sessions are recorded. Async participation is supported via Discord.</p>
 </div>
 
@@ -287,7 +287,7 @@
 
 <section class="programme-final-cta" id="apply">
   <p class="programme-kicker">Ready to Build?</p>
-  <h2>Batch 2 starts Saturday, 2 May 2026.</h2>
+  <h2>Rolling enrolment. Join any week.</h2>
   <p>60 seats. 16 Co-Founding Member slots available.</p>
   <div class="programme-actions">
     <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply Now</a>
