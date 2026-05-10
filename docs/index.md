@@ -9,9 +9,9 @@ hide:
 
 <section class="programme-hero">
   <p class="programme-kicker">Rolling enrolment</p>
-  <h1>SICIC Agent Building Intro-Track</h1>
+  <h1>SICIC Intro track</h1>
   <p class="programme-subhead">
-    Build your 24/7 AI agent infrastructure in four weeks, then turn it into a public portfolio, a live demo, and a path into founding membership.
+    Build a simple but real AI agent system in four weeks, then turn it into a public knowledge base, a live demo, and a path into founding membership.
   </p>
   <div class="programme-meta">
     <div class="programme-meta__item">
@@ -24,7 +24,7 @@ hide:
     </div>
     <div class="programme-meta__item">
       <strong>Outcome</strong>
-      <span>Live agent, documentation, and GitHub Pages portfolio</span>
+      <span>Telegram agent, owned files, and GitHub Pages portfolio</span>
     </div>
     <div class="programme-meta__item">
       <strong>Price</strong>
@@ -32,8 +32,8 @@ hide:
     </div>
   </div>
   <div class="programme-actions">
-    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply for Intro-Track</a>
-    <a class="md-button" href="workshops/">View Programme</a>
+    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply for Intro track</a>
+    <a class="md-button" href="workshops/">View Intro track</a>
   </div>
 </section>
 
@@ -41,12 +41,12 @@ hide:
 
 <div class="programme-panel programme-panel--narrow">
   <ul class="programme-checklist">
-    <li>A deployed agent running 24/7 on your own VPS infrastructure</li>
-    <li>A documented security architecture with sandbox isolation and identity controls</li>
-    <li>A domain-specific sub-agent with custom identity, skills, and workflow logic</li>
-    <li>A public GitHub portfolio showcasing your methodology and agent design</li>
+    <li>A Telegram-connected agent running 24/7 on your own VPS infrastructure</li>
+    <li>A safer Week 1 setup with basic hardening and ownership habits</li>
+    <li>A first agent shaped by workflow design plus <code>SOUL.md</code> and <code>SKILL.md</code></li>
+    <li>A public GitHub Pages site built from Markdown outputs you control</li>
   </ul>
-  <p class="programme-note">This is not a course about AI concepts. <br> It is a build environment for people who want working systems, not just familiarity with tools.</p>
+  <p class="programme-note">This is not a course about AI concepts. <br> It is a build environment for people who want one useful owned system, not just familiarity with tools.</p>
 </div>
 
 ## Why This Is Different
@@ -54,19 +54,19 @@ hide:
 <div class="programme-card-grid">
   <div class="programme-card">
     <h3>Not a course. An incubator.</h3>
-    <p>You are not watching videos. You are building infrastructure, publishing outputs, and learning by shipping.</p>
+    <p>You are not watching videos. You are building infrastructure, shaping an agent, publishing outputs, and learning by shipping.</p>
   </div>
   <div class="programme-card">
     <h3>Invitation-only, referral-aware</h3>
     <p>Admission is curated. The workshop is the gateway into a deeper membership layer and the path toward founding status.</p>
   </div>
   <div class="programme-card">
-    <h3>Portfolio as proof</h3>
-    <p>Participants leave with a live agent, documented method, and a public GitHub Pages site that shows what they built.</p>
+    <h3>Foundation before sprawl</h3>
+    <p>The Intro track stays deliberately small: Telegram, VPS, files, tools, documentation, and publishing.</p>
   </div>
   <div class="programme-card">
-    <h3>Founding cohort path</h3>
-    <p>The strongest early builders can earn their place in the first 31 founding members, with lifetime access and founding-only privileges.</p>
+    <h3>Builder track next</h3>
+    <p>Advanced builders can continue into the Builder track for multi-agent orchestration, broader MCP toolchains, and automation systems.</p>
   </div>
 </div>
 
@@ -74,27 +74,33 @@ hide:
 
 <div class="grid-2">
   <div class="feature-card">
-    <p class="proof-label">Intro-track</p>
+    <p class="proof-label">Intro track</p>
     <h3>Rolling enrolment</h3>
-    <p>The intro-track now runs on rolling enrolment, so you can join any week and work through the four-week build path. Pricing starts at GBP 86, with standard admission at GBP 199.</p>
-    <a href="workshops/">Explore the programme</a>
+    <p>The Intro track now runs on rolling enrolment, so you can join any week and work through the four-week build path from Telegram to GitHub Pages. Pricing starts at GBP 86, with standard admission at GBP 199.</p>
+    <a href="workshops/">Explore Intro track</a>
   </div>
   <div class="feature-card">
-    <p class="proof-label">Founding Cohort</p>
-    <h3>First membership tier</h3>
-    <p>The founding cohort is the first and most limited membership tier: 31 members, lifetime access, and founding-only Discord status and channels.</p>
-    <a href="community/">See membership</a>
+    <p class="proof-label">Builder track</p>
+    <h3>Advanced continuation</h3>
+    <p>For people ready to go beyond the foundation, the Builder track extends into orchestration, custom toolchains, deployment hygiene, and richer automation.</p>
+    <a href="builder-track/">See Builder track</a>
   </div>
   <div class="feature-card">
+    <p class="proof-label">Pre-bootcamp</p>
+    <h3>Warm up before Intro track</h3>
+    <p>A lighter starting point for non-technical people who want to get comfortable before the workshop, and a useful primer for people already on the Intro track.</p>
+    <a href="https://sicic-org.github.io/pre-bootcamp/">Explore pre-bootcamp</a>
+  </div>
+  <!--<div class="feature-card">
     <p class="proof-label">Member Demos</p>
     <h3>Build in public</h3>
     <p>Early founding members are already publishing live pages that show what they built, how they thought, and what their systems actually do.</p>
     <a href="cohort/">Browse cohort demos</a>
-  </div>
+  </div>-->
   <div class="feature-card">
     <p class="proof-label">Get involved</p>
     <h3>Apply now</h3>
-    <p>Complete the workshop, publish your work, and earn your path into the community and founding cohort consideration. Rolling intro-track enrolment starts from GBP 86.</p>
+    <p>Complete the workshop, publish your work, and earn your path into the community and founding cohort consideration. Rolling Intro track enrolment starts from GBP 86.</p>
     <a href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply now</a>
   </div>
 </div>
@@ -253,11 +259,11 @@ hide:
 <section class="cta-panel">
   <div>
     <p class="landing-kicker">Next Step</p>
-    <h2>Join the Intro-Track on rolling enrolment. Build your agent, document it, and earn your path into the founding cohort.</h2>
+    <h2>Join the Intro track on rolling enrolment. Build your agent, document it, and earn your path into the founding cohort.</h2>
     <p>Selected participants may be invited into the membership community, including the first 31 founding cohort places. Pricing starts at GBP 86.</p>
   </div>
   <div class="cta-panel__actions">
-    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply for Intro-Track</a>
-    <a class="md-button" href="workshops/">View Programme</a>
+    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply for Intro track</a>
+    <a class="md-button" href="workshops/">View Intro track</a>
   </div>
 </section>

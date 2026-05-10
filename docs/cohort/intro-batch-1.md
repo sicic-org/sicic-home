@@ -1,59 +1,12 @@
-# Intro Batch-1 Cohort
+# Intro Track Archive
 
-## Overview
+This page is kept as a light archive marker for the earliest public cohort material.
 
-Our first cohort focused on building real AI applications.
-Participants worked on projects involving AI agents, automation, and practical use cases.
+The live, maintained cohort documentation now sits under the main [Cohort](index.md) section, where each member page documents a real build, live demo, and implementation journey.
 
-## Projects
+If you are looking for the current workshop structure, use:
 
-### Project Name
+- [Intro track](../workshops.md)
+- [Builder track](../builder-track.md)
 
-**Builder:** Name
-
-**Problem**  
-Describe the problem being solved.
-
-**Solution**  
-Explain how AI or agents are used.
-
-**Demo**  
-[Link]
-
-### Project Name
-
-**Builder:** Name
-
-**Problem**  
-...
-
-**Solution**  
-...
-
-**Demo**  
-[Link]
-
-## Builder Profile Example
-
-# John Doe
-
-## Project
-
-AI Agent for X
-
-## Background
-
-Oxford MBA
-
-## Focus
-
-AI automation, agents
-
-## Links
-
-LinkedIn / GitHub
-
-## Notes
-
-Projects are built within a limited timeframe.
-The focus is on execution, not perfection.
+The older placeholder content that previously lived on this page has been removed because it no longer reflected the current SICIC workshop structure.

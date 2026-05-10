@@ -89,7 +89,7 @@ As the community grows, the founding rate rises and later members join at higher
 
 ## How Membership Works
 
-Membership is not open for public payment. It is offered only after a participant completes and passes the **Intro Batch** workshop, followed by a final review of results.
+Membership is not open for public payment. It is offered only after a participant completes and passes the **Intro Track** workshop, followed by a final review of results.
 
 If invited, the participant receives a private payment link by email.
 

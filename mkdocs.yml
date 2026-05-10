@@ -46,7 +46,9 @@ nav:
   - Home: index.md
   - About: about.md
   - Community: community.md
-  - Workshops: workshops.md
+  - Workshops:
+      - Intro track: workshops.md
+      - Builder track: builder-track.md
   - Cohort:
       - Overview: cohort/index.md
       - ZeroClaw Agents: cohort/goldfield-zeroclaw.md

@@ -1,45 +1,51 @@
-{#-
-  Custom header layout for Super Individuals CIC
--#}
-{% macro nav_href(nav_item) -%}
-  {%- if nav_item.children -%}
-    {{ (nav_item.children | first).url | url }}
-  {%- else -%}
-    {{ nav_item.url | url }}
-  {%- endif -%}
-{%- endmacro %}
+{#- Custom header layout for Super Individuals CIC -#} {% macro
+nav_href(nav_item) -%} {%- if nav_item.children -%} {{ (nav_item.children |
+first).url | url }} {%- else -%} {{ nav_item.url | url }} {%- endif -%} {%-
+endmacro %}
 <header class="sicic-header" data-md-component="header">
-  <div class="sicic-header__shell md-grid">
-    <a
-      href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
-      title="{{ config.site_name | e }}"
-      class="sicic-header__logo"
-      aria-label="{{ config.site_name }}"
-      data-md-component="logo"
-    >
-      {% include "partials/logo.html" %}
-    </a>
-    <div class="sicic-header__content">
-      <div class="sicic-header__topbar">
+    <div class="sicic-header__shell md-grid">
         <a
-          href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
-          class="sicic-header__title"
-          aria-label="{{ config.site_name }}"
+            href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
+            title="{{ config.site_name | e }}"
+            class="sicic-header__logo"
+            aria-label="{{ config.site_name }}"
+            data-md-component="logo"
         >
-          {{ config.site_name }}
+            {% include "partials/logo.html" %}
         </a>
-        <label class="md-header__button md-icon sicic-header__menu" for="__drawer">
-          {% set icon = config.theme.icon.menu or "material/menu" %}
-          {% include ".icons/" ~ icon ~ ".svg" %}
-        </label>
-      </div>
-      <nav class="sicic-nav" aria-label="{{ lang.t('tabs') }}">
-        {% for nav_item in nav.items %}
-          <a href="{{ nav_href(nav_item) }}" class="sicic-nav__link{{ ' sicic-nav__link--active' if nav_item.active else '' }}">
-            {{ nav_item.title }}
-          </a>
-        {% endfor %}
-      </nav>
+        <div class="sicic-header__content">
+            <div class="sicic-header__topbar">
+                <a
+                    href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
+                    class="sicic-header__title"
+                    aria-label="{{ config.site_name }}"
+                >
+                    {{ config.site_name }}
+                </a>
+                <label
+                    class="md-header__button md-icon sicic-header__menu"
+                    for="__drawer"
+                >
+                    {% set icon = config.theme.icon.menu or "material/menu" %}
+                    {% include ".icons/" ~ icon ~ ".svg" %}
+                </label>
+            </div>
+            <nav class="sicic-nav" aria-label="{{ lang.t('tabs') }}">
+                {% for nav_item in nav.items %}
+                <a
+                    href="{{ nav_href(nav_item) }}"
+                    class="sicic-nav__link{{ ' sicic-nav__link--active' if nav_item.active else '' }}"
+                >
+                    {{ nav_item.title }}
+                </a>
+                {% endfor %}
+                <a
+                    href="https://sicic-org.github.io/pre-bootcamp/"
+                    class="sicic-nav__link"
+                >
+                    Bootcamp
+                </a>
+            </nav>
+        </div>
     </div>
-  </div>
 </header>

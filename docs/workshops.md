@@ -1,9 +1,9 @@
-# Workshops
+# Intro track
 
 <section class="programme-hero">
   <p class="programme-kicker">Rolling enrolment</p>
-  <h1>SICIC Agent Building Intro-Track</h1>
-  <p class="programme-subhead">Build your 24/7 AI agent infrastructure in four weeks.</p>
+  <h1>SICIC Intro track</h1>
+  <p class="programme-subhead">Build a simple but real AI agent system in four weeks, then turn it into a public knowledge base and proof of work.</p>
   <div class="programme-meta">
     <div class="programme-meta__item">
       <strong>Enrolment</strong>
@@ -23,105 +23,111 @@
     </div>
   </div>
   <div class="programme-actions">
-    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply Now</a>
-    <a class="md-button" href="#programme-structure">View Programme</a>
+    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply now</a>
+    <a class="md-button" href="https://sicic-org.github.io/pre-bootcamp/">Bootcamp</a>
+    <a class="md-button" href="/builder-track/">View Builder track</a>
   </div>
 </section>
 
 ## What You'll Build
 
 <div class="programme-panel programme-panel--narrow">
-  <p class="programme-lead">By the end of this programme, you will have:</p>
+  <p class="programme-lead">By the end of this track, you will understand how to build and run a simple but real owned AI workflow:</p>
   <ul class="programme-checklist">
-    <li>A deployed agent running 24/7 on your own VPS infrastructure</li>
-    <li>A documented security architecture with sandbox isolation and identity controls</li>
-    <li>A domain-specific sub-agent with custom identity, skills, and workflow logic</li>
-    <li>A public GitHub portfolio showcasing your methodology and agent design</li>
+    <li>A Telegram-connected agent running on your own VPS</li>
+    <li>A safer Week 1 setup with basic hardening and ownership habits built in</li>
+    <li>A first agent shaped by clear workflow design plus <code>SOUL.md</code> and <code>SKILL.md</code></li>
+    <li>A MkDocs and GitHub Pages site that publishes useful outputs from your system</li>
   </ul>
-  <p class="programme-note">This is not a course about AI concepts. It is a workshop where you build real infrastructure and leave with running systems.</p>
+  <p class="programme-note">The point is not to impress people with complexity. The point is to build a useful, portable system that is actually yours.</p>
 </div>
 
 ## Who Should Apply
 
 <div class="programme-card-grid">
   <div class="programme-card">
-    <h3>Domain Experts</h3>
-    <p>Who want to productize their methodology and operate at scale without hiring a team.</p>
+    <h3>Beginners to agents</h3>
+    <p>People who use AI chats already but have not yet built an owned agent workflow.</p>
   </div>
   <div class="programme-card">
-    <h3>Non-Technical Professionals</h3>
-    <p>In law, finance, consulting, climate, or operations who already use AI daily but need to move from consumption to control.</p>
+    <h3>Non-technical professionals</h3>
+    <p>People who want a concrete first system without disappearing into infrastructure sprawl.</p>
   </div>
   <div class="programme-card">
-    <h3>Technical Professionals</h3>
-    <p>Who want to understand the orchestration layer and build agentic systems, not just scripts.</p>
+    <h3>Practical builders</h3>
+    <p>People who want a working setup on their own VPS, not just a conceptual overview.</p>
   </div>
   <div class="programme-card">
-    <h3>Entrepreneurs and Solo Operators</h3>
-    <p>Building company-of-one models who need leverage without headcount.</p>
+    <h3>Future advanced builders</h3>
+    <p>People who want the clean foundation first before moving into orchestration and larger toolchains.</p>
   </div>
 </div>
 
-<p class="programme-center"><strong>You do not need a coding background.</strong> You need clarity about what you want your agent to do, and the discipline to complete four weekly milestones.</p>
+<div class="programme-panel programme-panel--narrow programme-panel--soft">
+  <p class="programme-lead"><strong>Want a gentler start?</strong> Try the <a href="https://sicic-org.github.io/pre-bootcamp/">pre-bootcamp</a> before joining the Intro track.</p>
+  <p class="programme-center">It is a lighter entry point for non-technical people and a useful warm-up for anyone planning to start the workshop.</p>
+</div>
+
+<p class="programme-center"><strong>You do not need a coding background.</strong> You need a clear use case, a willingness to follow the steps, and the discipline to finish the weekly milestones.</p>
+
+
 
 ## Programme Structure { #programme-structure }
 
 <div class="programme-week-grid">
   <div class="programme-week-card">
     <p class="programme-week-number">Week 1</p>
-    <h3>Deploy</h3>
-    <p>Get your agent live. By the end of Week 1, your agent is running on a VPS, connected to Discord, and responding to your commands.</p>
+    <h3>Deploy &amp; Secure</h3>
+    <p>Start with infrastructure that belongs to you. Set up your VPS, install ZeroClaw, connect Telegram, and establish the basic security habits that make the system usable in real life.</p>
     <div class="programme-deliverables">
       <strong>Key deliverables</strong>
       <ul>
-        <li>VPS setup and ZeroClaw installation</li>
-        <li>API key configuration and cost controls</li>
-        <li>Discord bot deployment with allowlist security</li>
-        <li>First automated task: scheduled reminder via cron</li>
+        <li>VPS setup and SSH access</li>
+        <li>ZeroClaw installation and first startup</li>
+        <li>Telegram bot connection through <code>config.toml</code></li>
+        <li>Basic hardening, authentication hygiene, and safer ownership practices</li>
       </ul>
     </div>
   </div>
   <div class="programme-week-card">
     <p class="programme-week-number">Week 2</p>
-    <h3>Secure and Upgrade</h3>
-    <p>Make it yours, then give it a soul. Introduce security architecture, write your agent's identity files, and build a domain-specific sub-agent.</p>
+    <h3>Build Your Own Agent</h3>
+    <p>Turn a vague idea into a bounded agent workflow. Define the job, shape the agent with <code>SOUL.md</code> and <code>SKILL.md</code>, and give it the minimum tools needed to do useful work.</p>
     <div class="programme-deliverables">
       <strong>Key deliverables</strong>
       <ul>
-        <li>Sandbox configuration with forbidden paths enforcement</li>
-        <li>Allowlist-based identity control and audit logging</li>
-        <li>Root password and API key rotation</li>
-        <li>Workflow Design Document (200 to 400 words)</li>
-        <li>Nova sub-agent deployment with custom identity</li>
-        <li>MCP tool integration and route registration</li>
+        <li>Workflow design with clear trigger, input, tools, output, and stop condition</li>
+        <li>A first research-style agent shaped through <code>SOUL.md</code> and <code>SKILL.md</code></li>
+        <li>Web search and file-writing tool setup</li>
+        <li>Reusable Markdown output saved into your own filesystem</li>
       </ul>
     </div>
   </div>
   <div class="programme-week-card">
     <p class="programme-week-number">Week 3</p>
-    <h3>Document</h3>
-    <p>Turn code into portfolio. Build your knowledge base, deploy a static site, and publish to GitHub Pages.</p>
+    <h3>Document &amp; Publish</h3>
+    <p>Turn saved notes into a readable public resource. Organise your Markdown, structure your MkDocs site, and publish the result through GitHub Pages.</p>
     <div class="programme-deliverables">
       <strong>Key deliverables</strong>
       <ul>
-        <li>Obsidian vault with structured documentation</li>
-        <li>Sanitized configuration files</li>
-        <li>MkDocs Material site with public manifesto</li>
-        <li>Live GitHub Pages URL as your proof of work</li>
+        <li>Clear <code>docs/</code> structure and <code>mkdocs.yml</code> navigation</li>
+        <li>MkDocs Material site preview running locally</li>
+        <li>GitHub repository connected to an automated publishing flow</li>
+        <li>Live GitHub Pages URL as your proof of build</li>
       </ul>
     </div>
   </div>
   <div class="programme-week-card">
     <p class="programme-week-number">Week 4</p>
-    <h3>Support and Presentation</h3>
-    <p>Consolidate your learning, troubleshoot final blockers, and present your agent to the cohort. Showcase what you've built and learn from peer implementations.</p>
+    <h3>Refine &amp; Showcase</h3>
+    <p>Use the final week to close gaps, tighten your documentation, and present what you built. This is where the system becomes coherent, explainable, and portable.</p>
     <div class="programme-deliverables">
       <strong>Key deliverables</strong>
       <ul>
-        <li>Final troubleshooting and optimisation</li>
-        <li>Portfolio review and refinement</li>
-        <li>Agent presentation to cohort (5-minute showcase)</li>
-        <li>Peer feedback and knowledge sharing</li>
+        <li>Final troubleshooting and polish</li>
+        <li>Cleaner documentation and portfolio narrative</li>
+        <li>Short project walkthrough or cohort showcase</li>
+        <li>Decision on whether to deepen the foundation or continue into Builder track</li>
       </ul>
     </div>
   </div>
@@ -130,66 +136,30 @@
 ## Weekly Live Sessions
 
 <div class="programme-panel programme-panel--narrow programme-panel--soft">
-  <p class="programme-lead"><strong>Every Saturday, 14:00 London Time</strong> <br>  60-minute live Q&amp;A with programme directors Yiju Jia and Dr. Bijun Li.</p>
-  <p class="programme-center">Ask questions, troubleshoot blockers, and discuss industry use cases.</p>
-  <p class="programme-center"><strong>Rolling onboarding:</strong> join the next Saturday session for programme overview, tool stack walkthrough, and community guidelines.</p>
-  <p class="programme-note">All sessions are recorded. Async participation is supported via Discord.</p>
+  <p class="programme-lead"><strong>Every Saturday, 14:00 London Time</strong> <br> 60-minute live Q&amp;A with programme directors Yiju Jia and Dr. Bijun Li.</p>
+  <p class="programme-center">Bring blockers, configuration questions, and workflow design questions. The emphasis is on helping you get the system working, not on abstract theory.</p>
+  <p class="programme-center"><strong>Rolling onboarding:</strong> join the next Saturday session for orientation, setup guidance, and track expectations.</p>
+  <p class="programme-note">All sessions are recorded. Async participation is supported through the member community.</p>
 </div>
 
-## What Makes This Different
+## After This Track
 
 <div class="programme-card-grid">
   <div class="programme-card">
-    <h3>Not a course. An incubator.</h3>
-    <p>You are not watching videos. You are building infrastructure alongside 60 peers from six continents. Every participant leaves with a running agent and a documented methodology.</p>
+    <h3>Foundation first</h3>
+    <p>The Intro track is intentionally simple. It teaches the core architecture: Telegram, VPS, files, tools, documentation, and publishing.</p>
   </div>
   <div class="programme-card">
-    <h3>Invitation-only, referral-based</h3>
-    <p>Access is controlled. Pricing tiers reflect network positioning: Co-Founding Member referral (GBP 86), alumni network referral (GBP 139), or standard admission (GBP 199).</p>
+    <h3>Then go advanced</h3>
+    <p>If you want multi-agent orchestration, larger MCP ecosystems, or automation systems like n8n and OpenCode, continue into the Builder track.</p>
   </div>
   <div class="programme-card">
-    <h3>Lifetime membership</h3>
-    <p>This is not a one-time workshop. Complete the programme and you gain permanent access to the community, future workshops, and priority listing rights on the Pegasi agent trading platform.</p>
+    <h3>Why the split matters</h3>
+    <p>Beginners need clarity more than tool sprawl. Advanced builders need broader systems and stronger operational discipline.</p>
   </div>
   <div class="programme-card">
-    <h3>Path to Co-Founding status</h3>
-    <p>Only 31 Co-Founding Member seats exist. 15 are filled. The remaining 16 go to the earliest applicants who complete all four milestones. Co-Founding Members receive lifetime free workshop access and referral power.</p>
-  </div>
-</div>
-
-<section class="programme-stats">
-  <div class="programme-stats__grid">
-    <div class="programme-stat">
-      <strong>31</strong>
-      <span>Founding member candidates</span>
-    </div>
-    <div class="programme-stat">
-      <strong>6</strong>
-      <span>Continents</span>
-    </div>
-    <div class="programme-stat">
-      <strong>4</strong>
-      <span>Weeks</span>
-    </div>
-    <div class="programme-stat">
-      <strong>15</strong>
-      <span>Personalised projects</span>
-    </div>
-  </div>
-</section>
-
-## Programme Directors
-
-<div class="programme-directors">
-  <div class="programme-director">
-    <h3>Yiju Jia</h3>
-    <p class="programme-director__title">Founding Director, Super Individuals CIC</p>
-    <p>Oxford Saïd Business School alumna. Background in AI-native product design and organizational behavior research. Co-initiated the Super Individual framework with a focus on domain expert empowerment and agent-to-agent economies.</p>
-  </div>
-  <div class="programme-director">
-    <h3>Dr. Bijun Li</h3>
-    <p class="programme-director__title">Co-Founding Director, Super Individuals CIC</p>
-    <p>PhD in Cybersecurity. Serial entrepreneur in Web3 and AI infrastructure. Built AI-driven deal sourcing engines for early-stage VC. Leads the programme's security architecture and cost education modules.</p>
+    <h3>Next step</h3>
+    <p><a href="/builder-track/">See the Builder track</a> if your questions are already moving beyond a first owned agent workflow.</p>
   </div>
 </div>
 
@@ -213,7 +183,7 @@
       <tr>
         <td><strong>Alumni Network Referral</strong></td>
         <td><span class="programme-price">GBP 139</span></td>
-        <td>Referred by Oxford Saïd or CEIBS network member. Early Bird pricing. Path to Co-Founding status via completion.</td>
+        <td>Referred by Oxford Saïd or CEIBS network member. Early pricing. Path to Co-Founding status via completion.</td>
       </tr>
       <tr>
         <td><strong>Standard Admission</strong></td>
@@ -228,7 +198,7 @@
   <p class="programme-lead">All tiers include:</p>
   <ul class="programme-checklist">
     <li>4-week hands-on workshop with live weekly Q&amp;A</li>
-    <li>Lifetime community access on Discord</li>
+    <li>Lifetime community access</li>
     <li>All technical guides and documentation</li>
     <li>Permanent eligibility for future workshops at member rates</li>
   </ul>
@@ -244,53 +214,46 @@
 ## Tools and Technologies
 
 <div class="programme-tool-grid">
-  <div class="programme-tool"><strong>ZeroClaw</strong><span>Lightweight agent framework, Rust-based and self-hosted</span></div>
+  <div class="programme-tool"><strong>ZeroClaw</strong><span>Self-hosted agent runtime on your VPS</span></div>
+  <div class="programme-tool"><strong>Telegram</strong><span>The everyday control room for talking to your agent</span></div>
   <div class="programme-tool"><strong>Hetzner VPS</strong><span>Cloud infrastructure, around GBP 5 per month</span></div>
-  <div class="programme-tool"><strong>OpenRouter</strong><span>Unified API access to Claude, GPT-4o, and Gemini</span></div>
-  <div class="programme-tool"><strong>Discord</strong><span>Community platform and daily communication</span></div>
-  <div class="programme-tool"><strong>Obsidian</strong><span>Personal knowledge management and memory layer</span></div>
-  <div class="programme-tool"><strong>n8n</strong><span>Workflow automation and task orchestration</span></div>
+  <div class="programme-tool"><strong>MCP tools</strong><span>Small, focused abilities such as web search and file writing</span></div>
+  <div class="programme-tool"><strong>Markdown</strong><span>Plain-text outputs that remain portable and readable</span></div>
   <div class="programme-tool"><strong>MkDocs Material</strong><span>Static site generation for documentation</span></div>
-  <div class="programme-tool"><strong>GitHub Pages</strong><span>Public portfolio hosting</span></div>
+  <div class="programme-tool"><strong>GitHub Pages</strong><span>Public publishing for your knowledge base</span></div>
+  <div class="programme-tool"><strong>GitHub Actions</strong><span>Automated build and deployment pipeline</span></div>
 </div>
 
-<p class="programme-note">No prior DevOps or infrastructure experience required. All setup is guided step by step.</p>
+<p class="programme-note">No prior DevOps or infrastructure experience required. The workshop is designed to move from working setup to clear understanding.</p>
 
 ## Frequently Asked Questions
 
 <div class="programme-faq-list">
   <div class="programme-faq">
     <strong>Q: I'm not technical. Can I still do this?</strong>
-    <p>Yes. Approximately 40% of Cohort 1 participants had no prior VPS or coding experience. The setup is guided, and you have weekly live Q&amp;A plus community support.</p>
+    <p>Yes. The Intro track is designed for people who are new to agents, servers, or automation and want one concrete first system instead of endless theory.</p>
   </div>
   <div class="programme-faq">
-    <strong>Q: How much time does this require?</strong>
-    <p>Plan for 5 to 7 hours per week: around 2 hours for the weekly module, around 2 hours for iteration and troubleshooting, around 1 hour for documentation, and 1 hour for the live Q&amp;A.</p>
+    <strong>Q: Why Telegram instead of Discord or WhatsApp?</strong>
+    <p>For the Intro track, Telegram is the faster path to a working personal interface. It is easier to connect, easier to test, and closer to the phone-first workflow we want participants to experience.</p>
   </div>
   <div class="programme-faq">
-    <strong>Q: What if I can't attend the live sessions?</strong>
-    <p>All sessions are recorded. The programme is designed for async participation. Most work happens individually on your own schedule.</p>
+    <strong>Q: What if I want n8n, multi-agent orchestration, or more advanced automation?</strong>
+    <p>That is Builder track territory. The Intro track teaches the foundation first, then points advanced participants toward broader systems.</p>
   </div>
   <div class="programme-faq">
-    <strong>Q: What happens if I don't complete all four milestones?</strong>
-    <p>You can roll into a future cohort at a discounted price to complete the programme.</p>
-  </div>
-  <div class="programme-faq">
-    <strong>Q: Can I get a refund?</strong>
-    <p>Refunds are available within 7 days of payment if you have not accessed any programme materials. After that, no refunds, but you can defer to a future cohort.</p>
-  </div>
-  <div class="programme-faq">
-    <strong>Q: Is this affiliated with Oxford University?</strong>
-    <p>Super Individuals CIC is not directly affiliated with Oxford University. The programme is delivered independently and co-initiated by alumni from Oxford Saïd Business School and Cambridge Judge Business School.</p>
+    <strong>Q: What happens if I cannot attend live?</strong>
+    <p>All sessions are recorded. The track supports async participation, and most of the work happens on your own schedule.</p>
   </div>
 </div>
 
 <section class="programme-final-cta" id="apply">
   <p class="programme-kicker">Ready to Build?</p>
-  <h2>Rolling enrolment. Join any week.</h2>
-  <p>60 seats. 16 Co-Founding Member slots available.</p>
+  <h2>Start with the Intro track. Then move to Builder track when the foundation is solid.</h2>
+  <p>Rolling enrolment is open now. Pricing starts at GBP 86.</p>
   <div class="programme-actions">
-    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply Now</a>
-    <a class="md-button" href="mailto:publication@sicic.org">Contact Us</a>
+    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply now</a>
+    <a class="md-button" href="https://sicic-org.github.io/pre-bootcamp/">Try Bootcamp</a>
+    <a class="md-button" href="/builder-track/">See Builder track</a>
   </div>
 </section>
