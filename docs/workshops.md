@@ -151,7 +151,7 @@
   </div>
   <div class="programme-card">
     <h3>Then go advanced</h3>
-    <p>If you want multi-agent orchestration, larger MCP ecosystems, or automation systems like n8n and OpenCode, continue into the Builder track.</p>
+    <p>If you want multi-agent orchestration, larger MCP ecosystems, or automation systems like n8n and OpenCode, continue into the Builder track. Applications are open now.</p>
   </div>
   <div class="programme-card">
     <h3>Why the split matters</h3>
@@ -159,7 +159,7 @@
   </div>
   <div class="programme-card">
     <h3>Next step</h3>
-    <p><a href="/builder-track/">See the Builder track</a> if your questions are already moving beyond a first owned agent workflow.</p>
+    <p><a href="https://forms.fillout.com/t/mY53Xhjk7zus">Apply for Builder track</a> if your questions are already moving beyond a first owned agent workflow.</p>
   </div>
 </div>
 
@@ -254,6 +254,6 @@
   <div class="programme-actions">
     <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply now</a>
     <a class="md-button" href="https://sicic-org.github.io/pre-bootcamp/">Try Bootcamp</a>
-    <a class="md-button" href="/builder-track/">See Builder track</a>
+    <a class="md-button" href="https://forms.fillout.com/t/mY53Xhjk7zus">Apply for Builder track</a>
   </div>
 </section>

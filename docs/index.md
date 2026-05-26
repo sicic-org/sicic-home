@@ -8,36 +8,158 @@ hide:
 ---
 
 <section class="programme-hero">
-  <p class="programme-kicker">Rolling enrolment</p>
-  <h1>SICIC Intro track</h1>
+  <p class="programme-kicker">Two build paths</p>
+  <h1>Start at the right depth for your AI build.</h1>
   <p class="programme-subhead">
-    Build a simple but real AI agent system in four weeks, then turn it into a public knowledge base, a live demo, and a path into founding membership.
+    SICIC runs two hands-on tracks: Intro for first owned workflows, Builder for orchestration, broader toolchains, and more demanding operational practice.
   </p>
   <div class="programme-meta">
     <div class="programme-meta__item">
-      <strong>Enrolment</strong>
-      <span>Rolling · join any week</span>
+      <strong>Tracks</strong>
+      <span>Intro + Builder</span>
     </div>
     <div class="programme-meta__item">
       <strong>Format</strong>
       <span>Online, hands-on workshop</span>
     </div>
     <div class="programme-meta__item">
-      <strong>Outcome</strong>
-      <span>Telegram agent, owned files, and GitHub Pages portfolio</span>
+      <strong>Entry</strong>
+      <span>Rolling Intro · Builder orientation June 13, 2026</span>
     </div>
     <div class="programme-meta__item">
-      <strong>Price</strong>
-      <span>From GBP 86 · Standard GBP 199</span>
+      <strong>Outcome</strong>
+      <span>Owned systems, public demos, and a path into membership</span>
     </div>
   </div>
   <div class="programme-actions">
-    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply for Intro track</a>
-    <a class="md-button" href="workshops/">View Intro track</a>
+    <a class="md-button md-button--primary" href="#track-fit">Find your track</a>
+    <a class="md-button" href="cohort/">See member demos</a>
   </div>
 </section>
 
-## What You'll Build
+## Find Your Track { #track-fit }
+
+<div class="track-quiz">
+  <div class="feature-card track-quiz__intro">
+    <p class="proof-label">3 questions</p>
+    <h3>Answer three quick questions</h3>
+    <p>Most people should start with Intro track. Builder track is for people whose bottleneck is already complexity: orchestration, toolchain breadth, and stronger operational practice. Builder orientation is on June 13, 2026, with official kick-off on June 15, 2026.</p>
+  </div>
+  <form class="track-quiz__form" id="track-quiz">
+    <fieldset class="track-quiz__question">
+      <legend>1. What is blocking you right now?</legend>
+      <label class="track-quiz__option">
+        <input checked name="q1" type="radio" value="intro" />
+        <span>I need my first owned agent workflow.</span>
+      </label>
+      <label class="track-quiz__option">
+        <input name="q1" type="radio" value="builder" />
+        <span>I already have the basics. I need broader orchestration and automation.</span>
+      </label>
+    </fieldset>
+    <fieldset class="track-quiz__question">
+      <legend>2. Which environment sounds more like you?</legend>
+      <label class="track-quiz__option">
+        <input checked name="q2" type="radio" value="intro" />
+        <span>I want a clear guided foundation across Telegram, VPS, files, and publishing.</span>
+      </label>
+      <label class="track-quiz__option">
+        <input name="q2" type="radio" value="builder" />
+        <span>I am already running workflows and want to expand into larger systems.</span>
+      </label>
+    </fieldset>
+    <fieldset class="track-quiz__question">
+      <legend>3. What do you need next?</legend>
+      <label class="track-quiz__option">
+        <input checked name="q3" type="radio" value="intro" />
+        <span>One reliable pipeline from request to saved output to public proof of work.</span>
+      </label>
+      <label class="track-quiz__option">
+        <input name="q3" type="radio" value="builder" />
+        <span>Multi-agent orchestration, broader MCP toolchains, and richer automation.</span>
+      </label>
+    </fieldset>
+    <div class="programme-actions">
+      <button class="md-button md-button--primary" id="track-quiz-submit" type="button">See my track</button>
+    </div>
+  </form>
+  <div aria-live="polite" class="feature-card track-quiz__result" id="track-quiz-result">
+    <p class="proof-label" data-result-label>Your recommendation</p>
+    <h3 data-result-title>Intro track</h3>
+    <p class="track-quiz__result-copy" data-result-copy>Start with Intro track if you need the clean foundation: Telegram, VPS, files, documentation, and a public proof-of-work site. Rolling enrolment is open now.</p>
+    <div class="programme-actions">
+      <a class="md-button md-button--primary" data-result-primary href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply for Intro track</a>
+      <a class="md-button" data-result-secondary href="workshops/">View Intro track</a>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("track-quiz");
+  const result = document.getElementById("track-quiz-result");
+  const submit = document.getElementById("track-quiz-submit");
+
+  if (!form || !result || !submit) {
+    return;
+  }
+
+  const label = result.querySelector("[data-result-label]");
+  const title = result.querySelector("[data-result-title]");
+  const copy = result.querySelector("[data-result-copy]");
+  const primary = result.querySelector("[data-result-primary]");
+  const secondary = result.querySelector("[data-result-secondary]");
+
+  const states = {
+    intro: {
+      label: "Best starting point",
+      title: "Intro track",
+      copy: "Start with Intro track if you need the clean foundation: Telegram, VPS, files, documentation, and a public proof-of-work site. Rolling enrolment is open now.",
+      primaryText: "Apply for Intro track",
+      primaryHref: "https://forms.fillout.com/t/3eGJuNKYW3us",
+      secondaryText: "View Intro track",
+      secondaryHref: "workshops/"
+    },
+    builder: {
+      label: "Best next layer",
+      title: "Builder track",
+      copy: "Choose Builder track if your bottleneck is already complexity: multi-agent orchestration, broader MCP toolchains, deployment hygiene, and richer automation. Applications are open now. Orientation is on June 13, 2026, and the official kick-off is on June 15, 2026.",
+      primaryText: "Apply for Builder track",
+      primaryHref: "https://forms.fillout.com/t/mY53Xhjk7zus",
+      secondaryText: "View Builder track",
+      secondaryHref: "builder-track/"
+    }
+  };
+
+  const updateRecommendation = function () {
+    const answers = new FormData(form);
+    let builderCount = 0;
+
+    ["q1", "q2", "q3"].forEach(function (key) {
+      if (answers.get(key) === "builder") {
+        builderCount += 1;
+      }
+    });
+
+    const state = builderCount >= 2 ? states.builder : states.intro;
+
+    label.textContent = state.label;
+    title.textContent = state.title;
+    copy.textContent = state.copy;
+    primary.textContent = state.primaryText;
+    primary.href = state.primaryHref;
+    secondary.textContent = state.secondaryText;
+    secondary.href = state.secondaryHref;
+    result.classList.toggle("track-quiz__result--builder", builderCount >= 2);
+  };
+
+  submit.addEventListener("click", updateRecommendation);
+  form.addEventListener("change", updateRecommendation);
+  updateRecommendation();
+});
+</script>
+
+## What Intro Track Builds First
 
 <div class="programme-panel programme-panel--narrow">
   <ul class="programme-checklist">
@@ -47,6 +169,7 @@ hide:
     <li>A public GitHub Pages site built from Markdown outputs you control</li>
   </ul>
   <p class="programme-note">This is not a course about AI concepts. <br> It is a build environment for people who want one useful owned system, not just familiarity with tools.</p>
+  <p class="programme-note">Builder track builds on this foundation with orchestration, broader toolchains, and more demanding operational practice.</p>
 </div>
 
 ## Why This Is Different
@@ -57,8 +180,8 @@ hide:
     <p>You are not watching videos. You are building infrastructure, shaping an agent, publishing outputs, and learning by shipping.</p>
   </div>
   <div class="programme-card">
-    <h3>Invitation-only, referral-aware</h3>
-    <p>Admission is curated. The workshop is the gateway into a deeper membership layer and the path toward founding status.</p>
+    <h3>Referral-aware</h3>
+    <p>The workshop is open to applicants. Referrals still matter for pricing, progression into the deeper membership layer, and the path toward founding status.</p>
   </div>
   <div class="programme-card">
     <h3>Foundation before sprawl</h3>
@@ -70,38 +193,20 @@ hide:
   </div>
 </div>
 
-## Live Now
+## Also Available
 
 <div class="grid-2">
-  <div class="feature-card">
-    <p class="proof-label">Intro track</p>
-    <h3>Rolling enrolment</h3>
-    <p>The Intro track now runs on rolling enrolment, so you can join any week and work through the four-week build path from Telegram to GitHub Pages. Pricing starts at GBP 86, with standard admission at GBP 199.</p>
-    <a href="workshops/">Explore Intro track</a>
-  </div>
-  <div class="feature-card">
-    <p class="proof-label">Builder track</p>
-    <h3>Advanced continuation</h3>
-    <p>For people ready to go beyond the foundation, the Builder track extends into orchestration, custom toolchains, deployment hygiene, and richer automation.</p>
-    <a href="builder-track/">See Builder track</a>
-  </div>
   <div class="feature-card">
     <p class="proof-label">Pre-bootcamp</p>
     <h3>Warm up before Intro track</h3>
     <p>A lighter starting point for non-technical people who want to get comfortable before the workshop, and a useful primer for people already on the Intro track.</p>
     <a href="https://sicic-org.github.io/pre-bootcamp/">Explore pre-bootcamp</a>
   </div>
-  <!--<div class="feature-card">
-    <p class="proof-label">Member Demos</p>
-    <h3>Build in public</h3>
-    <p>Early founding members are already publishing live pages that show what they built, how they thought, and what their systems actually do.</p>
-    <a href="cohort/">Browse cohort demos</a>
-  </div>-->
   <div class="feature-card">
-    <p class="proof-label">Get involved</p>
-    <h3>Apply now</h3>
-    <p>Complete the workshop, publish your work, and earn your path into the community and founding cohort consideration. Rolling Intro track enrolment starts from GBP 86.</p>
-    <a href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply now</a>
+    <p class="proof-label">Proof of Build</p>
+    <h3>See what members publish</h3>
+    <p>Founding members are already turning workshop work into public demos, live documentation, and reusable agent systems.</p>
+    <a href="cohort/">Browse cohort demos</a>
   </div>
 </div>
 
