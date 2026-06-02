@@ -205,9 +205,9 @@
   <p class="programme-lead">Co-Founding Member benefits (earned via completion):</p>
   <ul class="programme-checklist">
     <li>Lifetime free access to all future workshops</li>
-    <li>Referral power with the GBP 86 tier for your invitees</li>
-    <li>Priority listing on the Pegasi agent platform</li>
-    <li>Founding Member honour board placement</li>
+    <li>Early voice in community culture, standards, and direction</li>
+    <li>Opportunity to shape future workshop formats and contribution paths</li>
+    <li>Priority visibility for member demos, build logs, and public proof of work</li>
   </ul>
 </div>
 

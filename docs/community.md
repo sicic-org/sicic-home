@@ -30,7 +30,7 @@ Founding Cohort membership is:
 - invitation only
 - lifetime access
 - the lowest membership price this community will ever offer
-- help shape the culture and direction of the community
+- a chance to co-build the culture, standards, and direction of the community
 
 As the community grows, the founding rate rises and later members join at higher pricing. This is a structural commitment to the people who were here first.
 
@@ -38,20 +38,20 @@ As the community grows, the founding rate rises and later members join at higher
 
 <div class="grid-2">
   <div class="feature-card">
-    <h3>What founding members get on top</h3>
+    <h3>What founding members help shape</h3>
     <ul>
-      <li>Permanent founding member status on record</li>
       <li>Special founding cohort badge in Discord</li>
       <li>Private founding-member channel in Discord</li>
-      <li>Closer access to shaping early community culture and direction</li>
-      <li>Priority visibility for future co-facilitator and contribution opportunities</li>
+      <li>Early community culture, standards, and direction</li>
+      <li>Workshop formats, member demos, and public build expectations</li>
+      <li>Future co-facilitator and contribution opportunities</li>
     </ul>
   </div>
   <div class="feature-card">
     <h3>Why it matters</h3>
     <ul>
-      <li>Your place remains marked even as the community scales</li>
       <li>You are part of the first layer of trust inside the network</li>
+      <li>You help decide what useful building looks like as the community grows</li>
       <li>You get earlier access to conversations, experiments, and programme evolution</li>
       <li>You help establish the tone for everyone who comes after</li>
     </ul>
@@ -71,9 +71,9 @@ As the community grows, the founding rate rises and later members join at higher
       <li>Full member access across the community</li>
       <li>Special founding cohort badge</li>
       <li>Private founding Discord channel</li>
-      <li>Permanent founding member status</li>
       <li>Substack research notes, build logs, and private thinking</li>
       <li>Q&amp;A sessions, frontier briefings, and beta access</li>
+      <li>Early voice in community direction, workshop evolution, and contribution paths</li>
       <li>Early pathways into Pegasi and Tensorlink opportunities</li>
     </ul>
     <span class="md-button md-button--primary pricing-button pricing-button--disabled-brand">Invitation Only</span>
@@ -89,7 +89,7 @@ As the community grows, the founding rate rises and later members join at higher
 
 ## How Membership Works
 
-Membership is not open for public payment. It is offered only after a participant completes and passes the **Intro Track** workshop, followed by a final review of results.
+Membership is not open for public payment. It is offered only after a participant completes and passes an eligible SICIC workshop track, followed by a final review of results.
 
 If invited, the participant receives a private payment link by email.
 

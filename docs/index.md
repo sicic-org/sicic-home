@@ -11,12 +11,12 @@ hide:
   <p class="programme-kicker">Two build paths</p>
   <h1>Start at the right depth for your AI build.</h1>
   <p class="programme-subhead">
-    SICIC runs two hands-on tracks: Intro for first owned workflows, Builder for orchestration, broader toolchains, and more demanding operational practice.
+    SICIC starts with hands-on workshops. Participants who complete and pass a track can be considered for the membership community, including the limited founding cohort.
   </p>
   <div class="programme-meta">
     <div class="programme-meta__item">
       <strong>Tracks</strong>
-      <span>Intro + Builder</span>
+      <span>Intro · Builder from GBP 86</span>
     </div>
     <div class="programme-meta__item">
       <strong>Format</strong>
@@ -28,14 +28,61 @@ hide:
     </div>
     <div class="programme-meta__item">
       <strong>Outcome</strong>
-      <span>Owned systems, public demos, and a path into membership</span>
+      <span>Workshop completion, community review, membership invitation</span>
     </div>
   </div>
   <div class="programme-actions">
-    <a class="md-button md-button--primary" href="#track-fit">Find your track</a>
+    <a class="md-button md-button--primary" href="#how-it-works">How it works</a>
+    <a class="md-button" href="#track-fit">Find your track</a>
     <a class="md-button" href="cohort/">See member demos</a>
   </div>
 </section>
+
+## How SICIC Works { #how-it-works }
+
+<div class="pathway-strip">
+  <div class="pathway-step">
+    <p class="pathway-step__number">1</p>
+    <h3>Join a workshop track</h3>
+    <p>Start with <a href="https://sicic-org.github.io/pre-bootcamp/">Bootcamp</a> if you want a lighter warm-up, Intro if you need the foundation, or Builder if you are ready for orchestration and stronger operational practice.</p>
+  </div>
+  <div class="pathway-step">
+    <p class="pathway-step__number">2</p>
+    <h3>Complete and pass</h3>
+    <p>Build a working system, publish your proof of work, and show that you can keep building beyond a one-off class.</p>
+  </div>
+  <div class="pathway-step">
+    <p class="pathway-step__number">3</p>
+    <h3>Receive membership review</h3>
+    <p>After completion, selected participants are reviewed for the long-term community membership.</p>
+  </div>
+  <div class="pathway-step pathway-step--featured">
+    <p class="pathway-step__number">4</p>
+    <h3>Enter the founding cohort</h3>
+    <p>Founding membership is limited to 31 people and stays permanently marked as the first layer of the community.</p>
+  </div>
+</div>
+
+<div class="membership-snapshot">
+  <div>
+    <p class="proof-label">Founding Cohort Membership</p>
+    <h2>14 places remain</h2>
+    <p>17 of 31 founding cohort places are already allocated. Membership is offered only after workshop completion and final review.</p>
+    <div class="programme-actions">
+      <a class="md-button md-button--primary" href="community/">View membership page</a>
+    </div>
+  </div>
+  <div class="membership-snapshot__benefits">
+    <h3>Benefits and influence</h3>
+    <ul>
+      <li>Lifetime community access and future workshop access</li>
+      <li>Founding Discord badge and private founding channel</li>
+      <li>Voice in community culture, standards, and direction</li>
+      <li>Opportunity to shape workshop formats and contribution paths</li>
+      <li>Visibility for demos, build logs, and public proof of work</li>
+    </ul>
+  </div>
+</div>
 
 ## Find Your Track { #track-fit }
 
@@ -43,7 +90,10 @@ hide:
   <div class="feature-card track-quiz__intro">
     <p class="proof-label">3 questions</p>
     <h3>Answer three quick questions</h3>
-    <p>Most people should start with Intro track. Builder track is for people whose bottleneck is already complexity: orchestration, toolchain breadth, and stronger operational practice. Builder orientation is on June 13, 2026, with official kick-off on June 15, 2026.</p>
+    <p>Use <a href="https://sicic-org.github.io/pre-bootcamp/">Bootcamp</a> as a warm-up, Intro track for the first owned workflow, and Builder track when your bottleneck is already complexity. Builder orientation is on June 13, 2026, with official kick-off on June 15, 2026.</p>
+    <div class="programme-actions">
+      <a class="md-button" href="https://sicic-org.github.io/pre-bootcamp/">Try Bootcamp</a>
+    </div>
   </div>
   <form class="track-quiz__form" id="track-quiz">
     <fieldset class="track-quiz__question">
@@ -158,19 +208,6 @@ document.addEventListener("DOMContentLoaded", function () {
   updateRecommendation();
 });
 </script>
-
-## What Intro Track Builds First
-
-<div class="programme-panel programme-panel--narrow">
-  <ul class="programme-checklist">
-    <li>A Telegram-connected agent running 24/7 on your own VPS infrastructure</li>
-    <li>A safer Week 1 setup with basic hardening and ownership habits</li>
-    <li>A first agent shaped by workflow design plus <code>SOUL.md</code> and <code>SKILL.md</code></li>
-    <li>A public GitHub Pages site built from Markdown outputs you control</li>
-  </ul>
-  <p class="programme-note">This is not a course about AI concepts. <br> It is a build environment for people who want one useful owned system, not just familiarity with tools.</p>
-  <p class="programme-note">Builder track builds on this foundation with orchestration, broader toolchains, and more demanding operational practice.</p>
-</div>
 
 ## Why This Is Different
 
