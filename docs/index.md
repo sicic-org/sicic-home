@@ -66,8 +66,8 @@ hide:
 <div class="membership-snapshot">
   <div>
     <p class="proof-label">Founding Cohort Membership</p>
-    <h2>14 places remain</h2>
-    <p>17 of 31 founding cohort places are already allocated. Membership is offered only after workshop completion and final review.</p>
+    <h2>13 places remain</h2>
+    <p>18 of 31 founding cohort places are already allocated. Membership is offered only after workshop completion and final review.</p>
     <div class="programme-actions">
       <a class="md-button md-button--primary" href="community/">View membership page</a>
     </div>
@@ -437,6 +437,20 @@ document.addEventListener("DOMContentLoaded", function () {
     <p class="cohort-member-role">Marketing Science &amp; Data Strategy Leader</p>
     <p>Nigel's Agent Lab showcases a multi-agent system for advisory thinking, with Genie and Bin Vader selected as public agents.</p>
     <a href="cohort/shardlow-agents/">View member page</a>
+  </div>
+  <div class="proof-card proof-card--founding">
+    <p class="proof-label">Member Demo</p>
+    <div class="cohort-member-head">
+      <h3>Rachel Pope</h3>
+      <a class="cohort-linkedin" href="https://www.linkedin.com/in/rachel-e-pope/" aria-label="Rachel Pope LinkedIn profile">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
+        </svg>
+      </a>
+    </div>
+    <p class="cohort-member-role">CFO &amp; Finance Leader | Sovereign &amp; Portfolio Finance</p>
+    <p>Rachel's Finance AI Lab explores agent workflows for finance leadership, portfolio analysis, and strategic decision support.</p>
+    <a href="cohort/pope-finance-lab/">View member page</a>
   </div>
   <div class="proof-card proof-card--founding">
     <p class="proof-label">Founding Member</p>
