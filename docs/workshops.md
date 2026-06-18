@@ -29,6 +29,14 @@
   </div>
 </section>
 
+<div class="programme-panel programme-panel--narrow programme-panel--soft cpd-panel">
+  <img class="cpd-member-logo" src="../assets/cpd-member-logo.jpg" alt="CPD Member, The CPD Certification Service">
+  <div>
+    <p class="programme-lead"><strong>CPD status:</strong> SICIC is now officially a CPD Certification Service member (Membership No. 22924).</p>
+    <p class="programme-center">This confirms SICIC's organisational membership.</p>
+  </div>
+</div>
+
 ## What You'll Build
 
 <div class="programme-panel programme-panel--narrow">
@@ -229,6 +237,10 @@
 ## Frequently Asked Questions
 
 <div class="programme-faq-list">
+  <div class="programme-faq">
+    <strong>Q: Are the workshops CPD-certified?</strong>
+    <p>SICIC is now officially a CPD Certification Service member (Membership No. 22924). Individual workshop tracks are not yet course-certified; course materials will be submitted for CPD review after they are finalised.</p>
+  </div>
   <div class="programme-faq">
     <strong>Q: I'm not technical. Can I still do this?</strong>
     <p>Yes. The Intro track is designed for people who are new to agents, servers, or automation and want one concrete first system instead of endless theory.</p>

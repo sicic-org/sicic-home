@@ -38,6 +38,13 @@ hide:
   </div>
 </section>
 
+<div class="programme-panel programme-panel--narrow programme-panel--soft cpd-panel">
+  <img class="cpd-member-logo" src="assets/cpd-member-logo.jpg" alt="CPD Member, The CPD Certification Service">
+  <div>
+    <p class="programme-lead"><strong>CPD status:</strong> SICIC is now officially a CPD Certification Service member (Membership No. 22924).</p>
+  </div>
+</div>
+
 ## How SICIC Works { #how-it-works }
 
 <div class="pathway-strip">

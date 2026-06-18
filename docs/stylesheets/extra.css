@@ -215,6 +215,26 @@
     color: #fff8ea;
 }
 
+.md-typeset .cpd-panel {
+    display: grid;
+    grid-template-columns: 7.5rem minmax(0, 1fr);
+    gap: 1rem;
+    align-items: center;
+}
+
+.md-typeset .cpd-member-logo {
+    display: block;
+    width: 7.5rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.md-typeset .cpd-panel .programme-lead,
+.md-typeset .cpd-panel .programme-center {
+    margin-bottom: 0;
+    text-align: left;
+}
+
 .md-typeset .track-quiz {
     display: grid;
     grid-template-columns: minmax(0, 0.8fr) minmax(360px, 1.35fr);
@@ -344,7 +364,7 @@
 
 .sicic-header__shell {
     display: grid;
-    grid-template-columns: 8.75rem minmax(0, 1fr);
+    grid-template-columns: 8.75rem minmax(0, 1fr) 8.75rem;
     align-items: center;
     gap: 1rem;
     padding: 0.7rem 0 0.95rem;
@@ -366,6 +386,23 @@
     width: 6.6rem;
     height: 6.6rem;
     filter: drop-shadow(0 0.7rem 1.2rem rgba(0, 0, 0, 0.18));
+}
+
+.sicic-header__cpd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: end;
+    width: 7.6rem;
+    min-width: 0;
+    text-decoration: none;
+}
+
+.sicic-header__cpd img {
+    display: block;
+    width: 5.7rem;
+    max-width: 100%;
+    height: auto;
 }
 
 .sicic-header__content {
@@ -1375,7 +1412,7 @@
     }
 
     .sicic-header__shell {
-        grid-template-columns: auto minmax(0, 1fr);
+        grid-template-columns: auto minmax(0, 1fr) auto;
         gap: 0.75rem;
         padding: 0.55rem 0 0.65rem;
     }
@@ -1390,6 +1427,14 @@
     .sicic-header__logo svg {
         width: 3.9rem;
         height: 3.9rem;
+    }
+
+    .sicic-header__cpd {
+        width: 4.5rem;
+    }
+
+    .sicic-header__cpd img {
+        width: 3.8rem;
     }
 
     .sicic-header__title {
@@ -1412,6 +1457,14 @@
 @media screen and (max-width: 60em) {
     .md-typeset .membership-snapshot {
         grid-template-columns: 1fr;
+    }
+
+    .md-typeset .cpd-panel {
+        grid-template-columns: 1fr;
+    }
+
+    .md-typeset .cpd-member-logo {
+        width: 6.5rem;
     }
 
     .md-typeset .track-quiz {
