@@ -363,11 +363,12 @@
 }
 
 .sicic-header__shell {
+    position: relative;
     display: grid;
-    grid-template-columns: 8.75rem minmax(0, 1fr) 8.75rem;
+    grid-template-columns: 8.75rem minmax(0, 1fr);
     align-items: center;
     gap: 1rem;
-    padding: 0.7rem 0 0.95rem;
+    padding: 0.7rem 8.75rem 0.95rem 0;
 }
 
 .sicic-header__logo {
@@ -390,17 +391,20 @@
 
 .sicic-header__cpd {
     display: flex;
+    position: absolute;
+    top: 50%;
+    right: 0;
     align-items: center;
     justify-content: center;
-    justify-self: end;
     width: 7.6rem;
     min-width: 0;
     text-decoration: none;
+    transform: translateY(-50%);
 }
 
 .sicic-header__cpd img {
     display: block;
-    width: 5.7rem;
+    width: 5.4rem;
     max-width: 100%;
     height: auto;
 }
@@ -1412,9 +1416,9 @@
     }
 
     .sicic-header__shell {
-        grid-template-columns: auto minmax(0, 1fr) auto;
+        grid-template-columns: auto minmax(0, 1fr);
         gap: 0.75rem;
-        padding: 0.55rem 0 0.65rem;
+        padding: 0.55rem 4.8rem 0.65rem 0;
     }
 
     .sicic-header__logo {
