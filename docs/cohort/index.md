@@ -266,6 +266,43 @@ Projects are built within a limited timeframe. The focus is on execution, not pe
     <p>A multi-agent lab for marketing science and data strategy, with Genie and Bin Vader selected for the public showcase.</p>
     <div class="cohort-card-actions">
       <a class="md-button md-button--primary" href="shardlow-agents/">Member Page</a>
+      <a class="md-button" href="https://sharkstar-code.github.io/my-zeroclaw-agents/">Demo</a>
+    </div>
+  </div>
+  <div class="proof-card cohort-member-card">
+    <p class="cohort-badge">Founding Cohort</p>
+    <div class="cohort-member-head">
+      <h3>Johannes Erlingsson</h3>
+      <a class="cohort-linkedin" href="https://www.linkedin.com/in/johanneserlingsson/" aria-label="Johannes Erlingsson LinkedIn profile">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
+        </svg>
+      </a>
+    </div>
+    <p class="cohort-member-role">AI Specialist and consultant | Developing GenAI solutions and enabling organisational capability | AI @ Oxford</p>
+    <p class="pricing-meta">agent-character-creator</p>
+    <p>A platform-agnostic skill for turning agent persona design into reusable SOUL, IDENTITY, USER, TOOLS, and ROUTINES files.</p>
+    <div class="cohort-card-actions">
+      <a class="md-button md-button--primary" href="erlingsson-agent-character/">Member Page</a>
+      <a class="md-button" href="https://github.com/urbanmania/skills">Demo</a>
+    </div>
+  </div>
+  <div class="proof-card cohort-member-card">
+    <p class="cohort-badge">Founding Cohort</p>
+    <div class="cohort-member-head">
+      <h3>Berfu Simsek</h3>
+      <a class="cohort-linkedin" href="https://www.linkedin.com/in/berfu-simsek/" aria-label="Berfu Simsek LinkedIn profile">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
+        </svg>
+      </a>
+    </div>
+    <p class="cohort-member-role">Customer Experience &amp; Growth Expert | Senior Business Leader | Non-Executive Director | FMCG &amp; Retail | Circular Economy | Executive MBA</p>
+    <p class="pricing-meta">Priority Task Guide</p>
+    <p>An agent concept for turning instructions into a full to-do list, proposing next steps, and guiding work by urgency.</p>
+    <div class="cohort-card-actions">
+      <a class="md-button md-button--primary" href="simsek-task-agent/">Member Page</a>
+      <a class="md-button" href="https://github.com/brfsm">Demo</a>
     </div>
   </div>
   <div class="proof-card cohort-member-card">

@@ -7,6 +7,9 @@
     <h2>Nigel's Agent Lab</h2>
     <p>A multi-agent lab for marketing science, data strategy, and advisory workflows, with Genie and Bin Vader selected for the public showcase.</p>
   </div>
+  <div class="cohort-demo-actions">
+    <a class="md-button md-button--primary" href="https://sharkstar-code.github.io/my-zeroclaw-agents/">View Live Demo</a>
+  </div>
 </div>
 
 ## Project Snapshot
@@ -66,7 +69,11 @@ For marketing science and data strategy work, that matters: different business q
 
 ## Project Status
 
-The member page is published now. A live project link can be added when the public demo URL is available.
+The member page and public demo are published now.
+
+## Visit the Demo
+
+- [Open Nigel's Agent Lab](https://sharkstar-code.github.io/my-zeroclaw-agents/)
 
 ## Closing Thought
 
