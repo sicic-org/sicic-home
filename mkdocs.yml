@@ -21,6 +21,10 @@ theme:
     - search.suggest
     - search.highlight
 
+plugins:
+  - search
+  - macros
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -72,6 +76,14 @@ nav:
   - Contact: contact.md
 
 extra:
+  # --- Single source of truth for facts shown across pages (do not hardcode these elsewhere) ---
+  founding_total: 31            # total founding-cohort places
+  cpd_membership_no: "22924"    # The CPD Certification Service membership number
+  cpd_courses_accredited: false # GUARD: flip to true ONLY after individual course tracks pass CPD review
+  price_referral: "GBP 86"      # Co-Founding / referral intro-track price
+  price_alumni: "GBP 139"       # alumni-network referral intro-track price
+  price_standard: "GBP 199"     # standard intro-track price
+  scoping_cta: "mailto:publication@sicic.org?subject=Scoping%20call%20request%20%E2%80%94%20For%20Teams"
   analytics:
     provider: google
     property: G-TXWEDLJP1D

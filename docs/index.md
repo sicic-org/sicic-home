@@ -24,7 +24,7 @@ hide:
     </div>
     <div class="programme-meta__item">
       <strong>Entry</strong>
-      <span>Rolling Intro · Builder orientation June 13, 2026</span>
+      <span>Rolling Intro &amp; Builder enrolment, open now</span>
     </div>
     <div class="programme-meta__item">
       <strong>Outcome</strong>
@@ -41,7 +41,7 @@ hide:
 <div class="programme-panel programme-panel--narrow programme-panel--soft cpd-panel">
   <img class="cpd-member-logo" src="assets/cpd-member-logo.jpg" alt="CPD Member, The CPD Certification Service">
   <div>
-    <p class="programme-lead"><strong>CPD status:</strong> SICIC is now officially a CPD Certification Service member (Membership No. 22924).</p>
+    <p class="programme-lead"><strong>CPD status:</strong> SICIC is a member of The CPD Certification Service (Membership No. {{ cpd_membership_no }}).</p>
   </div>
 </div>
 
@@ -66,15 +66,15 @@ hide:
   <div class="pathway-step pathway-step--featured">
     <p class="pathway-step__number">4</p>
     <h3>Enter the founding cohort</h3>
-    <p>Founding membership is limited to 31 people and stays permanently marked as the first layer of the community.</p>
+    <p>Founding membership is limited to {{ founding_total }} people and stays permanently marked as the first layer of the community.</p>
   </div>
 </div>
 
 <div class="membership-snapshot">
   <div>
     <p class="proof-label">Founding Cohort Membership</p>
-    <h2>11 places remain</h2>
-    <p>20 of 31 founding cohort places are already allocated. Membership is offered only after workshop completion and final review.</p>
+    <h2>Limited to {{ founding_total }} places</h2>
+    <p>Founding cohort membership is invitation-only and filling up. Places are offered only after workshop completion and final review.</p>
     <div class="programme-actions">
       <a class="md-button md-button--primary" href="community/">View membership page</a>
     </div>
@@ -97,7 +97,7 @@ hide:
   <div class="feature-card track-quiz__intro">
     <p class="proof-label">3 questions</p>
     <h3>Answer three quick questions</h3>
-    <p>Use <a href="https://sicic-org.github.io/pre-bootcamp/">Bootcamp</a> as a warm-up, Intro track for the first owned workflow, and Builder track when your bottleneck is already complexity. Builder orientation is on June 13, 2026, with official kick-off on June 15, 2026.</p>
+    <p>Use <a href="https://sicic-org.github.io/pre-bootcamp/">Bootcamp</a> as a warm-up, Intro track for the first owned workflow, and Builder track when your bottleneck is already complexity. Builder track enrolment is rolling and open now.</p>
     <div class="programme-actions">
       <a class="md-button" href="https://sicic-org.github.io/pre-bootcamp/">Try Bootcamp</a>
     </div>
@@ -180,7 +180,7 @@ document.addEventListener("DOMContentLoaded", function () {
     builder: {
       label: "Best next layer",
       title: "Builder track",
-      copy: "Choose Builder track if your bottleneck is already complexity: multi-agent orchestration, broader MCP toolchains, deployment hygiene, and richer automation. Applications are open now. Orientation is on June 13, 2026, and the official kick-off is on June 15, 2026.",
+      copy: "Choose Builder track if your bottleneck is already complexity: multi-agent orchestration, broader MCP toolchains, deployment hygiene, and richer automation. Applications are open now on rolling enrolment.",
       primaryText: "Apply for Builder track",
       primaryHref: "https://forms.fillout.com/t/mY53Xhjk7zus",
       secondaryText: "View Builder track",
@@ -259,7 +259,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="grid-3">
   <div class="proof-card">
     <p class="proof-label">Founding Cohort</p>
-    <h3>First 31 builders</h3>
+    <h3>First {{ founding_total }} builders</h3>
     <p>The first members are not just joining a community. They are leaving a public record of what they build.</p>
     <a href="cohort/">See cohort page</a>
   </div>

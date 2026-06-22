@@ -18,7 +18,7 @@ Membership includes:
 - member directory access across cohorts
 - product and framework beta access before public release
 - co-facilitator opportunities for members who want to contribute
-- early pathways into Pegasi and Tensorlink opportunities where relevant
+<!-- - early pathways into Pegasi and Tensorlink opportunities where relevant -->
 
 ## The Founding Cohort
 
@@ -26,7 +26,7 @@ The **Founding Cohort** is the first membership group inside Super Individuals. 
 
 Founding Cohort membership is:
 
-- limited to **31 members**
+- limited to **{{ founding_total }} members**
 - invitation only
 - lifetime access
 - the lowest membership price this community will ever offer
@@ -62,7 +62,7 @@ As the community grows, the founding rate rises and later members join at higher
 
 <div class="pricing-grid">
   <div class="pricing-card pricing-card--featured">
-    <p class="pricing-kicker">First membership tier, 31 seats only</p>
+    <p class="pricing-kicker">First membership tier, {{ founding_total }} seats only</p>
     <h3>Founding Cohort</h3>
     <p class="pricing-price">GBP 49.99 <span>lifetime</span></p>
     <p class="pricing-meta">Invitation-only founding membership with additional founder status and Discord benefits.</p>
@@ -74,7 +74,7 @@ As the community grows, the founding rate rises and later members join at higher
       <li>Substack research notes, build logs, and private thinking</li>
       <li>Q&amp;A sessions, frontier briefings, and beta access</li>
       <li>Early voice in community direction, workshop evolution, and contribution paths</li>
-      <li>Early pathways into Pegasi and Tensorlink opportunities</li>
+      <!-- <li>Early pathways into Pegasi and Tensorlink opportunities</li> -->
     </ul>
     <span class="md-button md-button--primary pricing-button pricing-button--disabled-brand">Invitation Only</span>
   </div>
@@ -93,4 +93,4 @@ Membership is not open for public payment. It is offered only after a participan
 
 If invited, the participant receives a private payment link by email.
 
-The Founding Cohort is available only to selected participants from the earliest workshop cohorts, until all **31** places are filled.
+The Founding Cohort is available only to selected participants from the earliest workshop cohorts, until all **{{ founding_total }}** places are filled.

@@ -6,8 +6,8 @@
   <p class="programme-subhead">Go beyond the first owned agent workflow into orchestration, broader toolchains, and more demanding production use cases.</p>
   <div class="programme-meta">
     <div class="programme-meta__item">
-      <strong>Launch</strong>
-      <span>Orientation June 13 · Kick-off June 15, 2026</span>
+      <strong>Enrolment</strong>
+      <span>Rolling · now running</span>
     </div>
     <div class="programme-meta__item">
       <strong>Focus</strong>
@@ -29,8 +29,8 @@
 </section>
 
 <div class="programme-panel programme-panel--narrow programme-panel--soft">
-  <p class="programme-lead"><strong>Builder track launch dates:</strong> orientation meeting on June 13, 2026, with the official kick-off on June 15, 2026.</p>
-  <p class="programme-center">Applications are already open, so this page now points directly to the live Builder track form.</p>
+  <p class="programme-lead"><strong>Builder track is now running on rolling enrolment.</strong> Apply and join the next live session as you onboard.</p>
+  <p class="programme-center">Applications are open, so this page points directly to the live Builder track form.</p>
 </div>
 
 ## What Builder Track Is For
@@ -121,7 +121,7 @@
 <section class="programme-final-cta programme-final-cta--builder">
   <p class="programme-kicker">Choose the right depth</p>
   <h2>Builder track applications are open now.</h2>
-  <p>If you are already thinking about orchestration, automation sprawl, and stronger operational practice, apply now. Orientation is on June 13, 2026, and the official kick-off is on June 15, 2026. If you still need the clean architecture first, start with Intro track.</p>
+  <p>If you are already thinking about orchestration, automation sprawl, and stronger operational practice, apply now. The Builder track runs on rolling enrolment. If you still need the clean architecture first, start with Intro track.</p>
   <div class="programme-actions">
     <a class="md-button md-button--primary" href="https://forms.fillout.com/t/mY53Xhjk7zus">Apply for Builder track</a>
     <a class="md-button" href="/workshops/">View Intro track</a>

@@ -42,12 +42,12 @@ hide:
   <div class="feature-card">
     <p class="proof-label">Team training</p>
     <h3>Hands-on upskilling</h3>
-    <p>{{TODO: 待业务确认 — cohort-style training for your team: scope, format, duration. Confirm target audience and outcomes before publishing specifics.}}</p>
+    <p>[TODO: 待业务确认 — cohort-style training for your team: scope, format, duration. Confirm target audience and outcomes before publishing specifics.]</p>
   </div>
   <div class="feature-card">
     <p class="proof-label">Build incubation</p>
     <h3>From idea to running system</h3>
-    <p>{{TODO: 待业务确认 — guided build of a production agent system for a defined internal use case. Confirm deliverables and engagement length before publishing specifics.}}</p>
+    <p>[TODO: 待业务确认 — guided build of a production agent system for a defined internal use case. Confirm deliverables and engagement length before publishing specifics.]</p>
   </div>
 </div>
 
@@ -68,7 +68,7 @@ hide:
   </div>
   <div class="programme-card">
     <h3>CPD member organisation</h3>
-    <p>SICIC is a member of The CPD Certification Service (Membership No. 22924).</p>
+    <p>SICIC is a member of The CPD Certification Service (Membership No. {{ cpd_membership_no }}).</p>
   </div>
 </div>
 

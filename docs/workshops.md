@@ -19,7 +19,7 @@
     </div>
     <div class="programme-meta__item">
       <strong>Price</strong>
-      <span>From GBP 86 · Standard GBP 199</span>
+      <span>From {{ price_referral }} · Standard {{ price_standard }}</span>
     </div>
   </div>
   <div class="programme-actions">
@@ -32,7 +32,7 @@
 <div class="programme-panel programme-panel--narrow programme-panel--soft cpd-panel">
   <img class="cpd-member-logo" src="../assets/cpd-member-logo.jpg" alt="CPD Member, The CPD Certification Service">
   <div>
-    <p class="programme-lead"><strong>CPD status:</strong> SICIC is now officially a CPD Certification Service member (Membership No. 22924).</p>
+    <p class="programme-lead"><strong>CPD status:</strong> SICIC is a member of The CPD Certification Service (Membership No. {{ cpd_membership_no }}).</p>
     <p class="programme-center">This confirms SICIC's organisational membership.</p>
   </div>
 </div>
@@ -185,17 +185,17 @@
     <tbody>
       <tr>
         <td><strong>Co-Founding Member Referral</strong></td>
-        <td><span class="programme-price">GBP 86</span></td>
-        <td>Referred by one of 31 Co-Founding Members. Path to lifetime free workshop access if you complete all milestones.</td>
+        <td><span class="programme-price">{{ price_referral }}</span></td>
+        <td>Referred by one of {{ founding_total }} Co-Founding Members. Path to lifetime free workshop access if you complete all milestones.</td>
       </tr>
       <tr>
         <td><strong>Alumni Network Referral</strong></td>
-        <td><span class="programme-price">GBP 139</span></td>
+        <td><span class="programme-price">{{ price_alumni }}</span></td>
         <td>Referred by Oxford Saïd or CEIBS network member. Early pricing. Path to Co-Founding status via completion.</td>
       </tr>
       <tr>
         <td><strong>Standard Admission</strong></td>
-        <td><span class="programme-price">GBP 199</span></td>
+        <td><span class="programme-price">{{ price_standard }}</span></td>
         <td>Open application. Path to Co-Founding status via completion. Lifetime membership regardless of tier.</td>
       </tr>
     </tbody>
@@ -239,7 +239,7 @@
 <div class="programme-faq-list">
   <div class="programme-faq">
     <strong>Q: Are the workshops CPD-certified?</strong>
-    <p>SICIC is now officially a CPD Certification Service member (Membership No. 22924). Individual workshop tracks are not yet course-certified; course materials will be submitted for CPD review after they are finalised.</p>
+    <p>SICIC is a member of The CPD Certification Service (Membership No. {{ cpd_membership_no }}).{% if not cpd_courses_accredited %} This is an organisational membership. Individual workshop tracks are not yet course-certified; course materials will be submitted for CPD review after they are finalised.{% endif %}</p>
   </div>
   <div class="programme-faq">
     <strong>Q: I'm not technical. Can I still do this?</strong>
@@ -262,7 +262,7 @@
 <section class="programme-final-cta" id="apply">
   <p class="programme-kicker">Ready to Build?</p>
   <h2>Start with the Intro track. Then move to Builder track when the foundation is solid.</h2>
-  <p>Rolling enrolment is open now. Pricing starts at GBP 86.</p>
+  <p>Rolling enrolment is open now. Pricing starts at {{ price_referral }}.</p>
   <div class="programme-actions">
     <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply now</a>
     <a class="md-button" href="https://sicic-org.github.io/pre-bootcamp/">Try Bootcamp</a>
