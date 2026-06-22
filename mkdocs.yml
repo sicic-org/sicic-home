@@ -49,6 +49,7 @@ nav:
   - Workshops:
       - Intro track: workshops.md
       - Builder track: builder-track.md
+  - For Teams: teams.md
   - Cohort:
       - Overview: cohort/index.md
       - ZeroClaw Agents: cohort/goldfield-zeroclaw.md
