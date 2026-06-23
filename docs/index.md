@@ -15,7 +15,7 @@ hide:
   <div class="programme-meta">
     <div class="programme-meta__item">
       <strong>Tracks</strong>
-      <span>Intro · Builder from GBP 86</span>
+      <span>Intro · Builder from {{ price_referral }}</span>
     </div>
     <div class="programme-meta__item">
       <strong>Format</strong>
@@ -34,7 +34,7 @@ hide:
     <a class="md-button md-button--primary" href="#how-it-works">How it works</a>
     <a class="md-button" href="#track-fit">Find your track</a>
     <a class="md-button" href="cohort/">See member demos</a>
-    <a class="md-button" href="https://learn.sicic.org/">Start free</a>
+    <a class="md-button" href="https://learn.sicic.org/" data-evt="start_free_click" data-evt-location="hero">Start free</a>
   </div>
 </section>
 
@@ -51,7 +51,7 @@ hide:
   <div class="pathway-step">
     <p class="pathway-step__number">1</p>
     <h3>Join a workshop track</h3>
-    <p>Start with <a href="https://learn.sicic.org/">Bootcamp</a> if you want a lighter warm-up, Intro if you need the foundation, or Builder if you are ready for orchestration and stronger operational practice.</p>
+    <p>Start with the <a href="https://learn.sicic.org/">free starter</a> if you want a lighter warm-up, Intro if you need the foundation, or Builder if you are ready for orchestration and stronger operational practice.</p>
   </div>
   <div class="pathway-step">
     <p class="pathway-step__number">2</p>
@@ -97,9 +97,9 @@ hide:
   <div class="feature-card track-quiz__intro">
     <p class="proof-label">3 questions</p>
     <h3>Answer three quick questions</h3>
-    <p>Use <a href="https://learn.sicic.org/">Bootcamp</a> as a warm-up, Intro track for the first owned workflow, and Builder track when your bottleneck is already complexity. Builder track enrolment is rolling and open now.</p>
+    <p>Use the <a href="https://learn.sicic.org/">free starter</a> as a warm-up, Intro track for the first owned workflow, and Builder track when your bottleneck is already complexity. Builder track enrolment is rolling and open now.</p>
     <div class="programme-actions">
-      <a class="md-button" href="https://learn.sicic.org/">Try Bootcamp</a>
+      <a class="md-button" href="https://learn.sicic.org/">Start free</a>
     </div>
   </div>
   <form class="track-quiz__form" id="track-quiz">
@@ -145,7 +145,7 @@ hide:
     <h3 data-result-title>Intro track</h3>
     <p class="track-quiz__result-copy" data-result-copy>Start with Intro track if you need the clean foundation: Telegram, VPS, files, documentation, and a public proof-of-work site. Rolling enrolment is open now.</p>
     <div class="programme-actions">
-      <a class="md-button md-button--primary" data-result-primary href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply for Intro track</a>
+      <a class="md-button md-button--primary" data-result-primary href="https://forms.fillout.com/t/3eGJuNKYW3us" data-evt="apply_click" data-evt-label="intro">Apply for Intro track</a>
       <a class="md-button" data-result-secondary href="workshops/">View Intro track</a>
     </div>
   </div>
@@ -205,6 +205,7 @@ document.addEventListener("DOMContentLoaded", function () {
     copy.textContent = state.copy;
     primary.textContent = state.primaryText;
     primary.href = state.primaryHref;
+    primary.setAttribute("data-evt-label", builderCount >= 2 ? "builder" : "intro");
     secondary.textContent = state.secondaryText;
     secondary.href = state.secondaryHref;
     result.classList.toggle("track-quiz__result--builder", builderCount >= 2);
@@ -244,7 +245,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <p class="proof-label">Free · no payment</p>
     <h3>Start free</h3>
     <p>Not ready to pay? Take the first concrete step toward an owned AI agent at your own pace, with our free starter on learn.sicic.org.</p>
-    <a href="https://learn.sicic.org/">Start free</a>
+    <a href="https://learn.sicic.org/" data-evt="start_free_click" data-evt-location="home_card">Start free</a>
   </div>
   <div class="feature-card">
     <p class="proof-label">Proof of Build</p>
@@ -256,41 +257,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ## Founding Member Demos
 
+These are real systems founding members built during the workshop — each one solving a concrete problem in their own field.
+
 <div class="grid-3">
-  <div class="proof-card">
-    <p class="proof-label">Founding Cohort</p>
-    <h3>First {{ founding_total }} builders</h3>
-    <p>The first members are not just joining a community. They are leaving a public record of what they build.</p>
-    <a href="cohort/">See cohort page</a>
-  </div>
-  <div class="proof-card proof-card--founding">
-    <p class="proof-label">Member Demo</p>
-    <div class="cohort-member-head">
-      <h3>Gemma Oldfield</h3>
-      <a class="cohort-linkedin" href="https://www.linkedin.com/in/gemma-oldfield-680b342b/" aria-label="Gemma Oldfield LinkedIn profile">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
-        </svg>
-      </a>
-    </div>
-    <p class="cohort-member-role">Masters AI for Business Oxford | Software Delivery </p>
-    <p>ZeroClaw Agents is one of the first founding cohort demos now live.</p>
-    <a href="cohort/goldfield-zeroclaw/">View member page</a>
-  </div>
-  <div class="proof-card proof-card--founding">
-    <p class="proof-label">Member Demo</p>
-    <div class="cohort-member-head">
-      <h3>Mafalda Patricio</h3>
-      <a class="cohort-linkedin" href="https://www.linkedin.com/in/mafaldaiapatricio/" aria-label="Mafalda Patricio LinkedIn profile">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
-        </svg>
-      </a>
-    </div>
-    <p class="cohort-member-role">Transforming the UK Comms,Media&HighTech @Salesforce</p>
-    <p>Mafalda's Digital Lab and Nova show how founding members are building owned AI systems with clear operational roles.</p>
-    <a href="cohort/patricio-zeroclaw/">View member page</a>
-  </div>
   <div class="proof-card proof-card--founding">
     <p class="proof-label">Member Demo</p>
     <div class="cohort-member-head">
@@ -302,134 +271,8 @@ document.addEventListener("DOMContentLoaded", function () {
       </a>
     </div>
     <p class="cohort-member-role">AI, Blockchain, Full-Stack Developer</p>
-    <p>HackStudio Pro turns research, scripting, and rendering into a code-driven bilingual video production system.</p>
+    <p><strong>HackStudio Pro</strong> — an AI video-production studio that turns research into broadcast-ready YouTube documentaries in two languages, all from a single codebase.</p>
     <a href="cohort/shu-hackstudio-pro/">View member page</a>
-  </div>
-  <div class="proof-card proof-card--founding">
-    <p class="proof-label">Member Demo</p>
-    <div class="cohort-member-head">
-      <h3>Yiwen Tuo</h3>
-      <a class="cohort-linkedin" href="https://www.linkedin.com/in/yiwen-tuo-646243342/" aria-label="Yiwen Tuo LinkedIn profile">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
-        </svg>
-      </a>
-    </div>
-    <p class="cohort-member-role">PhD Candidate | Visiting Researcher @ Trinity College Dublin</p>
-    <p>Paper Party turns paper upload into discovery, mapped literature context, and academic dialogue.</p>
-    <a href="cohort/tuo-paper-party/">View member page</a>
-  </div>
-  <div class="proof-card proof-card--founding">
-    <p class="proof-label">Member Demo</p>
-    <div class="cohort-member-head">
-      <h3>Jaidev Venkatesan</h3>
-      <a class="cohort-linkedin" href="https://www.linkedin.com/in/jaidev-venkatesan-11190012" aria-label="Jaidev Venkatesan LinkedIn profile">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
-        </svg>
-      </a>
-    </div>
-    <p class="cohort-member-role">Senior Manager | Enabling Data & AI Governance</p>
-    <p>My ZeroClaw Lab shows how Nova can turn YouTube search, MCP tools, and Telegram delivery into a focused content intelligence workflow.</p>
-    <a href="cohort/venkatesan-zeroclaw/">View member page</a>
-  </div>
-  <div class="proof-card proof-card--founding">
-    <p class="proof-label">Member Demo</p>
-    <div class="cohort-member-head">
-      <h3>Gigi Palma</h3>
-      <a class="cohort-linkedin" href="https://www.linkedin.com/in/gigirodriguezpalma/" aria-label="Gigi Palma LinkedIn profile">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
-        </svg>
-      </a>
-    </div>
-    <p class="cohort-member-role">Strategic Program &amp; Transformation Leader | Oxford MSc</p>
-    <p>Gp's ZeroClaw Lab documents Nova's design, weekly lessons, and an early real estate analyzer build.</p>
-    <a href="cohort/palma-zeroclaw/">View member page</a>
-  </div>
-  <div class="proof-card proof-card--founding">
-    <p class="proof-label">Member Demo</p>
-    <div class="cohort-member-head">
-      <h3>Bruno Chikeka</h3>
-      <a class="cohort-linkedin" href="https://www.linkedin.com/in/brunochikeka/" aria-label="Bruno Chikeka LinkedIn profile">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
-        </svg>
-      </a>
-    </div>
-    <p class="cohort-member-role">AI x Infrastructure x Institutional Design | MSc Oxford Said</p>
-    <p>Bruno's Bricolage Lab turns free-tier discovery, resource verification, and agent coordination into a reusable build protocol.</p>
-    <a href="cohort/chikeka-bricolage/">View member page</a>
-  </div>
-  <div class="proof-card proof-card--founding">
-    <p class="proof-label">Member Demo</p>
-    <div class="cohort-member-head">
-      <h3>Luis Loio</h3>
-      <a class="cohort-linkedin" href="https://www.linkedin.com/in/luis-loio/" aria-label="Luis Loio LinkedIn profile">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
-        </svg>
-      </a>
-    </div>
-    <p class="cohort-member-role">Consulting | Treasury &amp; Investments | Oxford EMBA</p>
-    <p>Luis'ZeroClaw Lab is live as an early scaffold, with the architecture, troubleshooting, and showcase structure already in place.</p>
-    <a href="cohort/loio-zeroclaw/">View member page</a>
-  </div>
-  <div class="proof-card proof-card--founding">
-    <p class="proof-label">Member Demo</p>
-    <div class="cohort-member-head">
-      <h3>Charlotte Luzuka</h3>
-      <a class="cohort-linkedin" href="https://www.linkedin.com/in/charlotte-luzuka" aria-label="Charlotte Luzuka LinkedIn profile">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
-        </svg>
-      </a>
-    </div>
-    <p class="cohort-member-role">Senior PM | Angel Investor | Digital Health &amp; Innovation Leader</p>
-    <p>CHIP turns player context and short clips into focused coaching priorities and 4-week improvement plans.</p>
-    <a href="cohort/luzuka-chip/">View member page</a>
-  </div>
-  <div class="proof-card proof-card--founding">
-    <p class="proof-label">Member Demo</p>
-    <div class="cohort-member-head">
-      <h3>Jamaal Linton</h3>
-      <a class="cohort-linkedin" href="https://www.linkedin.com/in/jamaal-linton-13b242b0" aria-label="Jamaal Linton LinkedIn profile">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
-        </svg>
-      </a>
-    </div>
-    <p class="cohort-member-role">Sales Engineer | Datasite</p>
-    <p>J's ZeroClaw Lab shows the full journey from first server setup to a deployed Nova workflow with real troubleshooting along the way.</p>
-    <a href="cohort/linton-zeroclaw/">View member page</a>
-  </div>
-  <div class="proof-card proof-card--founding">
-    <p class="proof-label">Member Demo</p>
-    <div class="cohort-member-head">
-      <h3>Dr. Vivek Kumar</h3>
-      <a class="cohort-linkedin" href="https://www.linkedin.com/in/vivek-kumar-phd-44011683/" aria-label="Dr. Vivek Kumar LinkedIn profile">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
-        </svg>
-      </a>
-    </div>
-    <p class="cohort-member-role">Research Scientist | AI &amp; Mental Health</p>
-    <p>NewsAware turns sentiment analysis and evidence checking into a focused newsroom agent for credibility-sensitive public claims.</p>
-    <a href="cohort/kumar-newsaware/">View member page</a>
-  </div>
-  <div class="proof-card proof-card--founding">
-    <p class="proof-label">Member Demo</p>
-    <div class="cohort-member-head">
-      <h3>Lucile Ripa</h3>
-      <a class="cohort-linkedin" href="https://www.linkedin.com/in/lucileripa/" aria-label="Lucile Ripa LinkedIn profile">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
-        </svg>
-      </a>
-    </div>
-    <p class="cohort-member-role">CEO &amp; Founder @FanePath AI</p>
-    <p>FanePath AI Lab explores AI visibility for brands through practical ZeroClaw workflows and brand-facing agent systems.</p>
-    <a href="cohort/ripa-fanepath/">View member page</a>
   </div>
   <div class="proof-card proof-card--founding">
     <p class="proof-label">Member Demo</p>
@@ -442,8 +285,22 @@ document.addEventListener("DOMContentLoaded", function () {
       </a>
     </div>
     <p class="cohort-member-role">Marketing Science &amp; Data Strategy Leader</p>
-    <p>Nigel's Agent Lab showcases a multi-agent system for advisory thinking, with Genie and Bin Vader selected as public agents.</p>
+    <p><strong>Nigel's Agent Lab</strong> — a multi-agent lab for marketing science and advisory work, with two agents picked out for a public showcase of how they reason and advise.</p>
     <a href="cohort/shardlow-agents/">View member page</a>
+  </div>
+  <div class="proof-card proof-card--founding">
+    <p class="proof-label">Member Demo</p>
+    <div class="cohort-member-head">
+      <h3>Bruno Chikeka</h3>
+      <a class="cohort-linkedin" href="https://www.linkedin.com/in/brunochikeka/" aria-label="Bruno Chikeka LinkedIn profile">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
+        </svg>
+      </a>
+    </div>
+    <p class="cohort-member-role">AI x Infrastructure x Institutional Design | MSc Oxford Saïd</p>
+    <p><strong>Bruno's Bricolage Lab</strong> — assembles free-tier tools into working results across different domains, with a repeatable build protocol and a public troubleshooting log.</p>
+    <a href="cohort/chikeka-bricolage/">View member page</a>
   </div>
   <div class="proof-card proof-card--founding">
     <p class="proof-label">Member Demo</p>
@@ -456,61 +313,37 @@ document.addEventListener("DOMContentLoaded", function () {
       </a>
     </div>
     <p class="cohort-member-role">AI Specialist and consultant | GenAI solutions</p>
-    <p>agent-character-creator turns reusable agent personas into structured SOUL, IDENTITY, USER, TOOLS, and ROUTINES files.</p>
+    <p><strong>agent-character-creator</strong> — a platform-agnostic tool for defining reusable AI agent personas as structured, version-controlled files instead of ad-hoc prompts.</p>
     <a href="cohort/erlingsson-agent-character/">View member page</a>
   </div>
   <div class="proof-card proof-card--founding">
     <p class="proof-label">Member Demo</p>
     <div class="cohort-member-head">
-      <h3>Berfu Simsek</h3>
-      <a class="cohort-linkedin" href="https://www.linkedin.com/in/berfu-simsek/" aria-label="Berfu Simsek LinkedIn profile">
+      <h3>Gemma Oldfield</h3>
+      <a class="cohort-linkedin" href="https://www.linkedin.com/in/gemma-oldfield-680b342b/" aria-label="Gemma Oldfield LinkedIn profile">
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
         </svg>
       </a>
     </div>
-    <p class="cohort-member-role">Customer Experience &amp; Growth Expert</p>
-    <p>Priority Task Guide organises instructions into a full to-do list, proposes next steps, and guides work by urgency.</p>
-    <a href="cohort/simsek-task-agent/">View member page</a>
+    <p class="cohort-member-role">Masters AI for Business Oxford | Software Delivery</p>
+    <p><strong>My Digital Lab</strong> — a working space for designing, testing, and refining agent-driven workflows that turn thinking into repeatable action.</p>
+    <a href="cohort/goldfield-zeroclaw/">View member page</a>
   </div>
-  <div class="proof-card proof-card--founding">
-    <p class="proof-label">Member Demo</p>
-    <div class="cohort-member-head">
-      <h3>Rachel Pope</h3>
-      <a class="cohort-linkedin" href="https://www.linkedin.com/in/rachel-e-pope/" aria-label="Rachel Pope LinkedIn profile">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
-        </svg>
-      </a>
-    </div>
-    <p class="cohort-member-role">CFO &amp; Finance Leader | Sovereign &amp; Portfolio Finance</p>
-    <p>Rachel's Finance AI Lab explores agent workflows for finance leadership, portfolio analysis, and strategic decision support.</p>
-    <a href="cohort/pope-finance-lab/">View member page</a>
-  </div>
-  <div class="proof-card proof-card--founding">
-    <p class="proof-label">Founding Member</p>
-    <div class="cohort-member-head">
-      <h3>Ilija Tozija</h3>
-      <a class="cohort-linkedin" href="https://www.linkedin.com/in/ilijatozija/" aria-label="Ilija Tozija LinkedIn profile">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V9.67H5.9V17H8.34M7.12 8.66A1.41 1.41 0 1 0 7.12 5.84A1.41 1.41 0 0 0 7.12 8.66M18.1 17V12.96C18.1 10.8 16.95 9.53 15.42 9.53C14.19 9.53 13.64 10.21 13.33 10.69V9.67H10.89C10.92 10.35 10.89 17 10.89 17H13.33V12.91C13.33 12.69 13.35 12.47 13.41 12.31C13.58 11.87 13.97 11.41 14.6 11.41C15.42 11.41 15.75 12.03 15.75 12.94V17H18.1Z"/>
-        </svg>
-      </a>
-    </div>
-    <p class="cohort-member-role">Infrastructure &amp; Energy | Risk, Governance &amp; Economics</p>
-    <p>Ilija is part of the founding cohort. Public project documentation will be added when his build is ready to publish.</p>
-    <a href="cohort/tozija-profile/">View member page</a>
-  </div>
+</div>
+
+<div class="programme-actions programme-actions--center">
+  <a class="md-button" href="cohort/">Browse all {{ founding_total }} member demos</a>
 </div>
 
 <section class="cta-panel">
   <div>
     <p class="landing-kicker">Next Step</p>
     <h2>Join the Intro track on rolling enrolment. Build your agent, document it, and earn your path into the founding cohort.</h2>
-    <p>Selected participants may be invited into the membership community, including the first 31 founding cohort places. Pricing starts at GBP 86.</p>
+    <p>Selected participants may be invited into the membership community, including the first {{ founding_total }} founding cohort places. Pricing starts at {{ price_referral }}.</p>
   </div>
   <div class="cta-panel__actions">
-    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply for Intro track</a>
+    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us" data-evt="apply_click" data-evt-label="intro">Apply for Intro track</a>
     <a class="md-button" href="workshops/">View Intro track</a>
   </div>
 </section>

@@ -14,7 +14,7 @@ hide:
     Super Individuals CIC runs hands-on programmes that take a team from idea to a running, governed agent system, training your people on the way through. We focus on systems that actually run, not slideware.
   </p>
   <div class="programme-actions">
-    <a class="md-button md-button--primary" href="mailto:publication@sicic.org?subject=Scoping%20call%20request%20%E2%80%94%20For%20Teams">Book a scoping call</a>
+    <a class="md-button md-button--primary" href="mailto:publication@sicic.org?subject=Scoping%20call%20request%20%E2%80%94%20For%20Teams" data-evt="scoping_call_click" data-evt-location="teams_hero">Book a scoping call</a>
     <a class="md-button" href="#teams-how">How engagements work</a>
   </div>
 </section>
@@ -77,7 +77,7 @@ hide:
 <div class="programme-panel programme-panel--narrow programme-panel--soft">
   <p class="programme-lead">Our community members publish working agent systems as public demos. See what individuals build through the same hands-on methods we bring to teams.</p>
   <div class="programme-actions programme-actions--center">
-    <a class="md-button" href="../community/">See member demos</a>
+    <a class="md-button" href="../cohort/">See member demos</a>
   </div>
 </div>
 
@@ -88,6 +88,6 @@ hide:
     <p>Book a scoping call and we will map the right training or build engagement for your team.</p>
   </div>
   <div class="cta-panel__actions">
-    <a class="md-button md-button--primary" href="mailto:publication@sicic.org?subject=Scoping%20call%20request%20%E2%80%94%20For%20Teams">Book a scoping call</a>
+    <a class="md-button md-button--primary" href="mailto:publication@sicic.org?subject=Scoping%20call%20request%20%E2%80%94%20For%20Teams" data-evt="scoping_call_click" data-evt-location="teams_cta">Book a scoping call</a>
   </div>
 </section>

@@ -27,7 +27,7 @@ description: SICIC Builder track — go beyond your first agent into multi-agent
     </div>
   </div>
   <div class="programme-actions">
-    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/mY53Xhjk7zus">Apply for Builder track</a>
+    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/mY53Xhjk7zus" data-evt="apply_click" data-evt-label="builder">Apply for Builder track</a>
     <a class="md-button" href="/workshops/">Start with Intro track</a>
   </div>
 </section>
@@ -127,7 +127,7 @@ description: SICIC Builder track — go beyond your first agent into multi-agent
   <h2>Builder track applications are open now.</h2>
   <p>If you are already thinking about orchestration, automation sprawl, and stronger operational practice, apply now. The Builder track runs on rolling enrolment. If you still need the clean architecture first, start with Intro track.</p>
   <div class="programme-actions">
-    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/mY53Xhjk7zus">Apply for Builder track</a>
+    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/mY53Xhjk7zus" data-evt="apply_click" data-evt-label="builder">Apply for Builder track</a>
     <a class="md-button" href="/workshops/">View Intro track</a>
   </div>
 </section>

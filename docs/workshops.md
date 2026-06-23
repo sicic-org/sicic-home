@@ -27,8 +27,8 @@ description: SICIC Intro track — build a real, owned AI agent in four weeks (V
     </div>
   </div>
   <div class="programme-actions">
-    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply now</a>
-    <a class="md-button" href="https://learn.sicic.org/">Bootcamp</a>
+    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us" data-evt="apply_click" data-evt-label="intro">Apply now</a>
+    <a class="md-button" href="https://learn.sicic.org/">Start free</a>
     <a class="md-button" href="/builder-track/">View Builder track</a>
   </div>
 </section>
@@ -171,7 +171,7 @@ description: SICIC Intro track — build a real, owned AI agent in four weeks (V
   </div>
   <div class="programme-card">
     <h3>Next step</h3>
-    <p><a href="https://forms.fillout.com/t/mY53Xhjk7zus">Apply for Builder track</a> if your questions are already moving beyond a first owned agent workflow.</p>
+    <p><a href="https://forms.fillout.com/t/mY53Xhjk7zus" data-evt="apply_click" data-evt-label="builder">Apply for Builder track</a> if your questions are already moving beyond a first owned agent workflow.</p>
   </div>
 </div>
 
@@ -261,8 +261,8 @@ description: SICIC Intro track — build a real, owned AI agent in four weeks (V
   <h2>Start with the Intro track. Then move to Builder track when the foundation is solid.</h2>
   <p>Rolling enrolment is open now. Pricing starts at {{ price_referral }}.</p>
   <div class="programme-actions">
-    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply now</a>
-    <a class="md-button" href="https://learn.sicic.org/">Try Bootcamp</a>
-    <a class="md-button" href="https://forms.fillout.com/t/mY53Xhjk7zus">Apply for Builder track</a>
+    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us" data-evt="apply_click" data-evt-label="intro">Apply now</a>
+    <a class="md-button" href="https://learn.sicic.org/">Start free</a>
+    <a class="md-button" href="https://forms.fillout.com/t/mY53Xhjk7zus" data-evt="apply_click" data-evt-label="builder">Apply for Builder track</a>
   </div>
 </section>

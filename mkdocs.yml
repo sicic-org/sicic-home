@@ -39,6 +39,9 @@ extra_templates:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/analytics-events.js
+
 not_in_nav: |
   partners.md
   cohort/index.md
@@ -86,6 +89,20 @@ extra:
   analytics:
     provider: google
     property: G-TXWEDLJP1D
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to measure how visitors use this site, through Google
+      Analytics, so we can improve it. You can accept or reject these analytics
+      cookies, and change your choice at any time.
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: false
+    actions:
+      - accept
+      - reject
+      - manage
   social:
     # - icon: fontawesome/brands/github
     #   link: https://github.com/sicic-org

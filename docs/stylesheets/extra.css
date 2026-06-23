@@ -1477,10 +1477,34 @@
 
     .sicic-header__menu {
         display: inline-flex;
+        margin-left: auto;
+    }
+
+    /* Custom nav becomes a tap-to-open dropdown on mobile, driven by the
+       existing hamburger (#__drawer). It also carries the Start Free CTA. */
+    .sicic-nav {
+        display: none;
+        grid-column: 1 / -1;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        gap: 1.1rem;
+        width: 100%;
+        margin-top: 0.7rem;
+        padding-top: 0.85rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    #__drawer:checked ~ .sicic-header .sicic-nav {
+        display: flex;
+    }
+
+    .sicic-nav__cta {
         margin-left: 0;
     }
 
-    .sicic-nav {
+    /* Our custom nav replaces Material's primary drawer on mobile. */
+    .md-sidebar--primary {
         display: none;
     }
 

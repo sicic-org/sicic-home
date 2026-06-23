@@ -18,7 +18,7 @@ Projects are built within a limited timeframe. The focus is on execution, not pe
   <div class="proof-card">
     <p class="proof-label">Membership Tier</p>
     <h3>Founding Cohort</h3>
-    <p>The first 31 members of the community.</p>
+    <p>The first {{ founding_total }} members of the community.</p>
   </div>
   <div class="proof-card">
     <p class="proof-label">What Matters</p>
@@ -344,4 +344,4 @@ Projects are built within a limited timeframe. The focus is on execution, not pe
 
 ## What These Pages Show
 
-Each founding cohort card is designed to scale as more demos are published. Over time this page will become a compact public record of what the first **31 members** built.
+Each founding cohort card is designed to scale as more demos are published. Over time this page will become a compact public record of what the first **{{ founding_total }} members** built.
