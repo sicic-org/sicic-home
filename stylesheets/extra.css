@@ -392,15 +392,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 4.9rem;
-    min-width: 0;
+    align-self: center;
     margin-left: auto;
+    min-width: 0;
+    padding: 0.35rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.22);
     text-decoration: none;
+    transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.sicic-header__cpd:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 0.6rem 1.3rem rgba(0, 0, 0, 0.28);
 }
 
 .sicic-header__cpd img {
     display: block;
-    width: 4.6rem;
+    width: 3.2rem;
     max-width: 100%;
     height: auto;
 }
@@ -477,6 +487,29 @@
 .sicic-nav__link--active::after,
 .sicic-nav__link:hover::after {
     background: var(--sicic-gold);
+}
+
+.sicic-nav__cta {
+    display: inline-flex;
+    align-items: center;
+    margin-left: auto;
+    padding: 0.42rem 0.95rem;
+    border-radius: 999px;
+    background: var(--sicic-gold);
+    color: #1a1a1a;
+    font-size: 0.98rem;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.18);
+    transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
+}
+
+.sicic-nav__cta:hover {
+    color: #1a1a1a;
+    filter: brightness(1.05);
+    transform: translateY(-1px);
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.24);
 }
 
 .landing-page {
@@ -743,6 +776,10 @@
     flex-wrap: wrap;
     gap: 0.8rem;
     margin-top: 1.3rem;
+}
+
+.md-typeset .programme-actions--center {
+    justify-content: center;
 }
 
 .md-typeset .programme-hero .md-button,
@@ -1431,11 +1468,7 @@
     }
 
     .sicic-header__cpd {
-        width: 3.9rem;
-    }
-
-    .sicic-header__cpd img {
-        width: 3.5rem;
+        display: none;
     }
 
     .sicic-header__title {
@@ -1444,10 +1477,34 @@
 
     .sicic-header__menu {
         display: inline-flex;
+        margin-left: auto;
+    }
+
+    /* Custom nav becomes a tap-to-open dropdown on mobile, driven by the
+       existing hamburger (#__drawer). It also carries the Start Free CTA. */
+    .sicic-nav {
+        display: none;
+        grid-column: 1 / -1;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        gap: 1.1rem;
+        width: 100%;
+        margin-top: 0.7rem;
+        padding-top: 0.85rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    #__drawer:checked ~ .sicic-header .sicic-nav {
+        display: flex;
+    }
+
+    .sicic-nav__cta {
         margin-left: 0;
     }
 
-    .sicic-nav {
+    /* Our custom nav replaces Material's primary drawer on mobile. */
+    .md-sidebar--primary {
         display: none;
     }
 
