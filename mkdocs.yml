@@ -41,7 +41,25 @@ extra_css:
 
 not_in_nav: |
   partners.md
+  cohort/index.md
   cohort/intro-batch-1.md
+  cohort/goldfield-zeroclaw.md
+  cohort/patricio-zeroclaw.md
+  cohort/shu-hackstudio-pro.md
+  cohort/tuo-paper-party.md
+  cohort/venkatesan-zeroclaw.md
+  cohort/palma-zeroclaw.md
+  cohort/chikeka-bricolage.md
+  cohort/loio-zeroclaw.md
+  cohort/luzuka-chip.md
+  cohort/linton-zeroclaw.md
+  cohort/ripa-fanepath.md
+  cohort/kumar-newsaware.md
+  cohort/shardlow-agents.md
+  cohort/erlingsson-agent-character.md
+  cohort/simsek-task-agent.md
+  cohort/pope-finance-lab.md
+  cohort/tozija-profile.md
   privacy-policy.md
   refund-policy.md
   terms-of-service.md
@@ -54,25 +72,6 @@ nav:
       - Intro track: workshops.md
       - Builder track: builder-track.md
   - For Teams: teams.md
-  - Cohort:
-      - Overview: cohort/index.md
-      - ZeroClaw Agents: cohort/goldfield-zeroclaw.md
-      - Mafalda's Digital Lab: cohort/patricio-zeroclaw.md
-      - HackStudio Pro: cohort/shu-hackstudio-pro.md
-      - Paper Party: cohort/tuo-paper-party.md
-      - My ZeroClaw Lab: cohort/venkatesan-zeroclaw.md
-      - Gp's ZeroClaw Lab: cohort/palma-zeroclaw.md
-      - Bruno's Bricolage Lab: cohort/chikeka-bricolage.md
-      - Luis'ZeroClaw Lab: cohort/loio-zeroclaw.md
-      - CHIP — Charlie's Padel Coach: cohort/luzuka-chip.md
-      - J's ZeroClaw Lab: cohort/linton-zeroclaw.md
-      - FanePath AI Lab: cohort/ripa-fanepath.md
-      - NewsAware: cohort/kumar-newsaware.md
-      - Nigel's Agent Lab: cohort/shardlow-agents.md
-      - agent-character-creator: cohort/erlingsson-agent-character.md
-      - Priority Task Guide: cohort/simsek-task-agent.md
-      - Rachel's Finance AI Lab: cohort/pope-finance-lab.md
-      - Ilija Tozija: cohort/tozija-profile.md
   - Contact: contact.md
 
 extra:

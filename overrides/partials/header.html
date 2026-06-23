@@ -22,6 +22,17 @@ endmacro %}
                 >
                     {{ config.site_name }}
                 </a>
+                <a
+                    href="{{ 'about/' | url }}"
+                    class="sicic-header__cpd"
+                    aria-label="SICIC CPD Certification Service member status"
+                >
+                    <img
+                        src="{{ 'assets/cpd-member-logo.jpg' | url }}"
+                        alt="CPD Member, The CPD Certification Service"
+                        width="92"
+                    />
+                </a>
                 <label
                     class="md-header__button md-icon sicic-header__menu"
                     for="__drawer"
@@ -39,26 +50,13 @@ endmacro %}
                     {{ nav_item.title }}
                 </a>
                 {% endfor %}
+                <a
+                    href="https://learn.sicic.org/"
+                    class="sicic-nav__cta"
+                >
+                    Start Free
+                </a>
             </nav>
-        </div>
-        <div class="sicic-header__aside">
-            <a
-                href="{{ 'about/' | url }}"
-                class="sicic-header__cpd"
-                aria-label="SICIC CPD Certification Service member status"
-            >
-                <img
-                    src="{{ 'assets/cpd-member-logo.jpg' | url }}"
-                    alt="CPD Member, The CPD Certification Service"
-                    width="92"
-                />
-            </a>
-            <a
-                href="https://learn.sicic.org/"
-                class="sicic-nav__cta sicic-header__cta"
-            >
-                Start Free
-            </a>
         </div>
     </div>
 </header>

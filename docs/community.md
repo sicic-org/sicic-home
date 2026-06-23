@@ -8,6 +8,14 @@ Super Individuals is a long-term community built around one idea: that the most 
 
 We are building a **curated, invitation-only** ecosystem for people who want to keep building with AI over time, not just attend a single workshop and disappear.
 
+## Member Demos
+
+The clearest proof of this community is what members ship. They publish working agent systems as public demos — live documentation, build logs, and reusable systems anyone can inspect.
+
+<div class="programme-actions">
+  <a class="md-button md-button--primary" href="../cohort/">Browse member demos</a>
+</div>
+
 ## Membership First
 
 Membership is the long-term layer of Super Individuals. It is designed for people who want an ongoing place to learn, build, stay close to frontier practice, and grow alongside other serious builders across cohorts.

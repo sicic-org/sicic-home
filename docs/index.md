@@ -7,10 +7,10 @@ hide:
 ---
 
 <section class="programme-hero">
-  <p class="programme-kicker">Two build paths</p>
-  <h1>Start at the right depth for your AI build.</h1>
+  <p class="programme-kicker">Hands-on AI agent workshops</p>
+  <h1>In four weeks, deploy and run an AI agent that's truly yours.</h1>
   <p class="programme-subhead">
-    SICIC starts with hands-on workshops. Participants who complete and pass a track can be considered for the membership community, including the limited founding cohort.
+    SICIC starts with hands-on workshops where you build a real, owned agent system — not slideware. Complete a track and you can be invited into the membership community, including the limited founding cohort.
   </p>
   <div class="programme-meta">
     <div class="programme-meta__item">
@@ -220,8 +220,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <div class="programme-card-grid">
   <div class="programme-card">
-    <h3>Not a course. An incubator.</h3>
-    <p>You are not watching videos. You are building infrastructure, shaping an agent, publishing outputs, and learning by shipping.</p>
+    <h3>You build a system that runs</h3>
+    <p>You are not watching videos. You set up real infrastructure, shape an agent, publish outputs, and learn by shipping something that works.</p>
   </div>
   <div class="programme-card">
     <h3>Referral-aware</h3>
