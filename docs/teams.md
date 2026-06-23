@@ -1,5 +1,5 @@
 ---
-title: For Teams — Super Individuals CIC
+title: For Teams
 template: home.html
 description: Hands-on AI agent training and build incubation for teams. Book a scoping call with Super Individuals CIC.
 hide:
@@ -42,12 +42,12 @@ hide:
   <div class="feature-card">
     <p class="proof-label">Team training</p>
     <h3>Hands-on upskilling</h3>
-    <p>[TODO: 待业务确认 — cohort-style training for your team: scope, format, duration. Confirm target audience and outcomes before publishing specifics.]</p>
+    <p>Cohort-style training for your team: scope, format, duration. Confirm target audience and outcomes before publishing specifics.</p>
   </div>
   <div class="feature-card">
     <p class="proof-label">Build incubation</p>
     <h3>From idea to running system</h3>
-    <p>[TODO: 待业务确认 — guided build of a production agent system for a defined internal use case. Confirm deliverables and engagement length before publishing specifics.]</p>
+    <p>Guided build of a production agent system for a defined internal use case. Confirm deliverables and engagement length before publishing specifics.</p>
   </div>
 </div>
 
@@ -76,7 +76,7 @@ hide:
 
 <div class="programme-panel programme-panel--narrow programme-panel--soft">
   <p class="programme-lead">Our community members publish working agent systems as public demos. See what individuals build through the same hands-on methods we bring to teams.</p>
-  <div class="programme-actions">
+  <div class="programme-actions programme-actions--center">
     <a class="md-button" href="../community/">See member demos</a>
   </div>
 </div>

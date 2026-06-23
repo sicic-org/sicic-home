@@ -1,3 +1,7 @@
+---
+description: The Super Individuals membership community — how the founding cohort, member benefits, and tiered membership pricing work.
+---
+
 # Community
 
 Super Individuals is a long-term community built around one idea: that the most valuable thing AI can do is make it possible for individuals, not just institutions, to create and deliver things that genuinely matter.
@@ -11,7 +15,7 @@ Membership is the long-term layer of Super Individuals. It is designed for peopl
 Membership includes:
 
 - Discord community access as the permanent home for members
-- all future workshops, free, across cohorts and streams
+- member-rate access to all future workshops, across cohorts and streams (free for the founding cohort — see below)
 - Substack member content including research notes, build logs, and internal thinking
 - free Q&A sessions with the founding team and guest practitioners
 - weekly or fortnightly frontier updates on what is actually moving in applied AI
@@ -26,13 +30,13 @@ The **Founding Cohort** is the first membership group inside Super Individuals. 
 
 Founding Cohort membership is:
 
-- limited to **{{ founding_total }} members**
-- invitation only
-- lifetime access
-- the lowest membership price this community will ever offer
+- limited to the first **{{ founding_total }} members**
+- invitation only, earned by completing a workshop
+- a one-time founding fee of **GBP 49.99** for lifetime membership — the lowest price this community will ever offer
+- **lifetime free access to all future workshops** (a founding-only benefit)
 - a chance to co-build the culture, standards, and direction of the community
 
-As the community grows, the founding rate rises and later members join at higher pricing. This is a structural commitment to the people who were here first.
+Founding is the only tier that includes free workshops for life. Once the first {{ founding_total }} places are filled, later members join at a higher membership fee and receive a member discount on workshops rather than free access. This is a structural commitment to the people who were here first.
 
 ## Founding-Only Benefits
 
@@ -79,11 +83,18 @@ As the community grows, the founding rate rises and later members join at higher
     <span class="md-button md-button--primary pricing-button pricing-button--disabled-brand">Invitation Only</span>
   </div>
   <div class="pricing-card">
-    <p class="pricing-kicker">Future membership tiers</p>
-    <h3>Coming soon</h3>
-    <p>Additional membership tiers will be announced later as the community grows beyond the founding cohort.</p>
-    <p>For now, only the Founding Cohort membership price is being offered.</p>
-    <span class="md-button pricing-button pricing-button--disabled">Coming soon</span>
+    <p class="pricing-kicker">After the founding cohort</p>
+    <h3>Members 32 and beyond</h3>
+    <p class="pricing-price">Higher fee <span>by join order</span></p>
+    <p class="pricing-meta">Once the first {{ founding_total }} founding places are filled, membership continues at a higher fee that rises as the community grows.</p>
+    <ul>
+      <li>Member <strong>discount</strong> on future workshops (not free)</li>
+      <li>Full member access across the community</li>
+      <li>Discord, Substack research notes, and build logs</li>
+      <li>Q&amp;A sessions, frontier briefings, and beta access</li>
+      <li>Member directory and contribution opportunities</li>
+    </ul>
+    <span class="md-button pricing-button pricing-button--disabled">TBD</span>
   </div>
 </div>
 

@@ -1,7 +1,6 @@
 ---
-title: Super Individuals CIC
 template: home.html
-description: A public-interest community for helping domain experts build domain-specific AI agents.
+description: Hands-on workshops and an invitation-only community for building real, owned AI agents. Start free, build in public, earn your place in the founding cohort.
 hide:
   - navigation
   - toc
@@ -35,6 +34,7 @@ hide:
     <a class="md-button md-button--primary" href="#how-it-works">How it works</a>
     <a class="md-button" href="#track-fit">Find your track</a>
     <a class="md-button" href="cohort/">See member demos</a>
+    <a class="md-button" href="https://learn.sicic.org/">Start free</a>
   </div>
 </section>
 
@@ -51,7 +51,7 @@ hide:
   <div class="pathway-step">
     <p class="pathway-step__number">1</p>
     <h3>Join a workshop track</h3>
-    <p>Start with <a href="https://sicic-org.github.io/pre-bootcamp/">Bootcamp</a> if you want a lighter warm-up, Intro if you need the foundation, or Builder if you are ready for orchestration and stronger operational practice.</p>
+    <p>Start with <a href="https://learn.sicic.org/">Bootcamp</a> if you want a lighter warm-up, Intro if you need the foundation, or Builder if you are ready for orchestration and stronger operational practice.</p>
   </div>
   <div class="pathway-step">
     <p class="pathway-step__number">2</p>
@@ -97,9 +97,9 @@ hide:
   <div class="feature-card track-quiz__intro">
     <p class="proof-label">3 questions</p>
     <h3>Answer three quick questions</h3>
-    <p>Use <a href="https://sicic-org.github.io/pre-bootcamp/">Bootcamp</a> as a warm-up, Intro track for the first owned workflow, and Builder track when your bottleneck is already complexity. Builder track enrolment is rolling and open now.</p>
+    <p>Use <a href="https://learn.sicic.org/">Bootcamp</a> as a warm-up, Intro track for the first owned workflow, and Builder track when your bottleneck is already complexity. Builder track enrolment is rolling and open now.</p>
     <div class="programme-actions">
-      <a class="md-button" href="https://sicic-org.github.io/pre-bootcamp/">Try Bootcamp</a>
+      <a class="md-button" href="https://learn.sicic.org/">Try Bootcamp</a>
     </div>
   </div>
   <form class="track-quiz__form" id="track-quiz">
@@ -241,10 +241,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <div class="grid-2">
   <div class="feature-card">
-    <p class="proof-label">Pre-bootcamp</p>
-    <h3>Warm up before Intro track</h3>
-    <p>A lighter starting point for non-technical people who want to get comfortable before the workshop, and a useful primer for people already on the Intro track.</p>
-    <a href="https://sicic-org.github.io/pre-bootcamp/">Explore pre-bootcamp</a>
+    <p class="proof-label">Free · no payment</p>
+    <h3>Start free</h3>
+    <p>Not ready to pay? Take the first concrete step toward an owned AI agent at your own pace, with our free starter on learn.sicic.org.</p>
+    <a href="https://learn.sicic.org/">Start free</a>
   </div>
   <div class="feature-card">
     <p class="proof-label">Proof of Build</p>

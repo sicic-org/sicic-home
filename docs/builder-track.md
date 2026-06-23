@@ -1,3 +1,7 @@
+---
+description: SICIC Builder track — go beyond your first agent into multi-agent orchestration, broader MCP toolchains, and production-grade systems. Rolling enrolment.
+---
+
 # Builder track
 
 <section class="programme-hero programme-hero--builder">

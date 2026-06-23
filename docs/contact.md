@@ -1,3 +1,7 @@
+---
+description: Contact Super Individuals CIC — book a scoping call, or reach us about collaborations, partnerships, and guest talks.
+---
+
 # Contact
 
 ## Book a scoping call

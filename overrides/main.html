@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{#- Inject Open Graph + Twitter Card metadata for rich link previews.
+    Title/description mirror Material's own <title>/<meta description> logic. -#}
+{% block extrahead %}
+  {{ super() }}
+
+  {%- if page and page.meta and page.meta.title -%}
+    {% set og_title = page.meta.title ~ " - " ~ config.site_name %}
+  {%- elif page and page.title and not page.is_homepage -%}
+    {% set og_title = page.title ~ " - " ~ config.site_name %}
+  {%- else -%}
+    {% set og_title = config.site_name %}
+  {%- endif -%}
+
+  {%- if page and page.meta and page.meta.description -%}
+    {% set og_desc = page.meta.description %}
+  {%- else -%}
+    {% set og_desc = config.site_description %}
+  {%- endif -%}
+
+  {%- set site_base = config.site_url -%}
+  {%- if site_base and not site_base.endswith("/") -%}{% set site_base = site_base ~ "/" %}{%- endif -%}
+  {#- [TODO: replace si-logo.png with a dedicated 1200x630 social share card for richer previews] -#}
+  {%- set og_image = site_base ~ "assets/si-logo.png" -%}
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:title" content="{{ og_title }}">
+  <meta property="og:description" content="{{ og_desc }}">
+  {%- if page and page.canonical_url %}
+  <meta property="og:url" content="{{ page.canonical_url }}">
+  {%- endif %}
+  <meta property="og:image" content="{{ og_image }}">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ og_title }}">
+  <meta name="twitter:description" content="{{ og_desc }}">
+  <meta name="twitter:image" content="{{ og_image }}">
+{% endblock %}

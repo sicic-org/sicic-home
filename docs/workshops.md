@@ -1,3 +1,7 @@
+---
+description: SICIC Intro track — build a real, owned AI agent in four weeks (VPS, Telegram, tools, and a public proof-of-work site). Rolling enrolment from GBP 86.
+---
+
 # Intro track
 
 <section class="programme-hero">
@@ -24,7 +28,7 @@
   </div>
   <div class="programme-actions">
     <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply now</a>
-    <a class="md-button" href="https://sicic-org.github.io/pre-bootcamp/">Bootcamp</a>
+    <a class="md-button" href="https://learn.sicic.org/">Bootcamp</a>
     <a class="md-button" href="/builder-track/">View Builder track</a>
   </div>
 </section>
@@ -72,7 +76,7 @@
 </div>
 
 <div class="programme-panel programme-panel--narrow programme-panel--soft">
-  <p class="programme-lead"><strong>Want a gentler start?</strong> Try the <a href="https://sicic-org.github.io/pre-bootcamp/">pre-bootcamp</a> before joining the Intro track.</p>
+  <p class="programme-lead"><strong>Want a gentler start?</strong> Try the <a href="https://learn.sicic.org/">free starter</a> before joining the Intro track.</p>
   <p class="programme-center">It is a lighter entry point for non-technical people and a useful warm-up for anyone planning to start the workshop.</p>
 </div>
 
@@ -171,7 +175,7 @@
   </div>
 </div>
 
-## Pricing and Membership Tiers
+## Workshop Pricing
 
 <div class="programme-table-wrap">
   <table class="programme-pricing-table">
@@ -179,44 +183,37 @@
       <tr>
         <th>Tier</th>
         <th>Price</th>
-        <th>Benefits</th>
+        <th>Who it's for</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><strong>Co-Founding Member Referral</strong></td>
+        <td><strong>Founding Cohort Referral</strong></td>
         <td><span class="programme-price">{{ price_referral }}</span></td>
-        <td>Referred by one of {{ founding_total }} Co-Founding Members. Path to lifetime free workshop access if you complete all milestones.</td>
+        <td>Referred by one of the {{ founding_total }} founding cohort members. Lowest workshop price.</td>
       </tr>
       <tr>
         <td><strong>Alumni Network Referral</strong></td>
         <td><span class="programme-price">{{ price_alumni }}</span></td>
-        <td>Referred by Oxford Saïd or CEIBS network member. Early pricing. Path to Co-Founding status via completion.</td>
+        <td>Referred by an Oxford Saïd or CEIBS network member. Early pricing.</td>
       </tr>
       <tr>
         <td><strong>Standard Admission</strong></td>
         <td><span class="programme-price">{{ price_standard }}</span></td>
-        <td>Open application. Path to Co-Founding status via completion. Lifetime membership regardless of tier.</td>
+        <td>Open application, no referral required.</td>
       </tr>
     </tbody>
   </table>
 </div>
 
 <div class="programme-panel programme-panel--narrow">
-  <p class="programme-lead">All tiers include:</p>
+  <p class="programme-lead">Every workshop place includes:</p>
   <ul class="programme-checklist">
     <li>4-week hands-on workshop with live weekly Q&amp;A</li>
-    <li>Lifetime community access</li>
     <li>All technical guides and documentation</li>
-    <li>Permanent eligibility for future workshops at member rates</li>
+    <li>A public proof-of-work site that is yours to keep</li>
   </ul>
-  <p class="programme-lead">Co-Founding Member benefits (earned via completion):</p>
-  <ul class="programme-checklist">
-    <li>Lifetime free access to all future workshops</li>
-    <li>Early voice in community culture, standards, and direction</li>
-    <li>Opportunity to shape future workshop formats and contribution paths</li>
-    <li>Priority visibility for member demos, build logs, and public proof of work</li>
-  </ul>
+  <p class="programme-note">Completing and passing a track makes you <strong>eligible for an invitation into the membership community</strong>, including the limited founding cohort (the first {{ founding_total }} members receive lifetime free workshops). How membership, benefits, and pricing work is explained once on the <a href="../community/">Community</a> page.</p>
 </div>
 
 ## Tools and Technologies
@@ -265,7 +262,7 @@
   <p>Rolling enrolment is open now. Pricing starts at {{ price_referral }}.</p>
   <div class="programme-actions">
     <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us">Apply now</a>
-    <a class="md-button" href="https://sicic-org.github.io/pre-bootcamp/">Try Bootcamp</a>
+    <a class="md-button" href="https://learn.sicic.org/">Try Bootcamp</a>
     <a class="md-button" href="https://forms.fillout.com/t/mY53Xhjk7zus">Apply for Builder track</a>
   </div>
 </section>
