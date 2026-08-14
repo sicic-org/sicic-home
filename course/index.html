@@ -1,0 +1,1006 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A live, online, two-week cohort course. Deploy and secure your own AI agent, orchestrate it, and design your own MVP. 30 hours of structured learning, 15 places per cohort, from GBP 499.">
+      
+      
+      
+        <link rel="canonical" href="https://community.sicic.org/course/">
+      
+      
+        <link rel="prev" href="../community/">
+      
+      
+        <link rel="next" href="../teams/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/si-logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Introduction to AI Agent Building in the Wild - Super Individuals CIC</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans:300,300i,400,400i,700,700i%7CIBM+Plex+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"DM Sans";--md-code-font:"IBM Plex Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-TXWEDLJP1D"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-TXWEDLJP1D",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-TXWEDLJP1D",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
+  
+
+    
+    
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Super Individuals CIC">
+  <meta property="og:title" content="Introduction to AI Agent Building in the Wild - Super Individuals CIC">
+  <meta property="og:description" content="A live, online, two-week cohort course. Deploy and secure your own AI agent, orchestrate it, and design your own MVP. 30 hours of structured learning, 15 places per cohort, from GBP 499.">
+  <meta property="og:url" content="https://community.sicic.org/course/">
+  <meta property="og:image" content="https://community.sicic.org/assets/si-logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Introduction to AI Agent Building in the Wild - Super Individuals CIC">
+  <meta name="twitter:description" content="A live, online, two-week cohort course. Deploy and secure your own AI agent, orchestrate it, and design your own MVP. 30 hours of structured learning, 15 places per cohort, from GBP 499.">
+  <meta name="twitter:image" content="https://community.sicic.org/assets/si-logo.png">
+
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#what-you-build" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+<header class="sicic-header" data-md-component="header">
+    <div class="sicic-header__shell md-grid">
+        <a
+            href=".."
+            title="Super Individuals CIC"
+            class="sicic-header__logo"
+            aria-label="Super Individuals CIC"
+            data-md-component="logo"
+        >
+            
+  <img src="../assets/si-logo.png" alt="logo">
+
+        </a>
+        <div class="sicic-header__content">
+            <div class="sicic-header__topbar">
+                <a
+                    href=".."
+                    class="sicic-header__title"
+                    aria-label="Super Individuals CIC"
+                >
+                    Super Individuals CIC
+                </a>
+                <a
+                    href="../about/"
+                    class="sicic-header__cpd"
+                    aria-label="SICIC CPD Certification Service member status"
+                >
+                    <img
+                        src="../assets/cpd-member-logo.jpg"
+                        alt="CPD Member, The CPD Certification Service"
+                        width="92"
+                    />
+                </a>
+                <label
+                    class="md-header__button md-icon sicic-header__menu"
+                    for="__drawer"
+                >
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+                </label>
+            </div>
+            <nav class="sicic-nav" aria-label="Tabs">
+                
+                <a
+                    href=".."
+                    class="sicic-nav__link"
+                >
+                    Home
+                </a>
+                
+                <a
+                    href="../about/"
+                    class="sicic-nav__link"
+                >
+                    About
+                </a>
+                
+                <a
+                    href="../community/"
+                    class="sicic-nav__link"
+                >
+                    Community
+                </a>
+                
+                <a
+                    href="./"
+                    class="sicic-nav__link sicic-nav__link--active"
+                >
+                    Course
+                </a>
+                
+                <a
+                    href="../teams/"
+                    class="sicic-nav__link"
+                >
+                    For Teams
+                </a>
+                
+                <a
+                    href="../contact/"
+                    class="sicic-nav__link"
+                >
+                    Contact
+                </a>
+                
+                <a
+                    href="https://learn.sicic.org/"
+                    class="sicic-nav__cta"
+                    data-evt="start_free_click"
+                    data-evt-location="header"
+                >
+                    Start Free
+                </a>
+            </nav>
+        </div>
+    </div>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Super Individuals CIC" class="md-nav__button md-logo" aria-label="Super Individuals CIC" data-md-component="logo">
+      
+  <img src="../assets/si-logo.png" alt="logo">
+
+    </a>
+    Super Individuals CIC
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Community
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-build" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What You'll Build
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Two Modules
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schedule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How the Course Runs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#who-its-for" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Who It's For
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pricing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pricing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pricing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#third-party-costs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Third-party costs, and the credit back
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#guarantees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Our Booking Guarantees
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#certificate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Certificate and CPD Hours
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools and Technologies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-keep" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What You Keep
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frequently Asked Questions
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../teams/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    For Teams
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<section class="programme-hero">
+  <p class="programme-kicker">Next cohort · late September 2026</p>
+  <h1>Introduction to AI Agent Building in the Wild</h1>
+  <p class="programme-subhead">A live, online, cohort-based course. In 2 weeks you deploy and secure an AI agent on infrastructure you control, orchestrate it into a working system, and design the MVP architecture for the system you actually want to build.</p>
+  <div class="programme-meta">
+    <div class="programme-meta__item">
+      <strong>Format</strong>
+      <span>Live and online, 2 weeks, 8 guided learning days</span>
+    </div>
+    <div class="programme-meta__item">
+      <strong>Learning hours</strong>
+      <span>30 hours of structured, directed learning</span>
+    </div>
+    <div class="programme-meta__item">
+      <strong>Cohort size</strong>
+      <span>Capped at 15 · runs at 12</span>
+    </div>
+    <div class="programme-meta__item">
+      <strong>Price</strong>
+      <span>From GBP 499 · Standard GBP 649</span>
+    </div>
+  </div>
+  <div class="programme-actions">
+    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/eGbEPUMLR5us" data-evt="apply_click" data-evt-label="course">Book your place</a>
+    <a class="md-button" href="https://learn.sicic.org/" data-evt="start_free_click" data-evt-location="course_hero">Start free</a>
+    <a class="md-button" href="#pricing">See pricing</a>
+  </div>
+</section>
+
+<div class="programme-panel programme-panel--narrow programme-panel--soft cpd-panel">
+  <img class="cpd-member-logo" src="../assets/cpd-member-logo.jpg" alt="CPD Member, The CPD Certification Service">
+  <div>
+    <p class="programme-lead"><strong>CPD:</strong> Super Individuals CIC is a member organisation of The CPD Certification Service (Membership No. 22924). On completion you receive a certificate evidencing <strong>30 hours of structured continuing professional development</strong>.</p>
+    <p class="programme-center">This course's accreditation submission is currently <strong>under assessment</strong> by The CPD Certification Service. We will confirm the outcome to all participants — and if accreditation is not in place for your cohort, we will tell you before it begins and you may cancel for a full refund if that materially affects your reason for booking.</p>
+  </div>
+</div>
+
+<h2 id="what-you-build">What You'll Build<a class="headerlink" href="#what-you-build" title="Permanent link">&para;</a></h2>
+<div class="programme-panel programme-panel--narrow">
+  <p class="programme-lead">By the end of the course you will have built, and be able to explain, a working agent system that belongs to you:</p>
+  <ul class="programme-checklist">
+    <li>An AI agent deployed and secured on infrastructure you control</li>
+    <li>An agent whose identity and behaviour you have designed deliberately, not prompted into existence</li>
+    <li>A published documentation portfolio that shows what you built and how</li>
+    <li>A node-based orchestration layer connected to an autonomous agent runtime</li>
+    <li>An MVP architecture for the system you actually want to build next</li>
+  </ul>
+  <p class="programme-note">The point is not to impress people with complexity. The point is to build a useful, portable system that is genuinely yours — and to leave with the judgement to keep extending it.</p>
+</div>
+
+<h2 id="modules">The Two Modules<a class="headerlink" href="#modules" title="Permanent link">&para;</a></h2>
+<div class="programme-week-grid">
+  <div class="programme-week-card">
+    <p class="programme-week-number">Module 1 · Week 1</p>
+    <h3>Intro Track</h3>
+    <p>Start with infrastructure that belongs to you. Deploy an agent, secure it, decide how it should behave, and publish the record of what you did.</p>
+    <div class="programme-deliverables">
+      <strong>Key deliverables</strong>
+      <ul>
+        <li>An AI agent deployed on a server you control</li>
+        <li>Hardening, authentication hygiene, and ownership practices that hold up in real use</li>
+        <li>Agent identity and behaviour design — the job, the boundaries, the stop conditions</li>
+        <li>A published documentation portfolio as your proof of build</li>
+      </ul>
+    </div>
+  </div>
+  <div class="programme-week-card">
+    <p class="programme-week-number">Module 2 · Week 2</p>
+    <h3>Builder Track</h3>
+    <p>Move from one agent to a system. Add orchestration, connect an autonomous runtime, and design the architecture for what you want to build after the course ends.</p>
+    <div class="programme-deliverables">
+      <strong>Key deliverables</strong>
+      <ul>
+        <li>Node-based orchestration, on an n8n instance provided free for the course</li>
+        <li>An autonomous agent runtime connected into your orchestration layer</li>
+        <li>MVP architecture for your own system, designed against a real use case</li>
+        <li>A clear decision about what to build next, and what to leave out</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<h2 id="schedule">How the Course Runs<a class="headerlink" href="#schedule" title="Permanent link">&para;</a></h2>
+<div class="programme-stats">
+  <div class="programme-stats__grid">
+    <div class="programme-stat">
+      <strong>30</strong>
+      <span>hours of structured, directed learning</span>
+    </div>
+    <div class="programme-stat">
+      <strong>8</strong>
+      <span>guided learning days over 2 weeks</span>
+    </div>
+    <div class="programme-stat">
+      <strong>15</strong>
+      <span>places per cohort, maximum</span>
+    </div>
+    <div class="programme-stat">
+      <strong>12</strong>
+      <span>participants minimum for a cohort to run</span>
+    </div>
+  </div>
+</div>
+
+<div class="programme-panel programme-panel--narrow programme-panel--soft">
+  <p class="programme-lead"><strong>Weekday evenings 18:00–21:00 UK time. Saturdays 10:00–17:00 UK time.</strong></p>
+  <p class="programme-center">Each of the 8 guided learning days combines a scheduled session — an introductory meeting, an optional office-hours surgery, or a facilitated group call — with guided self-directed learning, supported through our Discord community between sessions.</p>
+  <p class="programme-note">Live sessions are recorded and made available to participants during the course. Cohorts are capped at 15 participants and need a minimum of 12 to run; we confirm your cohort is going ahead no later than 7 days before it starts. Exact dates for the late September 2026 cohort are confirmed when you book.</p>
+</div>
+
+<h2 id="who-its-for">Who It's For<a class="headerlink" href="#who-its-for" title="Permanent link">&para;</a></h2>
+<div class="programme-card-grid">
+  <div class="programme-card">
+    <h3>Domain experts</h3>
+    <p>People with real problems worth automating who want an agent built around their own expertise, not a generic demo.</p>
+  </div>
+  <div class="programme-card">
+    <h3>Non-technical professionals</h3>
+    <p>People who already use AI chat tools and want one concrete owned system instead of endless theory.</p>
+  </div>
+  <div class="programme-card">
+    <h3>Practical builders</h3>
+    <p>People who want the thing running on their own infrastructure, with orchestration on top, not a notebook they never open again.</p>
+  </div>
+  <div class="programme-card">
+    <h3>Anyone planning an MVP</h3>
+    <p>People who need the architecture judgement to decide what their own system should be before they commit to building it.</p>
+  </div>
+</div>
+
+<div class="programme-panel programme-panel--narrow">
+  <p class="programme-lead">What you need to take part:</p>
+  <ul class="programme-checklist">
+    <li>Basic computer literacy and a valid email address</li>
+    <li>A computer capable of running a web browser and a terminal</li>
+    <li>A reliable internet connection</li>
+  </ul>
+  <p class="programme-note"><strong>No prior programming or server administration experience is required.</strong> If you would like a gentler warm-up first, the <a href="https://learn.sicic.org/">free starter</a> is a lighter entry point.</p>
+</div>
+
+<h2 id="pricing">Pricing<a class="headerlink" href="#pricing" title="Permanent link">&para;</a></h2>
+<div class="programme-table-wrap">
+  <table class="programme-pricing-table">
+    <thead>
+      <tr>
+        <th>Rate</th>
+        <th>Price</th>
+        <th>Eligibility</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Founding Circle</strong></td>
+        <td><span class="programme-price">GBP 499</span></td>
+        <td>Referred by a founding member, or a returning member re-enrolling.</td>
+      </tr>
+      <tr>
+        <td><strong>Early Bird &amp; Alumni Network</strong></td>
+        <td><span class="programme-price">GBP 599</span></td>
+        <td>Referred by a returning member, or network alumni.</td>
+      </tr>
+      <tr>
+        <td><strong>Standard</strong></td>
+        <td><span class="programme-price">GBP 649</span></td>
+        <td>Open to all.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="programme-panel programme-panel--narrow">
+  <p class="programme-lead">Only one rate applies per person, and rates cannot be combined with other offers. <strong>The price shown is the total you pay us</strong> — no booking fees, administration charges, or other compulsory additions. Super Individuals CIC is not registered for VAT, so no VAT is charged on these fees.</p>
+  <p class="programme-note">Payment is due in full at the time of booking unless we agree otherwise in writing, and your place is confirmed on receipt of payment. Your booking is a request to reserve a place; the contract is formed when we send you a booking confirmation by email. Full detail is in the <a href="../booking-terms/">Booking Terms &amp; Cancellation Policy</a>.</p>
+</div>
+
+<h3 id="third-party-costs">Third-party costs, and the credit back<a class="headerlink" href="#third-party-costs" title="Permanent link">&para;</a></h3>
+<div class="programme-panel programme-panel--narrow programme-panel--soft">
+  <p class="programme-lead">The course requires you to hold accounts with three third-party providers: a cloud server provider, a large language model API provider, and a messaging platform. You register and pay for these yourself, under those providers' own terms.</p>
+  <p class="programme-center">Typical total cost during the course is <strong>under US$30</strong>, and cost controls including hard spend caps are configured as part of the curriculum on the first day. <strong>We credit back up to US$30 of these documented costs when you complete the course.</strong> Your n8n instance is provided free for the duration.</p>
+</div>
+
+<h2 id="guarantees">Our Booking Guarantees<a class="headerlink" href="#guarantees" title="Permanent link">&para;</a></h2>
+<div class="programme-card-grid">
+  <div class="programme-card">
+    <h3>Full refund until session 2</h3>
+    <p>Cancel at any point before the second session begins and we refund you in full, no questions asked — whether that is weeks ahead, the day before, or after sitting through session 1 and deciding it is not for you.</p>
+  </div>
+  <div class="programme-card">
+    <h3>If the cohort doesn't run, full refund</h3>
+    <p>A cohort needs 12 participants. We confirm no later than 7 days before the start — and if we fall short, you choose between the next cohort or a full refund.</p>
+  </div>
+  <div class="programme-card">
+    <h3>50% back through Week 1</h3>
+    <p>Withdraw after the second session and before the end of the final Week 1 session and we refund 50% — the point at which half the structured hours have been delivered.</p>
+  </div>
+  <div class="programme-card">
+    <h3>If life gets in the way, rejoin free</h3>
+    <p>Cannot finish? Join a later cohort at no extra cost, subject to availability, within 12 months of your original start date. Usable once.</p>
+  </div>
+</div>
+
+<div class="programme-panel programme-panel--narrow">
+  <p class="programme-lead">These guarantees are offered <strong>in addition to your legal rights</strong>, including your statutory 14-day right to cancel. Where a guarantee and your legal rights would produce different outcomes, whichever is more favourable to you applies.</p>
+  <p class="programme-note">Read the full <a href="../booking-terms/">Booking Terms &amp; Cancellation Policy</a>, including how to cancel and the model cancellation form. Cancellations and booking questions go to <a href="mailto:register@sicic.org">register@sicic.org</a>.</p>
+</div>
+
+<h2 id="certificate">Certificate and CPD Hours<a class="headerlink" href="#certificate" title="Permanent link">&para;</a></h2>
+<div class="programme-panel programme-panel--narrow programme-panel--soft">
+  <p class="programme-lead">On completion you receive a certificate evidencing <strong>30 hours of structured continuing professional development</strong>. Completion means attending or catching up on the scheduled sessions and submitting the required work.</p>
+  <p class="programme-center">CPD hours are calculated on structured, directed learning time only, at a ratio of one CPD hour to one hour of structured learning. Most participants spend additional time in applied practice; that time is not counted.</p>
+  <p class="programme-note">The certificate is evidence of professional development. It is not a regulated qualification and does not confer a professional licence.</p>
+</div>
+
+<h2 id="tools">Tools and Technologies<a class="headerlink" href="#tools" title="Permanent link">&para;</a></h2>
+<div class="programme-tool-grid">
+  <div class="programme-tool"><strong>Cloud VPS</strong><span>Infrastructure you own and control</span></div>
+  <div class="programme-tool"><strong>Agent runtime</strong><span>A self-hosted autonomous agent you deploy yourself</span></div>
+  <div class="programme-tool"><strong>LLM API</strong><span>Your own provider account, with hard spend caps</span></div>
+  <div class="programme-tool"><strong>Messaging platform</strong><span>The everyday control room for talking to your agent</span></div>
+  <div class="programme-tool"><strong>n8n</strong><span>Node-based orchestration, instance provided free</span></div>
+  <div class="programme-tool"><strong>Documentation portfolio</strong><span>A static site publishing what your system produces</span></div>
+  <div class="programme-tool"><strong>Discord</strong><span>Where guided self-directed learning is supported</span></div>
+</div>
+
+<p class="programme-note">We may make minor changes to the curriculum, the tools used, or the facilitators delivering sessions — for example where a third-party service changes. We will not make changes that materially reduce what the course delivers.</p>
+
+<h2 id="what-you-keep">What You Keep<a class="headerlink" href="#what-you-keep" title="Permanent link">&para;</a></h2>
+<div class="grid-2">
+  <div class="feature-card">
+    <h3>What you build is yours</h3>
+    <p>The server, agent, pipeline, documentation site, and MVP design you create during the course belong to you. You are free to use, publish, and develop them as you wish.</p>
+  </div>
+  <div class="feature-card">
+    <h3>What we provide stays ours</h3>
+    <p>Workshop guides, handbooks, recordings, and slides remain the intellectual property of Super Individuals CIC, provided for your own learning. Please do not redistribute, publish, or resell them.</p>
+  </div>
+</div>
+
+<p class="programme-note">Completing the course makes you <strong>eligible for an invitation into the membership community</strong>, including the limited founding cohort (the first 31 members receive lifetime free courses). How membership, benefits, and pricing work is explained once on the <a href="../community/">Community</a> page.</p>
+
+<h2 id="faq">Frequently Asked Questions<a class="headerlink" href="#faq" title="Permanent link">&para;</a></h2>
+<div class="programme-faq-list">
+  <div class="programme-faq">
+    <strong>Q: Is the course CPD certified?</strong>
+    <p>Super Individuals CIC is a member organisation of The CPD Certification Service (Membership No. 22924). This course's accreditation submission is currently under assessment. We will confirm the outcome to all participants. If accreditation is not in place for your cohort we will tell you before it begins, and you may cancel for a full refund if that materially affects your reason for booking.</p>
+  </div>
+  <div class="programme-faq">
+    <strong>Q: I'm not technical. Can I still do this?</strong>
+    <p>Yes. No prior programming or server administration experience is required — you need basic computer literacy, a machine that can run a browser and a terminal, and a reliable connection. Module 1 is built for people meeting this material for the first time.</p>
+  </div>
+  <div class="programme-faq">
+    <strong>Q: What if I can't attend a session live?</strong>
+    <p>Live sessions are recorded and made available to participants during the course. Occasionally a single session may need to be rescheduled; we give as much notice as we can and a recording is always made available.</p>
+  </div>
+  <div class="programme-faq">
+    <strong>Q: What happens if the cohort doesn't fill?</strong>
+    <p>A cohort runs only if it reaches 12 participants. We confirm whether your cohort is going ahead no later than 7 days before the scheduled start. If we do not reach the minimum, you choose between a place on the next cohort or a full refund, paid within 14 days.</p>
+  </div>
+  <div class="programme-faq">
+    <strong>Q: How much will the third-party services cost me?</strong>
+    <p>Typically under US$30 in total across the course, and we configure hard spend caps on the first day. We credit back up to US$30 of documented costs when you complete. The n8n instance is on us.</p>
+  </div>
+  <div class="programme-faq">
+    <strong>Q: My employer is paying. Does anything change?</strong>
+    <p>Yes — where an organisation books and pays, the contract is with that organisation and is not a consumer contract, so the statutory cancellation right does not apply. The booking guarantees still apply as a matter of contract. We can provide an invoice and a one-page syllabus summary for internal approval on request. See section 15 of the <a href="../booking-terms/">Booking Terms</a>.</p>
+  </div>
+  <div class="programme-faq">
+    <strong>Q: Can I cancel after booking?</strong>
+    <p>You have a statutory right to cancel within 14 days of your booking confirmation, plus the guarantees above. Send a clear statement to <a href="mailto:register@sicic.org">register@sicic.org</a>, or use the model cancellation form in the <a href="../booking-terms/#annex-a">Booking Terms</a>.</p>
+  </div>
+</div>
+
+<section class="programme-final-cta" id="book">
+  <p class="programme-kicker">Next cohort · late September 2026</p>
+  <h2>15 places. 30 hours. One system that is genuinely yours.</h2>
+  <p>Pricing starts at GBP 499. Bookings for the late September 2026 cohort are open now.</p>
+  <div class="programme-actions">
+    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/eGbEPUMLR5us" data-evt="apply_click" data-evt-label="course">Book your place</a>
+    <a class="md-button" href="https://learn.sicic.org/" data-evt="start_free_click" data-evt-location="course_cta">Start free</a>
+    <a class="md-button" href="../booking-terms/">Booking terms</a>
+  </div>
+</section>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="sicic-footer" data-md-component="footer">
+  <div class="sicic-footer__shell md-grid">
+    <div class="sicic-footer__copy">
+      <span>Super Individuals CIC</span>
+    </div>
+    <nav class="sicic-footer__nav" aria-label="Legal">
+      <a href="../terms-of-service/">Terms of Service</a>
+      <a href="../booking-terms/">Booking &amp; Cancellation</a>
+      <a href="../privacy-policy/">Privacy Policy</a>
+      <a href="../refund-policy/">Refund Policy</a>
+      <a href="#__consent">Cookie settings</a>
+    </nav>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+
+<h4>Cookie consent</h4>
+<p>We use cookies to measure how visitors use this site, through Google Analytics, so we can improve it. You can accept or reject these analytics cookies, and change your choice at any time.</p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
+    
+      
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="analytics" >
+      <span class="task-list-indicator"></span>
+      Google Analytics
+    </label>
+  </li>
+
+      
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+      <button type="reset" class="md-button md-button--primary">Reject</button>
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Manage settings</label>
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.top", "navigation.sections", "toc.integrate", "content.code.copy", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../javascripts/analytics-events.js"></script>
+      
+    
+  </body>
+</html>
