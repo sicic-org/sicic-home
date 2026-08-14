@@ -1,8 +1,14 @@
 ---
-description: Contact Super Individuals CIC — book a scoping call, or reach us about collaborations, partnerships, and guest talks.
+description: Contact Super Individuals CIC — course bookings and cancellations, book a scoping call, or reach us about collaborations, partnerships, and guest talks.
 ---
 
 # Contact
+
+## Course bookings and cancellations
+
+For anything to do with a place on **{{ course_name }}** — booking, cancelling, refunds, or a complaint — write to [{{ register_email }}](mailto:{{ register_email }}).
+
+Cancellation notices sent to this address are treated as received on the date they arrive. The full process, including the model cancellation form, is in the [Booking Terms & Cancellation Policy](booking-terms.md).
 
 ## Book a scoping call
 
@@ -16,7 +22,7 @@ Considering a team training or build engagement? Book a scoping call and we will
 
 For collaborations, partnerships, or questions:
 
-- [publication@sicic.org](mailto:publication@sicic.org)
+- [{{ general_email }}](mailto:{{ general_email }})
 
 We are open to:
 

@@ -1,39 +1,42 @@
 ---
 template: home.html
-description: Hands-on workshops and an invitation-only community for building real, owned AI agents. Start free, build in public, earn your place in the founding cohort.
+description: A live, online, two-week course and an invitation-only community for building real, owned AI agents. Start free, build in public, earn your place in the founding cohort.
 hide:
   - navigation
   - toc
 ---
 
+{% set book_href = course_form_url if course_form_url else "mailto:" ~ register_email ~ "?subject=Booking%20enquiry%20%E2%80%94%20Introduction%20to%20AI%20Agent%20Building%20in%20the%20Wild" %}
+{% set book_label = "Book your place" if course_form_url else "Register your interest" %}
+
 <section class="programme-hero">
-  <p class="programme-kicker">Hands-on AI agent workshops</p>
-  <h1>In four weeks, deploy and run an AI agent that's truly yours.</h1>
+  <p class="programme-kicker">Live, online, cohort-based course</p>
+  <h1>In two weeks, deploy and run an AI agent that's truly yours.</h1>
   <p class="programme-subhead">
-    SICIC starts with hands-on workshops where you build a real, owned agent system — not slideware. Complete a track and you can be invited into the membership community, including the limited founding cohort.
+    <em>{{ course_name }}</em> is {{ course_hours }} hours of structured learning in which you build a real, owned agent system — not slideware. Complete it and you can be invited into the membership community, including the limited founding cohort.
   </p>
   <div class="programme-meta">
     <div class="programme-meta__item">
-      <strong>Tracks</strong>
-      <span>Intro · Builder from {{ price_referral }}</span>
+      <strong>The course</strong>
+      <span>{{ course_weeks }} weeks live and online, two modules</span>
     </div>
     <div class="programme-meta__item">
-      <strong>Format</strong>
-      <span>Online, hands-on workshop</span>
+      <strong>Learning hours</strong>
+      <span>{{ course_hours }} structured hours · certificate on completion</span>
     </div>
     <div class="programme-meta__item">
-      <strong>Entry</strong>
-      <span>Rolling Intro &amp; Builder enrolment, open now</span>
+      <strong>Next cohort</strong>
+      <span>{{ cohort_start }} · {{ cohort_places }} places</span>
     </div>
     <div class="programme-meta__item">
-      <strong>Outcome</strong>
-      <span>Workshop completion, community review, membership invitation</span>
+      <strong>Price</strong>
+      <span>From {{ course_price_founding }} · Standard {{ course_price_standard }}</span>
     </div>
   </div>
   <div class="programme-actions">
-    <a class="md-button md-button--primary" href="#how-it-works">How it works</a>
-    <a class="md-button" href="#track-fit">Find your track</a>
-    <a class="md-button" href="cohort/">See member demos</a>
+    <a class="md-button md-button--primary" href="{{ book_href }}" data-evt="apply_click" data-evt-label="course">{{ book_label }}</a>
+    <a class="md-button" href="course/">Course details</a>
+    <a class="md-button" href="#how-it-works">How SICIC works</a>
     <a class="md-button" href="https://learn.sicic.org/" data-evt="start_free_click" data-evt-location="hero">Start free</a>
   </div>
 </section>
@@ -41,17 +44,42 @@ hide:
 <div class="programme-panel programme-panel--narrow programme-panel--soft cpd-panel">
   <img class="cpd-member-logo" src="assets/cpd-member-logo.jpg" alt="CPD Member, The CPD Certification Service">
   <div>
-    <p class="programme-lead"><strong>CPD status:</strong> SICIC is a member of The CPD Certification Service (Membership No. {{ cpd_membership_no }}).</p>
+    <p class="programme-lead"><strong>CPD status:</strong> SICIC is a member organisation of The CPD Certification Service (Membership No. {{ cpd_membership_no }}). Completing the course earns a certificate evidencing {{ course_hours }} hours of structured CPD.</p>
+    <p class="programme-center">{% if cpd_courses_accredited %}The course is accredited by The CPD Certification Service.{% else %}The course's accreditation submission is currently under assessment — see the <a href="course/#certificate">course page</a> for what that means for your cohort.{% endif %}</p>
   </div>
 </div>
+
+## What the Course Covers { #course-fit }
+
+<div class="programme-week-grid">
+  <div class="programme-week-card">
+    <p class="programme-week-number">Module 1 · Week 1</p>
+    <h3>Intro Track</h3>
+    <p>Deploy and secure an AI agent on infrastructure you control, design its identity and behaviour deliberately, and publish a documentation portfolio as your proof of build.</p>
+  </div>
+  <div class="programme-week-card">
+    <p class="programme-week-number">Module 2 · Week 2</p>
+    <h3>Builder Track</h3>
+    <p>Add node-based orchestration, connect an autonomous agent runtime, and design the MVP architecture for the system you actually want to build next.</p>
+  </div>
+</div>
+
+<div class="programme-panel programme-panel--narrow programme-panel--soft">
+  <p class="programme-lead">Weekday evenings 18:00–21:00 UK and Saturdays 10:00–17:00 UK, across {{ course_days }} guided learning days. Sessions are recorded. Cohorts are capped at {{ cohort_places }} and run at a minimum of {{ cohort_minimum }}.</p>
+  <div class="programme-actions programme-actions--center">
+    <a class="md-button md-button--primary" href="course/">Full course details</a>
+    <a class="md-button" href="{{ book_href }}" data-evt="apply_click" data-evt-label="course">{{ book_label }}</a>
+  </div>
+</div>
+
 
 ## How SICIC Works { #how-it-works }
 
 <div class="pathway-strip">
   <div class="pathway-step">
     <p class="pathway-step__number">1</p>
-    <h3>Join a workshop track</h3>
-    <p>Start with the <a href="https://learn.sicic.org/">free starter</a> if you want a lighter warm-up, Intro if you need the foundation, or Builder if you are ready for orchestration and stronger operational practice.</p>
+    <h3>Book the course</h3>
+    <p>Take the <a href="https://learn.sicic.org/">free starter</a> first if you want a lighter warm-up, then join the next cohort of <a href="course/">{{ course_name }}</a>.</p>
   </div>
   <div class="pathway-step">
     <p class="pathway-step__number">2</p>
@@ -91,132 +119,6 @@ hide:
   </div>
 </div>
 
-## Find Your Track { #track-fit }
-
-<div class="track-quiz">
-  <div class="feature-card track-quiz__intro">
-    <p class="proof-label">3 questions</p>
-    <h3>Answer three quick questions</h3>
-    <p>Use the <a href="https://learn.sicic.org/">free starter</a> as a warm-up, Intro track for the first owned workflow, and Builder track when your bottleneck is already complexity. Builder track enrolment is rolling and open now.</p>
-    <div class="programme-actions">
-      <a class="md-button" href="https://learn.sicic.org/">Start free</a>
-    </div>
-  </div>
-  <form class="track-quiz__form" id="track-quiz">
-    <fieldset class="track-quiz__question">
-      <legend>1. What is blocking you right now?</legend>
-      <label class="track-quiz__option">
-        <input checked name="q1" type="radio" value="intro" />
-        <span>I need my first owned agent workflow.</span>
-      </label>
-      <label class="track-quiz__option">
-        <input name="q1" type="radio" value="builder" />
-        <span>I already have the basics. I need broader orchestration and automation.</span>
-      </label>
-    </fieldset>
-    <fieldset class="track-quiz__question">
-      <legend>2. Which environment sounds more like you?</legend>
-      <label class="track-quiz__option">
-        <input checked name="q2" type="radio" value="intro" />
-        <span>I want a clear guided foundation across Telegram, VPS, files, and publishing.</span>
-      </label>
-      <label class="track-quiz__option">
-        <input name="q2" type="radio" value="builder" />
-        <span>I am already running workflows and want to expand into larger systems.</span>
-      </label>
-    </fieldset>
-    <fieldset class="track-quiz__question">
-      <legend>3. What do you need next?</legend>
-      <label class="track-quiz__option">
-        <input checked name="q3" type="radio" value="intro" />
-        <span>One reliable pipeline from request to saved output to public proof of work.</span>
-      </label>
-      <label class="track-quiz__option">
-        <input name="q3" type="radio" value="builder" />
-        <span>Multi-agent orchestration, broader MCP toolchains, and richer automation.</span>
-      </label>
-    </fieldset>
-    <div class="programme-actions">
-      <button class="md-button md-button--primary" id="track-quiz-submit" type="button">See my track</button>
-    </div>
-  </form>
-  <div aria-live="polite" class="feature-card track-quiz__result" id="track-quiz-result">
-    <p class="proof-label" data-result-label>Your recommendation</p>
-    <h3 data-result-title>Intro track</h3>
-    <p class="track-quiz__result-copy" data-result-copy>Start with Intro track if you need the clean foundation: Telegram, VPS, files, documentation, and a public proof-of-work site. Rolling enrolment is open now.</p>
-    <div class="programme-actions">
-      <a class="md-button md-button--primary" data-result-primary href="https://forms.fillout.com/t/3eGJuNKYW3us" data-evt="apply_click" data-evt-label="intro">Apply for Intro track</a>
-      <a class="md-button" data-result-secondary href="workshops/">View Intro track</a>
-    </div>
-  </div>
-</div>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const form = document.getElementById("track-quiz");
-  const result = document.getElementById("track-quiz-result");
-  const submit = document.getElementById("track-quiz-submit");
-
-  if (!form || !result || !submit) {
-    return;
-  }
-
-  const label = result.querySelector("[data-result-label]");
-  const title = result.querySelector("[data-result-title]");
-  const copy = result.querySelector("[data-result-copy]");
-  const primary = result.querySelector("[data-result-primary]");
-  const secondary = result.querySelector("[data-result-secondary]");
-
-  const states = {
-    intro: {
-      label: "Best starting point",
-      title: "Intro track",
-      copy: "Start with Intro track if you need the clean foundation: Telegram, VPS, files, documentation, and a public proof-of-work site. Rolling enrolment is open now.",
-      primaryText: "Apply for Intro track",
-      primaryHref: "https://forms.fillout.com/t/3eGJuNKYW3us",
-      secondaryText: "View Intro track",
-      secondaryHref: "workshops/"
-    },
-    builder: {
-      label: "Best next layer",
-      title: "Builder track",
-      copy: "Choose Builder track if your bottleneck is already complexity: multi-agent orchestration, broader MCP toolchains, deployment hygiene, and richer automation. Applications are open now on rolling enrolment.",
-      primaryText: "Apply for Builder track",
-      primaryHref: "https://forms.fillout.com/t/mY53Xhjk7zus",
-      secondaryText: "View Builder track",
-      secondaryHref: "builder-track/"
-    }
-  };
-
-  const updateRecommendation = function () {
-    const answers = new FormData(form);
-    let builderCount = 0;
-
-    ["q1", "q2", "q3"].forEach(function (key) {
-      if (answers.get(key) === "builder") {
-        builderCount += 1;
-      }
-    });
-
-    const state = builderCount >= 2 ? states.builder : states.intro;
-
-    label.textContent = state.label;
-    title.textContent = state.title;
-    copy.textContent = state.copy;
-    primary.textContent = state.primaryText;
-    primary.href = state.primaryHref;
-    primary.setAttribute("data-evt-label", builderCount >= 2 ? "builder" : "intro");
-    secondary.textContent = state.secondaryText;
-    secondary.href = state.secondaryHref;
-    result.classList.toggle("track-quiz__result--builder", builderCount >= 2);
-  };
-
-  submit.addEventListener("click", updateRecommendation);
-  form.addEventListener("change", updateRecommendation);
-  updateRecommendation();
-});
-</script>
-
 ## Why This Is Different
 
 <div class="programme-card-grid">
@@ -226,15 +128,15 @@ document.addEventListener("DOMContentLoaded", function () {
   </div>
   <div class="programme-card">
     <h3>Referral-aware</h3>
-    <p>The workshop is open to applicants. Referrals still matter for pricing, progression into the deeper membership layer, and the path toward founding status.</p>
+    <p>The course is open to all. Referrals still matter for pricing, progression into the deeper membership layer, and the path toward founding status.</p>
   </div>
   <div class="programme-card">
-    <h3>Foundation before sprawl</h3>
-    <p>The Intro track stays deliberately small: Telegram, VPS, files, tools, documentation, and publishing.</p>
+    <h3>Small cohorts, real contact</h3>
+    <p>{{ cohort_places }} places maximum, with live sessions on weekday evenings and Saturdays plus office-hours surgeries. Your blockers get answered by the people who wrote the material.</p>
   </div>
   <div class="programme-card">
-    <h3>Builder track next</h3>
-    <p>Advanced builders can continue into the Builder track for multi-agent orchestration, broader MCP toolchains, and automation systems.</p>
+    <h3>Structured hours that count</h3>
+    <p>{{ course_hours }} hours of structured, directed learning and a certificate on completion — not a video library you never finish.</p>
   </div>
 </div>
 
@@ -339,11 +241,11 @@ These are real systems founding members built during the workshop — each one s
 <section class="cta-panel">
   <div>
     <p class="landing-kicker">Next Step</p>
-    <h2>Join the Intro track on rolling enrolment. Build your agent, document it, and earn your path into the founding cohort.</h2>
-    <p>Selected participants may be invited into the membership community, including the first {{ founding_total }} founding cohort places. Pricing starts at {{ price_referral }}.</p>
+    <h2>Join the {{ cohort_start }} cohort. Build your agent, document it, and earn your path into the founding cohort.</h2>
+    <p>Selected participants may be invited into the membership community, including the first {{ founding_total }} founding cohort places. Pricing starts at {{ course_price_founding }}.</p>
   </div>
   <div class="cta-panel__actions">
-    <a class="md-button md-button--primary" href="https://forms.fillout.com/t/3eGJuNKYW3us" data-evt="apply_click" data-evt-label="intro">Apply for Intro track</a>
-    <a class="md-button" href="workshops/">View Intro track</a>
+    <a class="md-button md-button--primary" href="{{ book_href }}" data-evt="apply_click" data-evt-label="course">{{ book_label }}</a>
+    <a class="md-button" href="course/">View the course</a>
   </div>
 </section>

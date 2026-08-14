@@ -6,7 +6,7 @@ description: About Super Individuals CIC — our public-interest mission, Commun
 
 ## What Super Individuals CIC Is
 
-Super Individuals CIC is a workshop and membership community focused on building real, owned AI agent systems. We bring together professionals, builders, and curious minds, teach them to build hands-on, then give them a long-term community in which to keep building.
+Super Individuals CIC is a course and membership community focused on building real, owned AI agent systems. We bring together professionals, builders, and curious minds, teach them to build hands-on, then give them a long-term community in which to keep building.
 
 We exist to help individuals become **AI-native builders**, not just consumers of AI — and to do it in the open, with public proof of work.
 
@@ -65,7 +65,7 @@ Our purpose is public-interest: to widen access to practical, domain-specific AI
 
 ## What We Do
 
-- hands-on workshops (Intro and Builder tracks)
+- [{{ course_name }}](course.md) — a live, online, two-week course of {{ course_hours }} structured learning hours, delivered in two modules
 - cohort-based learning with public proof of work
 - an invitation-only membership community
 - team training and build engagements for organisations ([For Teams](teams.md))
@@ -73,7 +73,9 @@ Our purpose is public-interest: to widen access to practical, domain-specific AI
 ## Compliance
 
 - **Legal form:** Community Interest Company (CIC), registered in England and Wales
-- **Company registration number:** 17248930
-- **Registered office:** Third Avenue, Stoke Plymouth
-- **CPD:** member of The CPD Certification Service (Membership No. {{ cpd_membership_no }})
-- **Contact:** [publication@sicic.org](mailto:publication@sicic.org)
+- **Company registration number:** {{ company_number }}
+- **Registered office:** {{ registered_office }}
+- **CPD:** member organisation of The CPD Certification Service (Membership No. {{ cpd_membership_no }})
+- **Course bookings and cancellations:** [{{ register_email }}](mailto:{{ register_email }})
+- **General contact:** [{{ general_email }}](mailto:{{ general_email }})
+- **Policies:** [Booking Terms & Cancellation Policy](booking-terms.md) · [Terms of Service](terms-of-service.md) · [Privacy Policy](privacy-policy.md) · [Refund Policy](refund-policy.md)

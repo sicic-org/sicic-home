@@ -4,9 +4,6 @@ This page is kept as a light archive marker for the earliest public cohort mater
 
 The live, maintained cohort documentation now sits under the main [Cohort](index.md) section, where each member page documents a real build, live demo, and implementation journey.
 
-If you are looking for the current workshop structure, use:
+If you are looking for the current course structure, see [{{ course_name }}](../course.md). The former Intro track and Builder track are now Module 1 and Module 2 of that single course.
 
-- [Intro track](../workshops.md)
-- [Builder track](../builder-track.md)
-
-The older placeholder content that previously lived on this page has been removed because it no longer reflected the current SICIC workshop structure.
+The older placeholder content that previously lived on this page has been removed because it no longer reflected the current SICIC course structure.

@@ -39,7 +39,7 @@ The **Founding Cohort** is the first membership group inside Super Individuals. 
 Founding Cohort membership is:
 
 - limited to the first **{{ founding_total }} members**
-- invitation only, earned by completing a workshop
+- invitation only, earned by completing the course
 - a one-time founding fee of **GBP 49.99** for lifetime membership — the lowest price this community will ever offer
 - **lifetime free access to all future workshops** (a founding-only benefit)
 - a chance to co-build the culture, standards, and direction of the community
@@ -108,7 +108,7 @@ Founding is the only tier that includes free workshops for life. Once the first 
 
 ## How Membership Works
 
-Membership is not open for public payment. It is offered only after a participant completes and passes an eligible SICIC workshop track, followed by a final review of results.
+Membership is not open for public payment. It is offered only after a participant completes and passes [{{ course_name }}](course.md), followed by a final review of results.
 
 If invited, the participant receives a private payment link by email.
 

@@ -2,17 +2,19 @@
 
 Super Individuals CIC ("SICIC", "we", "us", "our")
 
-Last updated: April 2026
+Last updated: {{ policy_updated }}
 
 ## 1. About SICIC
 
-Super Individuals CIC is a Community Interest Company registered in England and Wales. We operate an invitation-only AI agent education programme and community ecosystem. Our mission is to support the co-evolution of humans and AI through practical, cohort-based learning.
+Super Individuals CIC is a Community Interest Company registered in England and Wales. We deliver a cohort-based AI agent course that is open to all, and operate an invitation-only membership community alongside it. Our mission is to support the co-evolution of humans and AI through practical, cohort-based learning.
 
 As a Community Interest Company, SICIC is constituted for community benefit. Membership fees and any surplus revenue are reinvested into programme delivery, research, and community development. Membership does not confer any ownership interest, equity, or profit entitlement in SICIC or any associated entity.
 
 ## 2. Acceptance of Terms
 
-By submitting a membership application, completing payment, or participating in any SICIC workshop or community platform, you agree to be bound by these Terms of Service, our Privacy Policy, and our Membership Refund Policy, each of which is incorporated herein by reference.
+By submitting a membership application, completing payment, or participating in any SICIC course or community platform, you agree to be bound by these Terms of Service, our [Privacy Policy](privacy-policy.md), our [Booking Terms & Cancellation Policy](booking-terms.md), and our [Membership Refund Policy](refund-policy.md), each of which is incorporated herein by reference.
+
+Where these Terms of Service conflict with the Booking Terms & Cancellation Policy in relation to a course booking, **the Booking Terms & Cancellation Policy prevail**.
 
 If you do not agree to these terms, you should not proceed with membership or participation.
 
@@ -20,11 +22,13 @@ If you do not agree to these terms, you should not proceed with membership or pa
 
 ### 3.1
 
-SICIC operates an invitation-only model. Admission requires:
+SICIC operates an invitation-only membership model. Admission to the membership community requires:
 
 - receipt of a valid invitation or referral from an existing member or SICIC director
-- completion of at least one SICIC workshop
+- completion of at least one SICIC course
 - acceptance by SICIC following any applicable review process
+
+Booking the course itself is open to all and does not require an invitation.
 
 ### 3.2
 
@@ -38,23 +42,23 @@ Membership is personal and non-transferable. You may not share, assign, or resel
 
 You represent that the information you provide in your application is accurate and complete. Membership obtained through misrepresentation may be revoked without refund.
 
-## 4. Workshop Participation
+## 4. Course Participation
 
 ### 4.1
 
-Workshop access is granted upon payment of the applicable workshop fee as set out in your invitation or on our booking page at the time of registration.
+Bookings for **{{ course_name }}** are governed by our [Booking Terms & Cancellation Policy](booking-terms.md), which set out how a booking contract is formed, the fee payable, your statutory right to cancel, and our additional refund guarantees. Course access is granted upon payment of the applicable fee as set out on our booking page at the time of registration.
 
 ### 4.2
 
-Workshop content, including curriculum materials, recorded sessions, agent frameworks, and code examples, is provided for your personal educational use only. You may not redistribute, resell, publish, or sublicense any workshop content without prior written consent from SICIC.
+Course content, including curriculum materials, recorded sessions, agent frameworks, and code examples, is provided for your personal educational use only. You may not redistribute, resell, publish, or sublicense any course content without prior written consent from SICIC.
 
 ### 4.3
 
-SICIC workshops involve the use of third-party tools and platforms including but not limited to Telegram, Discord, Hetzner VPS, OpenRouter, and n8n. Your use of these platforms is governed by their respective terms of service. SICIC is not responsible for any changes, outages, or policy updates affecting these third-party services.
+SICIC courses involve the use of third-party tools and platforms including but not limited to Telegram, Discord, Hetzner VPS, OpenRouter, and n8n. Your use of these platforms is governed by their respective terms of service. SICIC is not responsible for any changes, outages, or policy updates affecting these third-party services.
 
 ### 4.4
 
-Workshop schedules, curriculum, and technical requirements may be updated at SICIC's discretion. We will provide reasonable notice of material changes.
+Course schedules, curriculum, and technical requirements may be updated at SICIC's discretion, subject to the limits on changes set out in section 8 of the [Booking Terms & Cancellation Policy](booking-terms.md#8-if-we-change-or-cancel-a-cohort). We will provide reasonable notice of material changes.
 
 ## 5. Community Platform and Conduct
 
@@ -116,7 +120,7 @@ All fees are payable in GBP via the payment method specified at checkout, curren
 
 ### 8.2
 
-Workshop fees and membership fees are non-refundable upon payment, as further described in our Membership Refund Policy.
+**Course fees** are refundable in the circumstances set out in our [Booking Terms & Cancellation Policy](booking-terms.md), which include your statutory right to cancel within 14 days and our additional refund guarantees. **Membership fees** are non-refundable upon payment, as further described in our [Membership Refund Policy](refund-policy.md).
 
 ### 8.3
 
