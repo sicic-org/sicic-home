@@ -6,7 +6,13 @@ hide:
   - toc
 ---
 
-{% set book_href = course_form_url if course_form_url else "mailto:" ~ register_email ~ "?subject=Booking%20enquiry%20%E2%80%94%20Introduction%20to%20AI%20Agent%20Building%20in%20the%20Wild" %}
+{#- UTM tagging, same scheme as the course page. utm_source distinguishes the
+    home page from the course page; utm_content marks the position. -#}
+{% set _utm = "utm_source=home&utm_medium=cta&utm_content=" %}
+{% set _mailto = "mailto:" ~ register_email ~ "?subject=Booking%20enquiry%20%E2%80%94%20Introduction%20to%20AI%20Agent%20Building%20in%20the%20Wild" %}
+{% set book_hero = (course_form_url ~ "?" ~ _utm ~ "hero") if course_form_url else _mailto %}
+{% set book_modules = (course_form_url ~ "?" ~ _utm ~ "modules") if course_form_url else _mailto %}
+{% set book_final = (course_form_url ~ "?" ~ _utm ~ "final_cta") if course_form_url else _mailto %}
 {% set book_label = "Book your place" if course_form_url else "Register your interest" %}
 
 <section class="programme-hero">
@@ -34,7 +40,7 @@ hide:
     </div>
   </div>
   <div class="programme-actions">
-    <a class="md-button md-button--primary" href="{{ book_href }}" data-evt="apply_click" data-evt-label="course">{{ book_label }}</a>
+    <a class="md-button md-button--primary" href="{{ book_hero }}" data-evt="apply_click" data-evt-label="home_hero">{{ book_label }}</a>
     <a class="md-button" href="course/">Course details</a>
     <a class="md-button" href="#how-it-works">How SICIC works</a>
     <a class="md-button" href="https://learn.sicic.org/" data-evt="start_free_click" data-evt-location="hero">Start free</a>
@@ -68,7 +74,7 @@ hide:
   <p class="programme-lead">Weekday evenings 18:00–21:00 UK and Saturdays 10:00–17:00 UK, across {{ course_days }} guided learning days. Sessions are recorded. Cohorts are capped at {{ cohort_places }} and run at a minimum of {{ cohort_minimum }}.</p>
   <div class="programme-actions programme-actions--center">
     <a class="md-button md-button--primary" href="course/">Full course details</a>
-    <a class="md-button" href="{{ book_href }}" data-evt="apply_click" data-evt-label="course">{{ book_label }}</a>
+    <a class="md-button" href="{{ book_modules }}" data-evt="apply_click" data-evt-label="home_modules">{{ book_label }}</a>
   </div>
 </div>
 
@@ -245,7 +251,7 @@ These are real systems founding members built during the workshop — each one s
     <p>Selected participants may be invited into the membership community, including the first {{ founding_total }} founding cohort places. Pricing starts at {{ course_price_founding }}.</p>
   </div>
   <div class="cta-panel__actions">
-    <a class="md-button md-button--primary" href="{{ book_href }}" data-evt="apply_click" data-evt-label="course">{{ book_label }}</a>
+    <a class="md-button md-button--primary" href="{{ book_final }}" data-evt="apply_click" data-evt-label="home_final">{{ book_label }}</a>
     <a class="md-button" href="course/">View the course</a>
   </div>
 </section>

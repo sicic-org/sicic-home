@@ -3,8 +3,18 @@ title: Introduction to AI Agent Building in the Wild
 description: A live, online, two-week cohort course. Deploy and secure your own AI agent, orchestrate it, and design your own MVP. 30 hours of structured learning, 15 places per cohort, from GBP 499.
 ---
 
-{% set book_href = course_form_url if course_form_url else "mailto:" ~ register_email ~ "?subject=Booking%20enquiry%20%E2%80%94%20Introduction%20to%20AI%20Agent%20Building%20in%20the%20Wild" %}
+{#- UTM tagging: Calendly and Fillout both record these, so each CTA's real
+    conversions are attributable without depending on GA or cookie consent.
+    utm_content marks the position on the page. The mailto: fallback never
+    gets UTM appended — it would show up as literal text in the subject line. -#}
+{% set _utm = "utm_source=course-page&utm_medium=cta&utm_content=" %}
+{% set _mailto = "mailto:" ~ register_email ~ "?subject=Booking%20enquiry%20%E2%80%94%20Introduction%20to%20AI%20Agent%20Building%20in%20the%20Wild" %}
+{% set book_hero = (course_form_url ~ "?" ~ _utm ~ "hero") if course_form_url else _mailto %}
+{% set book_final = (course_form_url ~ "?" ~ _utm ~ "final_cta") if course_form_url else _mailto %}
 {% set book_label = "Book your place" if course_form_url else "Register your interest" %}
+{% set call_pricing = intro_call_url ~ "?" ~ _utm ~ "pricing" %}
+{% set call_faq = intro_call_url ~ "?" ~ _utm ~ "faq" %}
+{% set call_final = intro_call_url ~ "?" ~ _utm ~ "final_cta" %}
 
 <section class="programme-hero">
   <p class="programme-kicker">Next cohort · {{ cohort_start }}</p>
@@ -29,7 +39,7 @@ description: A live, online, two-week cohort course. Deploy and secure your own 
     </div>
   </div>
   <div class="programme-actions">
-    <a class="md-button md-button--primary" href="{{ book_href }}" data-evt="apply_click" data-evt-label="course">{{ book_label }}</a>
+    <a class="md-button md-button--primary" href="{{ book_hero }}" data-evt="apply_click" data-evt-label="course_hero">{{ book_label }}</a>
     <a class="md-button" href="https://learn.sicic.org/" data-evt="start_free_click" data-evt-location="course_hero">Start free</a>
     <a class="md-button" href="#pricing">See pricing</a>
   </div>
@@ -193,6 +203,15 @@ description: A live, online, two-week cohort course. Deploy and secure your own 
   <p class="programme-center">Typical total cost during the course is <strong>under {{ course_api_credit }}</strong>, and cost controls including hard spend caps are configured as part of the curriculum on the first day. <strong>We credit back up to {{ course_api_credit }} of these documented costs when you complete the course.</strong> Your n8n instance is provided free for the duration.</p>
 </div>
 
+<div class="programme-panel programme-panel--narrow">
+  <p class="programme-lead"><strong>Not sure it fits your use case?</strong> 15 minutes with Yiju will tell you.</p>
+  <p class="programme-center">No pitch — if it is not a fit, we will say so. Bring the thing you actually want your agent to do, and we will tell you straight whether this course gets you there.</p>
+  <div class="programme-actions programme-actions--center">
+    <a class="md-button" href="{{ call_pricing }}" data-evt="call_click" data-evt-location="pricing">Book 15 minutes</a>
+  </div>
+  <p class="programme-note">Can't make a call? Email <a href="mailto:{{ register_email }}">{{ register_email }}</a> and we will answer by return.</p>
+</div>
+
 ## Our Booking Guarantees { #guarantees }
 
 <div class="programme-card-grid">
@@ -289,13 +308,21 @@ description: A live, online, two-week cohort course. Deploy and secure your own 
   </div>
 </div>
 
+<div class="programme-panel programme-panel--narrow programme-panel--soft">
+  <p class="programme-lead"><strong>Still got a question we have not answered here?</strong></p>
+  <p class="programme-center">Take 15 minutes with Yiju. No pitch — if this course is not right for what you are trying to build, we will tell you.</p>
+  <div class="programme-actions programme-actions--center">
+    <a class="md-button" href="{{ call_faq }}" data-evt="call_click" data-evt-location="faq">Book 15 minutes</a>
+  </div>
+</div>
+
 <section class="programme-final-cta" id="book">
   <p class="programme-kicker">Next cohort · {{ cohort_start }}</p>
   <h2>{{ cohort_places }} places. {{ course_hours }} hours. One system that is genuinely yours.</h2>
   <p>Pricing starts at {{ course_price_founding }}. Bookings for the {{ cohort_start }} cohort are open now.</p>
   <div class="programme-actions">
-    <a class="md-button md-button--primary" href="{{ book_href }}" data-evt="apply_click" data-evt-label="course">{{ book_label }}</a>
+    <a class="md-button md-button--primary" href="{{ book_final }}" data-evt="apply_click" data-evt-label="course_final">{{ book_label }}</a>
+    <a class="md-button" href="{{ call_final }}" data-evt="call_click" data-evt-location="final_cta">Talk it through first</a>
     <a class="md-button" href="https://learn.sicic.org/" data-evt="start_free_click" data-evt-location="course_cta">Start free</a>
-    <a class="md-button" href="../booking-terms/">Booking terms</a>
   </div>
 </section>

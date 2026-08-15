@@ -98,6 +98,9 @@ extra:
   course_price_earlybird: "GBP 599"    # Early Bird & Alumni Network
   course_price_standard: "GBP 649"     # Standard, open to all
   course_api_credit: "US$30"           # third-party spend credited back on completion
+  # 15-minute fit call for hesitant readers. Deliberately NOT in the hero — it sits
+  # after pricing and after the FAQ, where hesitation actually occurs.
+  intro_call_url: "https://calendly.com/yiju-jia/intro-call-ai-agent-building-in-the-wild"
 
   # --- Company / contact ---
   company_number: "17248930"
